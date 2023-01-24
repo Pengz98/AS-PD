@@ -1,0 +1,663 @@
+2022-12-20 09:40:12,327 - Model - INFO - PARAMETER ...
+2022-12-20 09:40:12,327 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=False, coarse_log_dir='sampler_regis_32', data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', decay_rate=0.0001, device='cuda:0', emb_dims=1024, epoch=300, eval=False, exp_decay=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, learning_rate=0.001, lmbda=100, log_dir='sampler_regis_16_512', lr_decay=0.7, min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, optimizer='Adam', partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, random_seed=0, sample_model='AUPD_dgcnn', save_last=True, seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, step_size=20, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', trainable_tmp=False, uni_train=True, use_atten=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2022-12-20 09:41:16,428 - Model - INFO - epoch 0, train loss 2.65264, sigma nan
+2022-12-20 09:41:17,079 - Model - INFO - epoch 0, test rot err (32 points) 10.19678, repeat sample rate nan
+2022-12-20 09:41:17,079 - Model - INFO - Save model...
+2022-12-20 09:41:17,079 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 09:41:17,119 - Model - INFO - Saving model....
+2022-12-20 09:42:18,329 - Model - INFO - epoch 1, train loss 2.24287, sigma nan
+2022-12-20 09:42:18,991 - Model - INFO - epoch 1, test rot err (32 points) 7.60679, repeat sample rate nan
+2022-12-20 09:42:18,992 - Model - INFO - Save model...
+2022-12-20 09:42:18,992 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 09:42:19,170 - Model - INFO - Saving model....
+2022-12-20 09:43:23,356 - Model - INFO - epoch 2, train loss 1.97296, sigma nan
+2022-12-20 09:43:24,018 - Model - INFO - epoch 2, test rot err (32 points) 6.66720, repeat sample rate nan
+2022-12-20 09:43:24,019 - Model - INFO - Save model...
+2022-12-20 09:43:24,019 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 09:43:24,162 - Model - INFO - Saving model....
+2022-12-20 09:44:25,567 - Model - INFO - epoch 3, train loss 2.78989, sigma nan
+2022-12-20 09:44:26,221 - Model - INFO - epoch 3, test rot err (32 points) 11.03426, repeat sample rate nan
+2022-12-20 09:45:27,574 - Model - INFO - epoch 4, train loss 2.77121, sigma nan
+2022-12-20 09:45:28,219 - Model - INFO - epoch 4, test rot err (32 points) 8.47951, repeat sample rate nan
+2022-12-20 09:46:29,657 - Model - INFO - epoch 5, train loss 2.43994, sigma nan
+2022-12-20 09:46:30,298 - Model - INFO - epoch 5, test rot err (32 points) 9.56756, repeat sample rate nan
+2022-12-20 09:47:31,779 - Model - INFO - epoch 6, train loss 2.11686, sigma nan
+2022-12-20 09:47:32,421 - Model - INFO - epoch 6, test rot err (32 points) 7.79663, repeat sample rate nan
+2022-12-20 09:48:33,719 - Model - INFO - epoch 7, train loss 2.39962, sigma nan
+2022-12-20 09:48:34,367 - Model - INFO - epoch 7, test rot err (32 points) 9.86477, repeat sample rate nan
+2022-12-20 09:49:35,521 - Model - INFO - epoch 8, train loss 3.16573, sigma nan
+2022-12-20 09:49:36,160 - Model - INFO - epoch 8, test rot err (32 points) 9.02701, repeat sample rate nan
+2022-12-20 09:50:37,321 - Model - INFO - epoch 9, train loss 2.85817, sigma nan
+2022-12-20 09:50:37,968 - Model - INFO - epoch 9, test rot err (32 points) 9.51125, repeat sample rate nan
+2022-12-20 09:51:39,099 - Model - INFO - epoch 10, train loss 2.33082, sigma nan
+2022-12-20 09:51:39,745 - Model - INFO - epoch 10, test rot err (32 points) 7.90954, repeat sample rate nan
+2022-12-20 09:52:41,099 - Model - INFO - epoch 11, train loss 3.16341, sigma nan
+2022-12-20 09:52:41,741 - Model - INFO - epoch 11, test rot err (32 points) 9.17463, repeat sample rate nan
+2022-12-20 09:53:44,000 - Model - INFO - epoch 12, train loss 2.66479, sigma nan
+2022-12-20 09:53:44,686 - Model - INFO - epoch 12, test rot err (32 points) 8.95204, repeat sample rate nan
+2022-12-20 09:54:45,894 - Model - INFO - epoch 13, train loss 2.44851, sigma nan
+2022-12-20 09:54:46,531 - Model - INFO - epoch 13, test rot err (32 points) 9.22177, repeat sample rate nan
+2022-12-20 09:55:47,860 - Model - INFO - epoch 14, train loss 2.34515, sigma nan
+2022-12-20 09:55:48,520 - Model - INFO - epoch 14, test rot err (32 points) 8.39175, repeat sample rate nan
+2022-12-20 09:56:49,671 - Model - INFO - epoch 15, train loss 2.21089, sigma nan
+2022-12-20 09:56:50,316 - Model - INFO - epoch 15, test rot err (32 points) 8.46573, repeat sample rate nan
+2022-12-20 09:57:51,630 - Model - INFO - epoch 16, train loss 2.02857, sigma nan
+2022-12-20 09:57:52,285 - Model - INFO - epoch 16, test rot err (32 points) 7.47710, repeat sample rate nan
+2022-12-20 09:58:53,581 - Model - INFO - epoch 17, train loss 2.07134, sigma nan
+2022-12-20 09:58:54,229 - Model - INFO - epoch 17, test rot err (32 points) 7.91557, repeat sample rate nan
+2022-12-20 09:59:55,378 - Model - INFO - epoch 18, train loss 2.30022, sigma nan
+2022-12-20 09:59:56,026 - Model - INFO - epoch 18, test rot err (32 points) 8.68017, repeat sample rate nan
+2022-12-20 10:00:57,366 - Model - INFO - epoch 19, train loss 2.64638, sigma nan
+2022-12-20 10:00:58,006 - Model - INFO - epoch 19, test rot err (32 points) 7.99061, repeat sample rate nan
+2022-12-20 10:01:59,190 - Model - INFO - epoch 20, train loss 2.11278, sigma nan
+2022-12-20 10:01:59,850 - Model - INFO - epoch 20, test rot err (32 points) 7.96071, repeat sample rate nan
+2022-12-20 10:03:01,088 - Model - INFO - epoch 21, train loss 2.00558, sigma nan
+2022-12-20 10:03:01,741 - Model - INFO - epoch 21, test rot err (32 points) 8.19897, repeat sample rate nan
+2022-12-20 10:04:03,121 - Model - INFO - epoch 22, train loss 2.08336, sigma nan
+2022-12-20 10:04:03,769 - Model - INFO - epoch 22, test rot err (32 points) 8.53194, repeat sample rate nan
+2022-12-20 10:05:04,945 - Model - INFO - epoch 23, train loss 1.99219, sigma nan
+2022-12-20 10:05:05,593 - Model - INFO - epoch 23, test rot err (32 points) 7.30993, repeat sample rate nan
+2022-12-20 10:06:06,773 - Model - INFO - epoch 24, train loss 1.88599, sigma nan
+2022-12-20 10:06:07,430 - Model - INFO - epoch 24, test rot err (32 points) 8.62534, repeat sample rate nan
+2022-12-20 10:07:08,670 - Model - INFO - epoch 25, train loss 1.86067, sigma nan
+2022-12-20 10:07:09,309 - Model - INFO - epoch 25, test rot err (32 points) 6.77402, repeat sample rate nan
+2022-12-20 10:08:10,730 - Model - INFO - epoch 26, train loss 1.79619, sigma nan
+2022-12-20 10:08:11,390 - Model - INFO - epoch 26, test rot err (32 points) 8.16027, repeat sample rate nan
+2022-12-20 10:09:12,618 - Model - INFO - epoch 27, train loss 1.85063, sigma nan
+2022-12-20 10:09:13,260 - Model - INFO - epoch 27, test rot err (32 points) 6.95304, repeat sample rate nan
+2022-12-20 10:10:14,403 - Model - INFO - epoch 28, train loss 1.84474, sigma nan
+2022-12-20 10:10:15,050 - Model - INFO - epoch 28, test rot err (32 points) 10.18716, repeat sample rate nan
+2022-12-20 10:11:16,457 - Model - INFO - epoch 29, train loss 2.07932, sigma nan
+2022-12-20 10:11:17,119 - Model - INFO - epoch 29, test rot err (32 points) 7.74821, repeat sample rate nan
+2022-12-20 10:12:18,393 - Model - INFO - epoch 30, train loss 1.94670, sigma nan
+2022-12-20 10:12:19,037 - Model - INFO - epoch 30, test rot err (32 points) 7.33823, repeat sample rate nan
+2022-12-20 10:13:20,273 - Model - INFO - epoch 31, train loss 1.87830, sigma nan
+2022-12-20 10:13:20,946 - Model - INFO - epoch 31, test rot err (32 points) 7.47120, repeat sample rate nan
+2022-12-20 10:14:22,120 - Model - INFO - epoch 32, train loss 1.77343, sigma nan
+2022-12-20 10:14:22,761 - Model - INFO - epoch 32, test rot err (32 points) 7.09733, repeat sample rate nan
+2022-12-20 10:15:23,887 - Model - INFO - epoch 33, train loss 1.69013, sigma nan
+2022-12-20 10:15:24,525 - Model - INFO - epoch 33, test rot err (32 points) 7.24429, repeat sample rate nan
+2022-12-20 10:16:25,793 - Model - INFO - epoch 34, train loss 1.82626, sigma nan
+2022-12-20 10:16:26,434 - Model - INFO - epoch 34, test rot err (32 points) 7.16755, repeat sample rate nan
+2022-12-20 10:17:27,581 - Model - INFO - epoch 35, train loss 1.76987, sigma nan
+2022-12-20 10:17:28,226 - Model - INFO - epoch 35, test rot err (32 points) 6.84316, repeat sample rate nan
+2022-12-20 10:18:29,513 - Model - INFO - epoch 36, train loss 1.72240, sigma nan
+2022-12-20 10:18:30,157 - Model - INFO - epoch 36, test rot err (32 points) 7.58216, repeat sample rate nan
+2022-12-20 10:19:31,299 - Model - INFO - epoch 37, train loss 2.16172, sigma nan
+2022-12-20 10:19:31,941 - Model - INFO - epoch 37, test rot err (32 points) 7.92043, repeat sample rate nan
+2022-12-20 10:20:33,065 - Model - INFO - epoch 38, train loss 2.27912, sigma nan
+2022-12-20 10:20:33,725 - Model - INFO - epoch 38, test rot err (32 points) 7.70501, repeat sample rate nan
+2022-12-20 10:21:34,882 - Model - INFO - epoch 39, train loss 1.96690, sigma nan
+2022-12-20 10:21:35,520 - Model - INFO - epoch 39, test rot err (32 points) 7.30842, repeat sample rate nan
+2022-12-20 10:22:36,891 - Model - INFO - epoch 40, train loss 1.92713, sigma nan
+2022-12-20 10:22:37,545 - Model - INFO - epoch 40, test rot err (32 points) 7.19136, repeat sample rate nan
+2022-12-20 10:23:38,843 - Model - INFO - epoch 41, train loss 1.82628, sigma nan
+2022-12-20 10:23:39,485 - Model - INFO - epoch 41, test rot err (32 points) 6.81105, repeat sample rate nan
+2022-12-20 10:24:40,685 - Model - INFO - epoch 42, train loss 1.89588, sigma nan
+2022-12-20 10:24:41,332 - Model - INFO - epoch 42, test rot err (32 points) 7.52500, repeat sample rate nan
+2022-12-20 10:25:42,719 - Model - INFO - epoch 43, train loss 1.79647, sigma nan
+2022-12-20 10:25:43,374 - Model - INFO - epoch 43, test rot err (32 points) 7.20307, repeat sample rate nan
+2022-12-20 10:26:44,519 - Model - INFO - epoch 44, train loss 1.74956, sigma nan
+2022-12-20 10:26:45,163 - Model - INFO - epoch 44, test rot err (32 points) 6.90301, repeat sample rate nan
+2022-12-20 10:27:46,447 - Model - INFO - epoch 45, train loss 1.70275, sigma nan
+2022-12-20 10:27:47,086 - Model - INFO - epoch 45, test rot err (32 points) 7.47899, repeat sample rate nan
+2022-12-20 10:28:48,351 - Model - INFO - epoch 46, train loss 1.61615, sigma nan
+2022-12-20 10:28:49,001 - Model - INFO - epoch 46, test rot err (32 points) 7.06957, repeat sample rate nan
+2022-12-20 10:29:50,259 - Model - INFO - epoch 47, train loss 1.65548, sigma nan
+2022-12-20 10:29:50,906 - Model - INFO - epoch 47, test rot err (32 points) 7.48161, repeat sample rate nan
+2022-12-20 10:30:52,079 - Model - INFO - epoch 48, train loss 1.57144, sigma nan
+2022-12-20 10:30:52,727 - Model - INFO - epoch 48, test rot err (32 points) 6.83806, repeat sample rate nan
+2022-12-20 10:31:53,964 - Model - INFO - epoch 49, train loss 1.60433, sigma nan
+2022-12-20 10:31:54,616 - Model - INFO - epoch 49, test rot err (32 points) 6.06090, repeat sample rate nan
+2022-12-20 10:31:54,616 - Model - INFO - Save model...
+2022-12-20 10:31:54,616 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 10:31:54,853 - Model - INFO - Saving model....
+2022-12-20 10:32:56,161 - Model - INFO - epoch 50, train loss 1.58287, sigma nan
+2022-12-20 10:32:56,810 - Model - INFO - epoch 50, test rot err (32 points) 6.84575, repeat sample rate nan
+2022-12-20 10:33:58,065 - Model - INFO - epoch 51, train loss 1.59498, sigma nan
+2022-12-20 10:33:58,710 - Model - INFO - epoch 51, test rot err (32 points) 6.72519, repeat sample rate nan
+2022-12-20 10:34:59,848 - Model - INFO - epoch 52, train loss 1.65711, sigma nan
+2022-12-20 10:35:00,505 - Model - INFO - epoch 52, test rot err (32 points) 7.64818, repeat sample rate nan
+2022-12-20 10:36:01,721 - Model - INFO - epoch 53, train loss 1.78340, sigma nan
+2022-12-20 10:36:02,359 - Model - INFO - epoch 53, test rot err (32 points) 7.16105, repeat sample rate nan
+2022-12-20 10:37:03,593 - Model - INFO - epoch 54, train loss 1.59336, sigma nan
+2022-12-20 10:37:04,234 - Model - INFO - epoch 54, test rot err (32 points) 6.91820, repeat sample rate nan
+2022-12-20 10:38:05,402 - Model - INFO - epoch 55, train loss 1.57811, sigma nan
+2022-12-20 10:38:06,045 - Model - INFO - epoch 55, test rot err (32 points) 5.90581, repeat sample rate nan
+2022-12-20 10:38:06,045 - Model - INFO - Save model...
+2022-12-20 10:38:06,045 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 10:38:06,270 - Model - INFO - Saving model....
+2022-12-20 10:39:07,710 - Model - INFO - epoch 56, train loss 1.54740, sigma nan
+2022-12-20 10:39:08,354 - Model - INFO - epoch 56, test rot err (32 points) 7.23185, repeat sample rate nan
+2022-12-20 10:40:09,594 - Model - INFO - epoch 57, train loss 1.63244, sigma nan
+2022-12-20 10:40:10,273 - Model - INFO - epoch 57, test rot err (32 points) 7.49980, repeat sample rate nan
+2022-12-20 10:41:11,500 - Model - INFO - epoch 58, train loss 1.55967, sigma nan
+2022-12-20 10:41:12,163 - Model - INFO - epoch 58, test rot err (32 points) 6.59328, repeat sample rate nan
+2022-12-20 10:42:13,317 - Model - INFO - epoch 59, train loss 1.74566, sigma nan
+2022-12-20 10:42:13,953 - Model - INFO - epoch 59, test rot err (32 points) 6.49503, repeat sample rate nan
+2022-12-20 10:43:15,241 - Model - INFO - epoch 60, train loss 1.62992, sigma nan
+2022-12-20 10:43:15,894 - Model - INFO - epoch 60, test rot err (32 points) 6.30850, repeat sample rate nan
+2022-12-20 10:44:17,288 - Model - INFO - epoch 61, train loss 1.54907, sigma nan
+2022-12-20 10:44:17,932 - Model - INFO - epoch 61, test rot err (32 points) 6.76388, repeat sample rate nan
+2022-12-20 10:45:19,078 - Model - INFO - epoch 62, train loss 1.61288, sigma nan
+2022-12-20 10:45:19,718 - Model - INFO - epoch 62, test rot err (32 points) 6.02402, repeat sample rate nan
+2022-12-20 10:46:20,970 - Model - INFO - epoch 63, train loss 1.47824, sigma nan
+2022-12-20 10:46:21,614 - Model - INFO - epoch 63, test rot err (32 points) 6.15252, repeat sample rate nan
+2022-12-20 10:47:22,767 - Model - INFO - epoch 64, train loss 1.50652, sigma nan
+2022-12-20 10:47:23,419 - Model - INFO - epoch 64, test rot err (32 points) 5.71639, repeat sample rate nan
+2022-12-20 10:47:23,419 - Model - INFO - Save model...
+2022-12-20 10:47:23,419 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 10:47:23,649 - Model - INFO - Saving model....
+2022-12-20 10:48:24,769 - Model - INFO - epoch 65, train loss 1.53470, sigma nan
+2022-12-20 10:48:25,408 - Model - INFO - epoch 65, test rot err (32 points) 6.30743, repeat sample rate nan
+2022-12-20 10:49:26,574 - Model - INFO - epoch 66, train loss 1.54524, sigma nan
+2022-12-20 10:49:27,219 - Model - INFO - epoch 66, test rot err (32 points) 6.83675, repeat sample rate nan
+2022-12-20 10:50:28,351 - Model - INFO - epoch 67, train loss 1.86376, sigma nan
+2022-12-20 10:50:29,011 - Model - INFO - epoch 67, test rot err (32 points) 7.60727, repeat sample rate nan
+2022-12-20 10:51:30,251 - Model - INFO - epoch 68, train loss 1.65466, sigma nan
+2022-12-20 10:51:30,907 - Model - INFO - epoch 68, test rot err (32 points) 6.77669, repeat sample rate nan
+2022-12-20 10:52:32,039 - Model - INFO - epoch 69, train loss 1.53433, sigma nan
+2022-12-20 10:52:32,705 - Model - INFO - epoch 69, test rot err (32 points) 7.89164, repeat sample rate nan
+2022-12-20 10:53:33,955 - Model - INFO - epoch 70, train loss 1.49937, sigma nan
+2022-12-20 10:53:34,603 - Model - INFO - epoch 70, test rot err (32 points) 7.06469, repeat sample rate nan
+2022-12-20 10:54:35,837 - Model - INFO - epoch 71, train loss 1.49693, sigma nan
+2022-12-20 10:54:36,477 - Model - INFO - epoch 71, test rot err (32 points) 6.12054, repeat sample rate nan
+2022-12-20 10:55:37,796 - Model - INFO - epoch 72, train loss 1.50374, sigma nan
+2022-12-20 10:55:38,439 - Model - INFO - epoch 72, test rot err (32 points) 6.59997, repeat sample rate nan
+2022-12-20 10:56:39,598 - Model - INFO - epoch 73, train loss 1.48937, sigma nan
+2022-12-20 10:56:40,249 - Model - INFO - epoch 73, test rot err (32 points) 6.82446, repeat sample rate nan
+2022-12-20 10:57:41,383 - Model - INFO - epoch 74, train loss 1.50328, sigma nan
+2022-12-20 10:57:42,035 - Model - INFO - epoch 74, test rot err (32 points) 5.81255, repeat sample rate nan
+2022-12-20 10:58:43,318 - Model - INFO - epoch 75, train loss 1.49068, sigma nan
+2022-12-20 10:58:43,958 - Model - INFO - epoch 75, test rot err (32 points) 6.40691, repeat sample rate nan
+2022-12-20 10:59:45,203 - Model - INFO - epoch 76, train loss 1.46243, sigma nan
+2022-12-20 10:59:45,843 - Model - INFO - epoch 76, test rot err (32 points) 6.57316, repeat sample rate nan
+2022-12-20 11:00:47,010 - Model - INFO - epoch 77, train loss 1.43652, sigma nan
+2022-12-20 11:00:47,649 - Model - INFO - epoch 77, test rot err (32 points) 5.62775, repeat sample rate nan
+2022-12-20 11:00:47,649 - Model - INFO - Save model...
+2022-12-20 11:00:47,649 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 11:00:47,875 - Model - INFO - Saving model....
+2022-12-20 11:01:49,013 - Model - INFO - epoch 78, train loss 1.47211, sigma nan
+2022-12-20 11:01:49,661 - Model - INFO - epoch 78, test rot err (32 points) 6.26961, repeat sample rate nan
+2022-12-20 11:02:50,950 - Model - INFO - epoch 79, train loss 1.47472, sigma nan
+2022-12-20 11:02:51,604 - Model - INFO - epoch 79, test rot err (32 points) 6.07886, repeat sample rate nan
+2022-12-20 11:03:52,767 - Model - INFO - epoch 80, train loss 1.44855, sigma nan
+2022-12-20 11:03:53,418 - Model - INFO - epoch 80, test rot err (32 points) 6.46008, repeat sample rate nan
+2022-12-20 11:04:54,675 - Model - INFO - epoch 81, train loss 1.43867, sigma nan
+2022-12-20 11:04:55,315 - Model - INFO - epoch 81, test rot err (32 points) 6.36326, repeat sample rate nan
+2022-12-20 11:05:56,610 - Model - INFO - epoch 82, train loss 1.42685, sigma nan
+2022-12-20 11:05:57,258 - Model - INFO - epoch 82, test rot err (32 points) 5.87452, repeat sample rate nan
+2022-12-20 11:06:58,395 - Model - INFO - epoch 83, train loss 1.42007, sigma nan
+2022-12-20 11:06:59,046 - Model - INFO - epoch 83, test rot err (32 points) 5.63171, repeat sample rate nan
+2022-12-20 11:08:00,294 - Model - INFO - epoch 84, train loss 1.42653, sigma nan
+2022-12-20 11:08:00,934 - Model - INFO - epoch 84, test rot err (32 points) 5.59528, repeat sample rate nan
+2022-12-20 11:08:00,934 - Model - INFO - Save model...
+2022-12-20 11:08:00,934 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 11:08:01,169 - Model - INFO - Saving model....
+2022-12-20 11:09:02,485 - Model - INFO - epoch 85, train loss 1.44628, sigma nan
+2022-12-20 11:09:03,123 - Model - INFO - epoch 85, test rot err (32 points) 6.47317, repeat sample rate nan
+2022-12-20 11:10:04,376 - Model - INFO - epoch 86, train loss 1.39070, sigma nan
+2022-12-20 11:10:05,021 - Model - INFO - epoch 86, test rot err (32 points) 5.86975, repeat sample rate nan
+2022-12-20 11:11:06,306 - Model - INFO - epoch 87, train loss 1.39655, sigma nan
+2022-12-20 11:11:06,943 - Model - INFO - epoch 87, test rot err (32 points) 6.01489, repeat sample rate nan
+2022-12-20 11:12:08,319 - Model - INFO - epoch 88, train loss 1.42316, sigma nan
+2022-12-20 11:12:08,963 - Model - INFO - epoch 88, test rot err (32 points) 6.07106, repeat sample rate nan
+2022-12-20 11:13:10,113 - Model - INFO - epoch 89, train loss 1.70874, sigma nan
+2022-12-20 11:13:10,753 - Model - INFO - epoch 89, test rot err (32 points) 6.43497, repeat sample rate nan
+2022-12-20 11:14:12,039 - Model - INFO - epoch 90, train loss 1.46992, sigma nan
+2022-12-20 11:14:12,693 - Model - INFO - epoch 90, test rot err (32 points) 6.66487, repeat sample rate nan
+2022-12-20 11:15:13,860 - Model - INFO - epoch 91, train loss 1.40153, sigma nan
+2022-12-20 11:15:14,520 - Model - INFO - epoch 91, test rot err (32 points) 6.63632, repeat sample rate nan
+2022-12-20 11:16:15,669 - Model - INFO - epoch 92, train loss 1.45344, sigma nan
+2022-12-20 11:16:16,318 - Model - INFO - epoch 92, test rot err (32 points) 6.59760, repeat sample rate nan
+2022-12-20 11:17:17,475 - Model - INFO - epoch 93, train loss 1.39404, sigma nan
+2022-12-20 11:17:18,126 - Model - INFO - epoch 93, test rot err (32 points) 6.17602, repeat sample rate nan
+2022-12-20 11:18:19,429 - Model - INFO - epoch 94, train loss 1.39750, sigma nan
+2022-12-20 11:18:20,088 - Model - INFO - epoch 94, test rot err (32 points) 6.41449, repeat sample rate nan
+2022-12-20 11:19:21,472 - Model - INFO - epoch 95, train loss 1.39560, sigma nan
+2022-12-20 11:19:22,119 - Model - INFO - epoch 95, test rot err (32 points) 5.78831, repeat sample rate nan
+2022-12-20 11:20:23,500 - Model - INFO - epoch 96, train loss 1.37950, sigma nan
+2022-12-20 11:20:24,146 - Model - INFO - epoch 96, test rot err (32 points) 6.46879, repeat sample rate nan
+2022-12-20 11:21:25,347 - Model - INFO - epoch 97, train loss 1.40800, sigma nan
+2022-12-20 11:21:26,001 - Model - INFO - epoch 97, test rot err (32 points) 5.87393, repeat sample rate nan
+2022-12-20 11:22:27,152 - Model - INFO - epoch 98, train loss 1.37050, sigma nan
+2022-12-20 11:22:27,793 - Model - INFO - epoch 98, test rot err (32 points) 5.74440, repeat sample rate nan
+2022-12-20 11:23:29,068 - Model - INFO - epoch 99, train loss 1.39101, sigma nan
+2022-12-20 11:23:29,729 - Model - INFO - epoch 99, test rot err (32 points) 5.81538, repeat sample rate nan
+2022-12-20 11:24:30,893 - Model - INFO - epoch 100, train loss 1.36695, sigma nan
+2022-12-20 11:24:31,533 - Model - INFO - epoch 100, test rot err (32 points) 6.05253, repeat sample rate nan
+2022-12-20 11:25:32,627 - Model - INFO - epoch 101, train loss 1.35797, sigma nan
+2022-12-20 11:25:33,274 - Model - INFO - epoch 101, test rot err (32 points) 5.37689, repeat sample rate nan
+2022-12-20 11:25:33,274 - Model - INFO - Save model...
+2022-12-20 11:25:33,274 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 11:25:33,505 - Model - INFO - Saving model....
+2022-12-20 11:26:34,787 - Model - INFO - epoch 102, train loss 1.32350, sigma nan
+2022-12-20 11:26:35,435 - Model - INFO - epoch 102, test rot err (32 points) 6.31881, repeat sample rate nan
+2022-12-20 11:27:36,607 - Model - INFO - epoch 103, train loss 1.36193, sigma nan
+2022-12-20 11:27:37,247 - Model - INFO - epoch 103, test rot err (32 points) 5.60259, repeat sample rate nan
+2022-12-20 11:28:38,397 - Model - INFO - epoch 104, train loss 1.36733, sigma nan
+2022-12-20 11:28:39,042 - Model - INFO - epoch 104, test rot err (32 points) 5.62274, repeat sample rate nan
+2022-12-20 11:29:40,218 - Model - INFO - epoch 105, train loss 1.33713, sigma nan
+2022-12-20 11:29:40,869 - Model - INFO - epoch 105, test rot err (32 points) 5.98450, repeat sample rate nan
+2022-12-20 11:30:42,220 - Model - INFO - epoch 106, train loss 1.40243, sigma nan
+2022-12-20 11:30:42,858 - Model - INFO - epoch 106, test rot err (32 points) 6.25065, repeat sample rate nan
+2022-12-20 11:31:44,090 - Model - INFO - epoch 107, train loss 1.37178, sigma nan
+2022-12-20 11:31:44,745 - Model - INFO - epoch 107, test rot err (32 points) 5.75730, repeat sample rate nan
+2022-12-20 11:32:45,863 - Model - INFO - epoch 108, train loss 1.34256, sigma nan
+2022-12-20 11:32:46,500 - Model - INFO - epoch 108, test rot err (32 points) 5.57612, repeat sample rate nan
+2022-12-20 11:33:47,695 - Model - INFO - epoch 109, train loss 1.34173, sigma nan
+2022-12-20 11:33:48,334 - Model - INFO - epoch 109, test rot err (32 points) 6.04588, repeat sample rate nan
+2022-12-20 11:34:49,467 - Model - INFO - epoch 110, train loss 1.35773, sigma nan
+2022-12-20 11:34:50,126 - Model - INFO - epoch 110, test rot err (32 points) 7.60198, repeat sample rate nan
+2022-12-20 11:35:51,394 - Model - INFO - epoch 111, train loss 1.50466, sigma nan
+2022-12-20 11:35:52,029 - Model - INFO - epoch 111, test rot err (32 points) 6.05224, repeat sample rate nan
+2022-12-20 11:36:53,243 - Model - INFO - epoch 112, train loss 1.39345, sigma nan
+2022-12-20 11:36:53,889 - Model - INFO - epoch 112, test rot err (32 points) 6.14254, repeat sample rate nan
+2022-12-20 11:37:55,036 - Model - INFO - epoch 113, train loss 1.37099, sigma nan
+2022-12-20 11:37:55,688 - Model - INFO - epoch 113, test rot err (32 points) 6.18934, repeat sample rate nan
+2022-12-20 11:38:56,805 - Model - INFO - epoch 114, train loss 1.34618, sigma nan
+2022-12-20 11:38:57,474 - Model - INFO - epoch 114, test rot err (32 points) 5.55287, repeat sample rate nan
+2022-12-20 11:39:58,745 - Model - INFO - epoch 115, train loss 1.38106, sigma nan
+2022-12-20 11:39:59,386 - Model - INFO - epoch 115, test rot err (32 points) 5.61261, repeat sample rate nan
+2022-12-20 11:41:00,745 - Model - INFO - epoch 116, train loss 1.43431, sigma nan
+2022-12-20 11:41:01,389 - Model - INFO - epoch 116, test rot err (32 points) 6.78872, repeat sample rate nan
+2022-12-20 11:42:02,617 - Model - INFO - epoch 117, train loss 1.45024, sigma nan
+2022-12-20 11:42:03,261 - Model - INFO - epoch 117, test rot err (32 points) 6.33015, repeat sample rate nan
+2022-12-20 11:43:04,437 - Model - INFO - epoch 118, train loss 1.36450, sigma nan
+2022-12-20 11:43:05,094 - Model - INFO - epoch 118, test rot err (32 points) 6.39875, repeat sample rate nan
+2022-12-20 11:44:06,249 - Model - INFO - epoch 119, train loss 1.36072, sigma nan
+2022-12-20 11:44:06,888 - Model - INFO - epoch 119, test rot err (32 points) 6.07497, repeat sample rate nan
+2022-12-20 11:45:08,201 - Model - INFO - epoch 120, train loss 1.32297, sigma nan
+2022-12-20 11:45:08,850 - Model - INFO - epoch 120, test rot err (32 points) 5.20545, repeat sample rate nan
+2022-12-20 11:45:08,850 - Model - INFO - Save model...
+2022-12-20 11:45:08,850 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 11:45:09,088 - Model - INFO - Saving model....
+2022-12-20 11:46:10,265 - Model - INFO - epoch 121, train loss 1.36634, sigma nan
+2022-12-20 11:46:10,914 - Model - INFO - epoch 121, test rot err (32 points) 5.30273, repeat sample rate nan
+2022-12-20 11:47:12,194 - Model - INFO - epoch 122, train loss 1.34143, sigma nan
+2022-12-20 11:47:12,832 - Model - INFO - epoch 122, test rot err (32 points) 6.01257, repeat sample rate nan
+2022-12-20 11:48:14,120 - Model - INFO - epoch 123, train loss 1.33291, sigma nan
+2022-12-20 11:48:14,774 - Model - INFO - epoch 123, test rot err (32 points) 5.82711, repeat sample rate nan
+2022-12-20 11:49:16,066 - Model - INFO - epoch 124, train loss 1.33875, sigma nan
+2022-12-20 11:49:16,719 - Model - INFO - epoch 124, test rot err (32 points) 5.88034, repeat sample rate nan
+2022-12-20 11:50:17,820 - Model - INFO - epoch 125, train loss 1.31399, sigma nan
+2022-12-20 11:50:18,461 - Model - INFO - epoch 125, test rot err (32 points) 5.64315, repeat sample rate nan
+2022-12-20 11:51:19,674 - Model - INFO - epoch 126, train loss 1.32336, sigma nan
+2022-12-20 11:51:20,317 - Model - INFO - epoch 126, test rot err (32 points) 5.54984, repeat sample rate nan
+2022-12-20 11:52:21,560 - Model - INFO - epoch 127, train loss 1.33003, sigma nan
+2022-12-20 11:52:22,211 - Model - INFO - epoch 127, test rot err (32 points) 5.98171, repeat sample rate nan
+2022-12-20 11:53:23,455 - Model - INFO - epoch 128, train loss 1.30384, sigma nan
+2022-12-20 11:53:24,097 - Model - INFO - epoch 128, test rot err (32 points) 6.04116, repeat sample rate nan
+2022-12-20 11:54:25,298 - Model - INFO - epoch 129, train loss 1.33235, sigma nan
+2022-12-20 11:54:25,953 - Model - INFO - epoch 129, test rot err (32 points) 6.17066, repeat sample rate nan
+2022-12-20 11:55:27,187 - Model - INFO - epoch 130, train loss 1.29525, sigma nan
+2022-12-20 11:55:27,825 - Model - INFO - epoch 130, test rot err (32 points) 5.94565, repeat sample rate nan
+2022-12-20 11:56:29,016 - Model - INFO - epoch 131, train loss 1.31708, sigma nan
+2022-12-20 11:56:29,664 - Model - INFO - epoch 131, test rot err (32 points) 6.33553, repeat sample rate nan
+2022-12-20 11:57:30,905 - Model - INFO - epoch 132, train loss 1.31658, sigma nan
+2022-12-20 11:57:31,555 - Model - INFO - epoch 132, test rot err (32 points) 6.04931, repeat sample rate nan
+2022-12-20 11:58:32,860 - Model - INFO - epoch 133, train loss 1.29990, sigma nan
+2022-12-20 11:58:33,501 - Model - INFO - epoch 133, test rot err (32 points) 6.42595, repeat sample rate nan
+2022-12-20 11:59:34,788 - Model - INFO - epoch 134, train loss 1.32181, sigma nan
+2022-12-20 11:59:35,437 - Model - INFO - epoch 134, test rot err (32 points) 6.09328, repeat sample rate nan
+2022-12-20 12:00:36,642 - Model - INFO - epoch 135, train loss 1.30342, sigma nan
+2022-12-20 12:00:37,289 - Model - INFO - epoch 135, test rot err (32 points) 5.80268, repeat sample rate nan
+2022-12-20 12:01:38,572 - Model - INFO - epoch 136, train loss 1.30622, sigma nan
+2022-12-20 12:01:39,229 - Model - INFO - epoch 136, test rot err (32 points) 5.73013, repeat sample rate nan
+2022-12-20 12:02:40,452 - Model - INFO - epoch 137, train loss 1.30969, sigma nan
+2022-12-20 12:02:41,093 - Model - INFO - epoch 137, test rot err (32 points) 6.48067, repeat sample rate nan
+2022-12-20 12:03:42,246 - Model - INFO - epoch 138, train loss 1.31571, sigma nan
+2022-12-20 12:03:42,884 - Model - INFO - epoch 138, test rot err (32 points) 6.35656, repeat sample rate nan
+2022-12-20 12:04:44,126 - Model - INFO - epoch 139, train loss 1.29089, sigma nan
+2022-12-20 12:04:44,775 - Model - INFO - epoch 139, test rot err (32 points) 5.63723, repeat sample rate nan
+2022-12-20 12:05:46,122 - Model - INFO - epoch 140, train loss 1.29601, sigma nan
+2022-12-20 12:05:46,776 - Model - INFO - epoch 140, test rot err (32 points) 6.15924, repeat sample rate nan
+2022-12-20 12:06:48,155 - Model - INFO - epoch 141, train loss 1.29679, sigma nan
+2022-12-20 12:06:48,794 - Model - INFO - epoch 141, test rot err (32 points) 5.80540, repeat sample rate nan
+2022-12-20 12:07:49,930 - Model - INFO - epoch 142, train loss 1.32156, sigma nan
+2022-12-20 12:07:50,575 - Model - INFO - epoch 142, test rot err (32 points) 6.01787, repeat sample rate nan
+2022-12-20 12:08:51,843 - Model - INFO - epoch 143, train loss 1.27274, sigma nan
+2022-12-20 12:08:52,484 - Model - INFO - epoch 143, test rot err (32 points) 5.70126, repeat sample rate nan
+2022-12-20 12:09:53,765 - Model - INFO - epoch 144, train loss 1.29945, sigma nan
+2022-12-20 12:09:54,403 - Model - INFO - epoch 144, test rot err (32 points) 6.59078, repeat sample rate nan
+2022-12-20 12:10:55,650 - Model - INFO - epoch 145, train loss 1.29177, sigma nan
+2022-12-20 12:10:56,295 - Model - INFO - epoch 145, test rot err (32 points) 5.81415, repeat sample rate nan
+2022-12-20 12:11:57,628 - Model - INFO - epoch 146, train loss 1.29091, sigma nan
+2022-12-20 12:11:58,281 - Model - INFO - epoch 146, test rot err (32 points) 6.34487, repeat sample rate nan
+2022-12-20 12:12:59,614 - Model - INFO - epoch 147, train loss 1.31833, sigma nan
+2022-12-20 12:13:00,268 - Model - INFO - epoch 147, test rot err (32 points) 5.67173, repeat sample rate nan
+2022-12-20 12:14:01,546 - Model - INFO - epoch 148, train loss 1.29636, sigma nan
+2022-12-20 12:14:02,192 - Model - INFO - epoch 148, test rot err (32 points) 5.82409, repeat sample rate nan
+2022-12-20 12:15:03,465 - Model - INFO - epoch 149, train loss 1.27655, sigma nan
+2022-12-20 12:15:04,125 - Model - INFO - epoch 149, test rot err (32 points) 5.32990, repeat sample rate nan
+2022-12-20 12:16:05,340 - Model - INFO - epoch 150, train loss 1.28211, sigma nan
+2022-12-20 12:16:06,007 - Model - INFO - epoch 150, test rot err (32 points) 5.39965, repeat sample rate nan
+2022-12-20 12:17:07,249 - Model - INFO - epoch 151, train loss 1.27575, sigma nan
+2022-12-20 12:17:07,901 - Model - INFO - epoch 151, test rot err (32 points) 5.77227, repeat sample rate nan
+2022-12-20 12:18:09,209 - Model - INFO - epoch 152, train loss 1.30049, sigma nan
+2022-12-20 12:18:09,853 - Model - INFO - epoch 152, test rot err (32 points) 6.04169, repeat sample rate nan
+2022-12-20 12:19:11,260 - Model - INFO - epoch 153, train loss 1.30150, sigma nan
+2022-12-20 12:19:11,903 - Model - INFO - epoch 153, test rot err (32 points) 5.79293, repeat sample rate nan
+2022-12-20 12:20:13,100 - Model - INFO - epoch 154, train loss 1.27560, sigma nan
+2022-12-20 12:20:13,739 - Model - INFO - epoch 154, test rot err (32 points) 5.97754, repeat sample rate nan
+2022-12-20 12:21:14,965 - Model - INFO - epoch 155, train loss 1.28094, sigma nan
+2022-12-20 12:21:15,626 - Model - INFO - epoch 155, test rot err (32 points) 6.05372, repeat sample rate nan
+2022-12-20 12:22:16,784 - Model - INFO - epoch 156, train loss 1.27997, sigma nan
+2022-12-20 12:22:17,425 - Model - INFO - epoch 156, test rot err (32 points) 6.00517, repeat sample rate nan
+2022-12-20 12:23:18,700 - Model - INFO - epoch 157, train loss 1.28632, sigma nan
+2022-12-20 12:23:19,344 - Model - INFO - epoch 157, test rot err (32 points) 6.22736, repeat sample rate nan
+2022-12-20 12:24:20,501 - Model - INFO - epoch 158, train loss 1.27223, sigma nan
+2022-12-20 12:24:21,159 - Model - INFO - epoch 158, test rot err (32 points) 6.25226, repeat sample rate nan
+2022-12-20 12:25:22,409 - Model - INFO - epoch 159, train loss 1.30056, sigma nan
+2022-12-20 12:25:23,054 - Model - INFO - epoch 159, test rot err (32 points) 5.74695, repeat sample rate nan
+2022-12-20 12:26:24,214 - Model - INFO - epoch 160, train loss 1.27982, sigma nan
+2022-12-20 12:26:24,854 - Model - INFO - epoch 160, test rot err (32 points) 5.98176, repeat sample rate nan
+2022-12-20 12:27:26,010 - Model - INFO - epoch 161, train loss 1.27908, sigma nan
+2022-12-20 12:27:26,647 - Model - INFO - epoch 161, test rot err (32 points) 5.49077, repeat sample rate nan
+2022-12-20 12:28:28,027 - Model - INFO - epoch 162, train loss 1.29711, sigma nan
+2022-12-20 12:28:28,672 - Model - INFO - epoch 162, test rot err (32 points) 5.45064, repeat sample rate nan
+2022-12-20 12:29:29,818 - Model - INFO - epoch 163, train loss 1.27511, sigma nan
+2022-12-20 12:29:30,470 - Model - INFO - epoch 163, test rot err (32 points) 5.67578, repeat sample rate nan
+2022-12-20 12:30:31,615 - Model - INFO - epoch 164, train loss 1.25889, sigma nan
+2022-12-20 12:30:32,259 - Model - INFO - epoch 164, test rot err (32 points) 6.12811, repeat sample rate nan
+2022-12-20 12:31:33,500 - Model - INFO - epoch 165, train loss 1.25497, sigma nan
+2022-12-20 12:31:34,148 - Model - INFO - epoch 165, test rot err (32 points) 5.65379, repeat sample rate nan
+2022-12-20 12:32:35,414 - Model - INFO - epoch 166, train loss 1.28174, sigma nan
+2022-12-20 12:32:36,078 - Model - INFO - epoch 166, test rot err (32 points) 6.11215, repeat sample rate nan
+2022-12-20 12:33:37,456 - Model - INFO - epoch 167, train loss 1.24036, sigma nan
+2022-12-20 12:33:38,109 - Model - INFO - epoch 167, test rot err (32 points) 6.00378, repeat sample rate nan
+2022-12-20 12:34:39,314 - Model - INFO - epoch 168, train loss 1.26250, sigma nan
+2022-12-20 12:34:39,966 - Model - INFO - epoch 168, test rot err (32 points) 5.59698, repeat sample rate nan
+2022-12-20 12:35:41,144 - Model - INFO - epoch 169, train loss 1.27628, sigma nan
+2022-12-20 12:35:41,794 - Model - INFO - epoch 169, test rot err (32 points) 5.31175, repeat sample rate nan
+2022-12-20 12:36:43,004 - Model - INFO - epoch 170, train loss 1.25992, sigma nan
+2022-12-20 12:36:43,648 - Model - INFO - epoch 170, test rot err (32 points) 5.50559, repeat sample rate nan
+2022-12-20 12:37:44,966 - Model - INFO - epoch 171, train loss 1.24672, sigma nan
+2022-12-20 12:37:45,609 - Model - INFO - epoch 171, test rot err (32 points) 5.73047, repeat sample rate nan
+2022-12-20 12:38:46,754 - Model - INFO - epoch 172, train loss 1.27068, sigma nan
+2022-12-20 12:38:47,408 - Model - INFO - epoch 172, test rot err (32 points) 5.39816, repeat sample rate nan
+2022-12-20 12:39:48,559 - Model - INFO - epoch 173, train loss 1.26094, sigma nan
+2022-12-20 12:39:49,197 - Model - INFO - epoch 173, test rot err (32 points) 5.22683, repeat sample rate nan
+2022-12-20 12:40:52,133 - Model - INFO - epoch 174, train loss 1.23442, sigma nan
+2022-12-20 12:40:52,789 - Model - INFO - epoch 174, test rot err (32 points) 5.34289, repeat sample rate nan
+2022-12-20 12:41:53,990 - Model - INFO - epoch 175, train loss 1.25537, sigma nan
+2022-12-20 12:41:54,643 - Model - INFO - epoch 175, test rot err (32 points) 6.12124, repeat sample rate nan
+2022-12-20 12:42:55,984 - Model - INFO - epoch 176, train loss 1.26707, sigma nan
+2022-12-20 12:42:56,632 - Model - INFO - epoch 176, test rot err (32 points) 6.04679, repeat sample rate nan
+2022-12-20 12:43:57,870 - Model - INFO - epoch 177, train loss 1.24485, sigma nan
+2022-12-20 12:43:58,527 - Model - INFO - epoch 177, test rot err (32 points) 5.50362, repeat sample rate nan
+2022-12-20 12:44:59,787 - Model - INFO - epoch 178, train loss 1.25863, sigma nan
+2022-12-20 12:45:00,450 - Model - INFO - epoch 178, test rot err (32 points) 5.57065, repeat sample rate nan
+2022-12-20 12:46:01,634 - Model - INFO - epoch 179, train loss 1.26375, sigma nan
+2022-12-20 12:46:02,283 - Model - INFO - epoch 179, test rot err (32 points) 5.88982, repeat sample rate nan
+2022-12-20 12:47:03,491 - Model - INFO - epoch 180, train loss 1.25825, sigma nan
+2022-12-20 12:47:04,143 - Model - INFO - epoch 180, test rot err (32 points) 5.74575, repeat sample rate nan
+2022-12-20 12:48:05,277 - Model - INFO - epoch 181, train loss 1.25280, sigma nan
+2022-12-20 12:48:05,915 - Model - INFO - epoch 181, test rot err (32 points) 5.91647, repeat sample rate nan
+2022-12-20 12:49:07,165 - Model - INFO - epoch 182, train loss 1.24480, sigma nan
+2022-12-20 12:49:07,813 - Model - INFO - epoch 182, test rot err (32 points) 5.63513, repeat sample rate nan
+2022-12-20 12:50:09,149 - Model - INFO - epoch 183, train loss 1.26232, sigma nan
+2022-12-20 12:50:09,796 - Model - INFO - epoch 183, test rot err (32 points) 5.87034, repeat sample rate nan
+2022-12-20 12:51:11,137 - Model - INFO - epoch 184, train loss 1.25365, sigma nan
+2022-12-20 12:51:11,783 - Model - INFO - epoch 184, test rot err (32 points) 6.08204, repeat sample rate nan
+2022-12-20 12:52:13,016 - Model - INFO - epoch 185, train loss 1.24969, sigma nan
+2022-12-20 12:52:13,666 - Model - INFO - epoch 185, test rot err (32 points) 5.58675, repeat sample rate nan
+2022-12-20 12:53:14,969 - Model - INFO - epoch 186, train loss 1.24500, sigma nan
+2022-12-20 12:53:15,608 - Model - INFO - epoch 186, test rot err (32 points) 5.45152, repeat sample rate nan
+2022-12-20 12:54:16,895 - Model - INFO - epoch 187, train loss 1.23643, sigma nan
+2022-12-20 12:54:17,545 - Model - INFO - epoch 187, test rot err (32 points) 5.94777, repeat sample rate nan
+2022-12-20 12:55:18,714 - Model - INFO - epoch 188, train loss 1.25723, sigma nan
+2022-12-20 12:55:19,369 - Model - INFO - epoch 188, test rot err (32 points) 5.80773, repeat sample rate nan
+2022-12-20 12:56:20,660 - Model - INFO - epoch 189, train loss 1.24041, sigma nan
+2022-12-20 12:56:21,308 - Model - INFO - epoch 189, test rot err (32 points) 5.55210, repeat sample rate nan
+2022-12-20 12:57:22,445 - Model - INFO - epoch 190, train loss 1.23719, sigma nan
+2022-12-20 12:57:23,088 - Model - INFO - epoch 190, test rot err (32 points) 5.28647, repeat sample rate nan
+2022-12-20 12:58:24,348 - Model - INFO - epoch 191, train loss 1.26067, sigma nan
+2022-12-20 12:58:24,997 - Model - INFO - epoch 191, test rot err (32 points) 5.55534, repeat sample rate nan
+2022-12-20 12:59:26,280 - Model - INFO - epoch 192, train loss 1.24719, sigma nan
+2022-12-20 12:59:26,926 - Model - INFO - epoch 192, test rot err (32 points) 5.64804, repeat sample rate nan
+2022-12-20 13:00:28,191 - Model - INFO - epoch 193, train loss 1.23469, sigma nan
+2022-12-20 13:00:28,840 - Model - INFO - epoch 193, test rot err (32 points) 5.57080, repeat sample rate nan
+2022-12-20 13:01:29,963 - Model - INFO - epoch 194, train loss 1.24660, sigma nan
+2022-12-20 13:01:30,608 - Model - INFO - epoch 194, test rot err (32 points) 5.50612, repeat sample rate nan
+2022-12-20 13:02:31,768 - Model - INFO - epoch 195, train loss 1.24835, sigma nan
+2022-12-20 13:02:32,412 - Model - INFO - epoch 195, test rot err (32 points) 6.14714, repeat sample rate nan
+2022-12-20 13:03:33,662 - Model - INFO - epoch 196, train loss 1.23695, sigma nan
+2022-12-20 13:03:34,317 - Model - INFO - epoch 196, test rot err (32 points) 6.03843, repeat sample rate nan
+2022-12-20 13:04:35,490 - Model - INFO - epoch 197, train loss 1.24210, sigma nan
+2022-12-20 13:04:36,135 - Model - INFO - epoch 197, test rot err (32 points) 6.02871, repeat sample rate nan
+2022-12-20 13:05:37,394 - Model - INFO - epoch 198, train loss 1.23386, sigma nan
+2022-12-20 13:05:38,036 - Model - INFO - epoch 198, test rot err (32 points) 5.86405, repeat sample rate nan
+2022-12-20 13:06:39,201 - Model - INFO - epoch 199, train loss 1.22679, sigma nan
+2022-12-20 13:06:39,852 - Model - INFO - epoch 199, test rot err (32 points) 5.61138, repeat sample rate nan
+2022-12-20 13:07:41,121 - Model - INFO - epoch 200, train loss 1.23463, sigma nan
+2022-12-20 13:07:41,767 - Model - INFO - epoch 200, test rot err (32 points) 5.80054, repeat sample rate nan
+2022-12-20 13:08:43,021 - Model - INFO - epoch 201, train loss 1.24007, sigma nan
+2022-12-20 13:08:43,681 - Model - INFO - epoch 201, test rot err (32 points) 5.89438, repeat sample rate nan
+2022-12-20 13:09:44,921 - Model - INFO - epoch 202, train loss 1.24198, sigma nan
+2022-12-20 13:09:45,570 - Model - INFO - epoch 202, test rot err (32 points) 5.50370, repeat sample rate nan
+2022-12-20 13:10:46,855 - Model - INFO - epoch 203, train loss 1.23567, sigma nan
+2022-12-20 13:10:47,500 - Model - INFO - epoch 203, test rot err (32 points) 5.95181, repeat sample rate nan
+2022-12-20 13:11:48,758 - Model - INFO - epoch 204, train loss 1.22765, sigma nan
+2022-12-20 13:11:49,404 - Model - INFO - epoch 204, test rot err (32 points) 5.49418, repeat sample rate nan
+2022-12-20 13:12:50,689 - Model - INFO - epoch 205, train loss 1.23691, sigma nan
+2022-12-20 13:12:51,326 - Model - INFO - epoch 205, test rot err (32 points) 5.69232, repeat sample rate nan
+2022-12-20 13:13:52,483 - Model - INFO - epoch 206, train loss 1.23273, sigma nan
+2022-12-20 13:13:53,120 - Model - INFO - epoch 206, test rot err (32 points) 5.57184, repeat sample rate nan
+2022-12-20 13:14:54,377 - Model - INFO - epoch 207, train loss 1.23627, sigma nan
+2022-12-20 13:14:55,050 - Model - INFO - epoch 207, test rot err (32 points) 5.88029, repeat sample rate nan
+2022-12-20 13:15:56,276 - Model - INFO - epoch 208, train loss 1.24465, sigma nan
+2022-12-20 13:15:56,926 - Model - INFO - epoch 208, test rot err (32 points) 5.53987, repeat sample rate nan
+2022-12-20 13:16:58,261 - Model - INFO - epoch 209, train loss 1.23221, sigma nan
+2022-12-20 13:16:58,905 - Model - INFO - epoch 209, test rot err (32 points) 5.98333, repeat sample rate nan
+2022-12-20 13:18:00,037 - Model - INFO - epoch 210, train loss 1.25219, sigma nan
+2022-12-20 13:18:00,683 - Model - INFO - epoch 210, test rot err (32 points) 5.76084, repeat sample rate nan
+2022-12-20 13:19:01,905 - Model - INFO - epoch 211, train loss 1.20883, sigma nan
+2022-12-20 13:19:02,569 - Model - INFO - epoch 211, test rot err (32 points) 5.71191, repeat sample rate nan
+2022-12-20 13:20:03,716 - Model - INFO - epoch 212, train loss 1.24098, sigma nan
+2022-12-20 13:20:04,364 - Model - INFO - epoch 212, test rot err (32 points) 5.63216, repeat sample rate nan
+2022-12-20 13:21:05,719 - Model - INFO - epoch 213, train loss 1.23760, sigma nan
+2022-12-20 13:21:06,366 - Model - INFO - epoch 213, test rot err (32 points) 5.14991, repeat sample rate nan
+2022-12-20 13:21:06,366 - Model - INFO - Save model...
+2022-12-20 13:21:06,367 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 13:21:06,594 - Model - INFO - Saving model....
+2022-12-20 13:22:07,784 - Model - INFO - epoch 214, train loss 1.25257, sigma nan
+2022-12-20 13:22:08,447 - Model - INFO - epoch 214, test rot err (32 points) 5.42560, repeat sample rate nan
+2022-12-20 13:23:09,612 - Model - INFO - epoch 215, train loss 1.24305, sigma nan
+2022-12-20 13:23:10,279 - Model - INFO - epoch 215, test rot err (32 points) 5.35981, repeat sample rate nan
+2022-12-20 13:24:11,414 - Model - INFO - epoch 216, train loss 1.23561, sigma nan
+2022-12-20 13:24:12,060 - Model - INFO - epoch 216, test rot err (32 points) 5.85183, repeat sample rate nan
+2022-12-20 13:25:13,341 - Model - INFO - epoch 217, train loss 1.23893, sigma nan
+2022-12-20 13:25:13,999 - Model - INFO - epoch 217, test rot err (32 points) 5.74823, repeat sample rate nan
+2022-12-20 13:26:15,321 - Model - INFO - epoch 218, train loss 1.25452, sigma nan
+2022-12-20 13:26:15,968 - Model - INFO - epoch 218, test rot err (32 points) 5.43948, repeat sample rate nan
+2022-12-20 13:27:17,205 - Model - INFO - epoch 219, train loss 1.22588, sigma nan
+2022-12-20 13:27:17,863 - Model - INFO - epoch 219, test rot err (32 points) 5.51683, repeat sample rate nan
+2022-12-20 13:28:19,027 - Model - INFO - epoch 220, train loss 1.22733, sigma nan
+2022-12-20 13:28:19,693 - Model - INFO - epoch 220, test rot err (32 points) 6.02232, repeat sample rate nan
+2022-12-20 13:29:20,928 - Model - INFO - epoch 221, train loss 1.25272, sigma nan
+2022-12-20 13:29:21,591 - Model - INFO - epoch 221, test rot err (32 points) 5.34168, repeat sample rate nan
+2022-12-20 13:30:22,931 - Model - INFO - epoch 222, train loss 1.23406, sigma nan
+2022-12-20 13:30:23,583 - Model - INFO - epoch 222, test rot err (32 points) 5.17329, repeat sample rate nan
+2022-12-20 13:31:24,760 - Model - INFO - epoch 223, train loss 1.23012, sigma nan
+2022-12-20 13:31:25,398 - Model - INFO - epoch 223, test rot err (32 points) 5.32811, repeat sample rate nan
+2022-12-20 13:32:26,670 - Model - INFO - epoch 224, train loss 1.19574, sigma nan
+2022-12-20 13:32:27,319 - Model - INFO - epoch 224, test rot err (32 points) 5.85062, repeat sample rate nan
+2022-12-20 13:33:28,449 - Model - INFO - epoch 225, train loss 1.22105, sigma nan
+2022-12-20 13:33:29,092 - Model - INFO - epoch 225, test rot err (32 points) 5.82854, repeat sample rate nan
+2022-12-20 13:34:30,216 - Model - INFO - epoch 226, train loss 1.23291, sigma nan
+2022-12-20 13:34:30,865 - Model - INFO - epoch 226, test rot err (32 points) 5.65031, repeat sample rate nan
+2022-12-20 13:35:32,113 - Model - INFO - epoch 227, train loss 1.22741, sigma nan
+2022-12-20 13:35:32,761 - Model - INFO - epoch 227, test rot err (32 points) 5.37369, repeat sample rate nan
+2022-12-20 13:36:33,945 - Model - INFO - epoch 228, train loss 1.23776, sigma nan
+2022-12-20 13:36:34,603 - Model - INFO - epoch 228, test rot err (32 points) 5.11814, repeat sample rate nan
+2022-12-20 13:36:34,603 - Model - INFO - Save model...
+2022-12-20 13:36:34,604 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 13:36:34,750 - Model - INFO - Saving model....
+2022-12-20 13:37:36,024 - Model - INFO - epoch 229, train loss 1.24413, sigma nan
+2022-12-20 13:37:36,677 - Model - INFO - epoch 229, test rot err (32 points) 5.29125, repeat sample rate nan
+2022-12-20 13:38:37,835 - Model - INFO - epoch 230, train loss 1.23535, sigma nan
+2022-12-20 13:38:38,473 - Model - INFO - epoch 230, test rot err (32 points) 5.51669, repeat sample rate nan
+2022-12-20 13:39:39,623 - Model - INFO - epoch 231, train loss 1.23972, sigma nan
+2022-12-20 13:39:40,266 - Model - INFO - epoch 231, test rot err (32 points) 5.82715, repeat sample rate nan
+2022-12-20 13:40:41,488 - Model - INFO - epoch 232, train loss 1.22383, sigma nan
+2022-12-20 13:40:42,129 - Model - INFO - epoch 232, test rot err (32 points) 5.93939, repeat sample rate nan
+2022-12-20 13:41:43,417 - Model - INFO - epoch 233, train loss 1.22881, sigma nan
+2022-12-20 13:41:44,065 - Model - INFO - epoch 233, test rot err (32 points) 5.50344, repeat sample rate nan
+2022-12-20 13:42:45,256 - Model - INFO - epoch 234, train loss 1.22390, sigma nan
+2022-12-20 13:42:45,908 - Model - INFO - epoch 234, test rot err (32 points) 5.37327, repeat sample rate nan
+2022-12-20 13:43:47,177 - Model - INFO - epoch 235, train loss 1.24359, sigma nan
+2022-12-20 13:43:47,816 - Model - INFO - epoch 235, test rot err (32 points) 5.60654, repeat sample rate nan
+2022-12-20 13:44:49,089 - Model - INFO - epoch 236, train loss 1.24407, sigma nan
+2022-12-20 13:44:49,734 - Model - INFO - epoch 236, test rot err (32 points) 5.29691, repeat sample rate nan
+2022-12-20 13:45:50,950 - Model - INFO - epoch 237, train loss 1.23264, sigma nan
+2022-12-20 13:45:51,590 - Model - INFO - epoch 237, test rot err (32 points) 5.77369, repeat sample rate nan
+2022-12-20 13:46:52,726 - Model - INFO - epoch 238, train loss 1.23554, sigma nan
+2022-12-20 13:46:53,372 - Model - INFO - epoch 238, test rot err (32 points) 5.33161, repeat sample rate nan
+2022-12-20 13:47:54,557 - Model - INFO - epoch 239, train loss 1.22862, sigma nan
+2022-12-20 13:47:55,200 - Model - INFO - epoch 239, test rot err (32 points) 5.10614, repeat sample rate nan
+2022-12-20 13:47:55,200 - Model - INFO - Save model...
+2022-12-20 13:47:55,200 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 13:47:55,422 - Model - INFO - Saving model....
+2022-12-20 13:48:56,852 - Model - INFO - epoch 240, train loss 1.23471, sigma nan
+2022-12-20 13:48:57,493 - Model - INFO - epoch 240, test rot err (32 points) 5.29591, repeat sample rate nan
+2022-12-20 13:49:58,857 - Model - INFO - epoch 241, train loss 1.22004, sigma nan
+2022-12-20 13:49:59,497 - Model - INFO - epoch 241, test rot err (32 points) 6.08842, repeat sample rate nan
+2022-12-20 13:51:00,721 - Model - INFO - epoch 242, train loss 1.22159, sigma nan
+2022-12-20 13:51:01,367 - Model - INFO - epoch 242, test rot err (32 points) 5.41210, repeat sample rate nan
+2022-12-20 13:52:02,530 - Model - INFO - epoch 243, train loss 1.22283, sigma nan
+2022-12-20 13:52:03,178 - Model - INFO - epoch 243, test rot err (32 points) 5.41955, repeat sample rate nan
+2022-12-20 13:53:04,469 - Model - INFO - epoch 244, train loss 1.22413, sigma nan
+2022-12-20 13:53:05,116 - Model - INFO - epoch 244, test rot err (32 points) 5.31440, repeat sample rate nan
+2022-12-20 13:54:06,369 - Model - INFO - epoch 245, train loss 1.20698, sigma nan
+2022-12-20 13:54:07,011 - Model - INFO - epoch 245, test rot err (32 points) 5.54970, repeat sample rate nan
+2022-12-20 13:55:08,314 - Model - INFO - epoch 246, train loss 1.22353, sigma nan
+2022-12-20 13:55:08,982 - Model - INFO - epoch 246, test rot err (32 points) 5.49821, repeat sample rate nan
+2022-12-20 13:56:10,151 - Model - INFO - epoch 247, train loss 1.22245, sigma nan
+2022-12-20 13:56:10,791 - Model - INFO - epoch 247, test rot err (32 points) 4.85918, repeat sample rate nan
+2022-12-20 13:56:10,791 - Model - INFO - Save model...
+2022-12-20 13:56:10,791 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/best_model.pth
+2022-12-20 13:56:11,025 - Model - INFO - Saving model....
+2022-12-20 13:57:13,030 - Model - INFO - epoch 248, train loss 1.22335, sigma nan
+2022-12-20 13:57:13,670 - Model - INFO - epoch 248, test rot err (32 points) 5.45771, repeat sample rate nan
+2022-12-20 13:58:14,939 - Model - INFO - epoch 249, train loss 1.21524, sigma nan
+2022-12-20 13:58:15,597 - Model - INFO - epoch 249, test rot err (32 points) 5.48363, repeat sample rate nan
+2022-12-20 13:59:16,890 - Model - INFO - epoch 250, train loss 1.20867, sigma nan
+2022-12-20 13:59:17,537 - Model - INFO - epoch 250, test rot err (32 points) 5.25427, repeat sample rate nan
+2022-12-20 14:00:18,763 - Model - INFO - epoch 251, train loss 1.23104, sigma nan
+2022-12-20 14:00:19,419 - Model - INFO - epoch 251, test rot err (32 points) 5.69072, repeat sample rate nan
+2022-12-20 14:01:20,707 - Model - INFO - epoch 252, train loss 1.21109, sigma nan
+2022-12-20 14:01:21,346 - Model - INFO - epoch 252, test rot err (32 points) 5.18363, repeat sample rate nan
+2022-12-20 14:02:22,581 - Model - INFO - epoch 253, train loss 1.22780, sigma nan
+2022-12-20 14:02:23,224 - Model - INFO - epoch 253, test rot err (32 points) 5.45200, repeat sample rate nan
+2022-12-20 14:03:24,341 - Model - INFO - epoch 254, train loss 1.22315, sigma nan
+2022-12-20 14:03:24,991 - Model - INFO - epoch 254, test rot err (32 points) 5.49454, repeat sample rate nan
+2022-12-20 14:04:26,124 - Model - INFO - epoch 255, train loss 1.22497, sigma nan
+2022-12-20 14:04:26,771 - Model - INFO - epoch 255, test rot err (32 points) 5.95511, repeat sample rate nan
+2022-12-20 14:05:27,898 - Model - INFO - epoch 256, train loss 1.21523, sigma nan
+2022-12-20 14:05:28,536 - Model - INFO - epoch 256, test rot err (32 points) 5.51180, repeat sample rate nan
+2022-12-20 14:06:29,747 - Model - INFO - epoch 257, train loss 1.22433, sigma nan
+2022-12-20 14:06:30,401 - Model - INFO - epoch 257, test rot err (32 points) 6.00050, repeat sample rate nan
+2022-12-20 14:07:31,577 - Model - INFO - epoch 258, train loss 1.24635, sigma nan
+2022-12-20 14:07:32,217 - Model - INFO - epoch 258, test rot err (32 points) 5.64188, repeat sample rate nan
+2022-12-20 14:08:33,353 - Model - INFO - epoch 259, train loss 1.22469, sigma nan
+2022-12-20 14:08:33,991 - Model - INFO - epoch 259, test rot err (32 points) 5.21919, repeat sample rate nan
+2022-12-20 14:09:35,262 - Model - INFO - epoch 260, train loss 1.22894, sigma nan
+2022-12-20 14:09:35,907 - Model - INFO - epoch 260, test rot err (32 points) 5.25060, repeat sample rate nan
+2022-12-20 14:10:37,076 - Model - INFO - epoch 261, train loss 1.22776, sigma nan
+2022-12-20 14:10:37,714 - Model - INFO - epoch 261, test rot err (32 points) 5.33788, repeat sample rate nan
+2022-12-20 14:11:38,986 - Model - INFO - epoch 262, train loss 1.20823, sigma nan
+2022-12-20 14:11:39,622 - Model - INFO - epoch 262, test rot err (32 points) 5.47185, repeat sample rate nan
+2022-12-20 14:12:40,848 - Model - INFO - epoch 263, train loss 1.23623, sigma nan
+2022-12-20 14:12:41,487 - Model - INFO - epoch 263, test rot err (32 points) 5.24900, repeat sample rate nan
+2022-12-20 14:13:42,729 - Model - INFO - epoch 264, train loss 1.23283, sigma nan
+2022-12-20 14:13:43,373 - Model - INFO - epoch 264, test rot err (32 points) 5.62299, repeat sample rate nan
+2022-12-20 14:14:44,557 - Model - INFO - epoch 265, train loss 1.21552, sigma nan
+2022-12-20 14:14:45,198 - Model - INFO - epoch 265, test rot err (32 points) 5.73910, repeat sample rate nan
+2022-12-20 14:15:46,468 - Model - INFO - epoch 266, train loss 1.22287, sigma nan
+2022-12-20 14:15:47,109 - Model - INFO - epoch 266, test rot err (32 points) 5.28823, repeat sample rate nan
+2022-12-20 14:16:48,421 - Model - INFO - epoch 267, train loss 1.23089, sigma nan
+2022-12-20 14:16:49,065 - Model - INFO - epoch 267, test rot err (32 points) 5.72301, repeat sample rate nan
+2022-12-20 14:17:50,361 - Model - INFO - epoch 268, train loss 1.20767, sigma nan
+2022-12-20 14:17:51,005 - Model - INFO - epoch 268, test rot err (32 points) 5.33261, repeat sample rate nan
+2022-12-20 14:18:52,168 - Model - INFO - epoch 269, train loss 1.21158, sigma nan
+2022-12-20 14:18:52,811 - Model - INFO - epoch 269, test rot err (32 points) 5.50118, repeat sample rate nan
+2022-12-20 14:19:54,121 - Model - INFO - epoch 270, train loss 1.24217, sigma nan
+2022-12-20 14:19:54,759 - Model - INFO - epoch 270, test rot err (32 points) 5.47025, repeat sample rate nan
+2022-12-20 14:20:55,989 - Model - INFO - epoch 271, train loss 1.22507, sigma nan
+2022-12-20 14:20:56,633 - Model - INFO - epoch 271, test rot err (32 points) 5.59274, repeat sample rate nan
+2022-12-20 14:21:57,884 - Model - INFO - epoch 272, train loss 1.24295, sigma nan
+2022-12-20 14:21:58,546 - Model - INFO - epoch 272, test rot err (32 points) 5.86488, repeat sample rate nan
+2022-12-20 14:22:59,946 - Model - INFO - epoch 273, train loss 1.20887, sigma nan
+2022-12-20 14:23:00,590 - Model - INFO - epoch 273, test rot err (32 points) 5.10987, repeat sample rate nan
+2022-12-20 14:24:01,727 - Model - INFO - epoch 274, train loss 1.22471, sigma nan
+2022-12-20 14:24:02,367 - Model - INFO - epoch 274, test rot err (32 points) 5.35346, repeat sample rate nan
+2022-12-20 14:25:03,578 - Model - INFO - epoch 275, train loss 1.20289, sigma nan
+2022-12-20 14:25:04,224 - Model - INFO - epoch 275, test rot err (32 points) 5.28827, repeat sample rate nan
+2022-12-20 14:26:05,367 - Model - INFO - epoch 276, train loss 1.21361, sigma nan
+2022-12-20 14:26:06,028 - Model - INFO - epoch 276, test rot err (32 points) 5.62295, repeat sample rate nan
+2022-12-20 14:27:07,314 - Model - INFO - epoch 277, train loss 1.22392, sigma nan
+2022-12-20 14:27:07,965 - Model - INFO - epoch 277, test rot err (32 points) 5.51073, repeat sample rate nan
+2022-12-20 14:28:09,362 - Model - INFO - epoch 278, train loss 1.23636, sigma nan
+2022-12-20 14:28:10,010 - Model - INFO - epoch 278, test rot err (32 points) 5.24355, repeat sample rate nan
+2022-12-20 14:29:11,272 - Model - INFO - epoch 279, train loss 1.22876, sigma nan
+2022-12-20 14:29:11,919 - Model - INFO - epoch 279, test rot err (32 points) 5.59275, repeat sample rate nan
+2022-12-20 14:30:13,052 - Model - INFO - epoch 280, train loss 1.23879, sigma nan
+2022-12-20 14:30:13,708 - Model - INFO - epoch 280, test rot err (32 points) 5.17059, repeat sample rate nan
+2022-12-20 14:31:14,869 - Model - INFO - epoch 281, train loss 1.21700, sigma nan
+2022-12-20 14:31:15,508 - Model - INFO - epoch 281, test rot err (32 points) 5.13758, repeat sample rate nan
+2022-12-20 14:32:16,775 - Model - INFO - epoch 282, train loss 1.23574, sigma nan
+2022-12-20 14:32:17,414 - Model - INFO - epoch 282, test rot err (32 points) 5.20036, repeat sample rate nan
+2022-12-20 14:33:18,636 - Model - INFO - epoch 283, train loss 1.21315, sigma nan
+2022-12-20 14:33:19,280 - Model - INFO - epoch 283, test rot err (32 points) 5.36064, repeat sample rate nan
+2022-12-20 14:34:20,628 - Model - INFO - epoch 284, train loss 1.24701, sigma nan
+2022-12-20 14:34:21,278 - Model - INFO - epoch 284, test rot err (32 points) 5.30167, repeat sample rate nan
+2022-12-20 14:35:22,649 - Model - INFO - epoch 285, train loss 1.21242, sigma nan
+2022-12-20 14:35:23,293 - Model - INFO - epoch 285, test rot err (32 points) 5.58382, repeat sample rate nan
+2022-12-20 14:36:24,600 - Model - INFO - epoch 286, train loss 1.21111, sigma nan
+2022-12-20 14:36:25,256 - Model - INFO - epoch 286, test rot err (32 points) 5.04342, repeat sample rate nan
+2022-12-20 14:37:26,572 - Model - INFO - epoch 287, train loss 1.22571, sigma nan
+2022-12-20 14:37:27,231 - Model - INFO - epoch 287, test rot err (32 points) 5.04248, repeat sample rate nan
+2022-12-20 14:38:28,501 - Model - INFO - epoch 288, train loss 1.22862, sigma nan
+2022-12-20 14:38:29,145 - Model - INFO - epoch 288, test rot err (32 points) 6.11183, repeat sample rate nan
+2022-12-20 14:39:30,466 - Model - INFO - epoch 289, train loss 1.21127, sigma nan
+2022-12-20 14:39:31,113 - Model - INFO - epoch 289, test rot err (32 points) 5.27411, repeat sample rate nan
+2022-12-20 14:40:32,346 - Model - INFO - epoch 290, train loss 1.20792, sigma nan
+2022-12-20 14:40:32,994 - Model - INFO - epoch 290, test rot err (32 points) 5.38391, repeat sample rate nan
+2022-12-20 14:41:34,462 - Model - INFO - epoch 291, train loss 1.21330, sigma nan
+2022-12-20 14:41:35,101 - Model - INFO - epoch 291, test rot err (32 points) 5.59498, repeat sample rate nan
+2022-12-20 14:42:36,605 - Model - INFO - epoch 292, train loss 1.22298, sigma nan
+2022-12-20 14:42:37,248 - Model - INFO - epoch 292, test rot err (32 points) 5.71400, repeat sample rate nan
+2022-12-20 14:43:38,513 - Model - INFO - epoch 293, train loss 1.24472, sigma nan
+2022-12-20 14:43:39,168 - Model - INFO - epoch 293, test rot err (32 points) 5.55491, repeat sample rate nan
+2022-12-20 14:44:40,484 - Model - INFO - epoch 294, train loss 1.21960, sigma nan
+2022-12-20 14:44:41,122 - Model - INFO - epoch 294, test rot err (32 points) 5.73448, repeat sample rate nan
+2022-12-20 14:45:42,353 - Model - INFO - epoch 295, train loss 1.22587, sigma nan
+2022-12-20 14:45:42,990 - Model - INFO - epoch 295, test rot err (32 points) 5.01113, repeat sample rate nan
+2022-12-20 14:46:44,118 - Model - INFO - epoch 296, train loss 1.22673, sigma nan
+2022-12-20 14:46:44,772 - Model - INFO - epoch 296, test rot err (32 points) 5.22607, repeat sample rate nan
+2022-12-20 14:47:46,172 - Model - INFO - epoch 297, train loss 1.21255, sigma nan
+2022-12-20 14:47:46,823 - Model - INFO - epoch 297, test rot err (32 points) 5.42531, repeat sample rate nan
+2022-12-20 14:48:48,059 - Model - INFO - epoch 298, train loss 1.21078, sigma nan
+2022-12-20 14:48:48,704 - Model - INFO - epoch 298, test rot err (32 points) 5.68029, repeat sample rate nan
+2022-12-20 14:49:49,839 - Model - INFO - epoch 299, train loss 1.24141, sigma nan
+2022-12-20 14:49:50,476 - Model - INFO - epoch 299, test rot err (32 points) 5.64264, repeat sample rate nan
+2022-12-20 14:49:50,476 - Model - INFO - Save model...
+2022-12-20 14:49:50,476 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_regis_16_512/checkpoints/last_model.pth
+2022-12-20 14:49:50,515 - Model - INFO - Saving model....
+2022-12-20 15:12:20,396 - Model - INFO - PARAMETER ...
+2022-12-20 15:12:20,396 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis_16_512', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=True, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2022-12-20 15:13:17,657 - Model - INFO - PARAMETER ...
+2022-12-20 15:13:17,657 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis_16_512', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2022-12-20 15:14:01,684 - Model - INFO - PARAMETER ...
+2022-12-20 15:14:01,684 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis_16_512', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2022-12-20 15:14:05,144 - Model - INFO - test rot err (32 points) 5.23638, repeat sample rate nan
+2022-12-23 10:24:52,659 - Model - INFO - PARAMETER ...
+2022-12-23 10:24:52,659 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis_16_512', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2022-12-23 10:24:56,155 - Model - INFO - test rot err (32 points) 5.53973, repeat sample rate nan
+2022-12-23 10:28:04,942 - Model - INFO - PARAMETER ...
+2022-12-23 10:28:04,942 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis_16_512', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2022-12-23 10:28:08,465 - Model - INFO - test rot err (32 points) 5.36671, repeat sample rate nan
+2022-12-23 10:28:11,840 - Model - INFO - PARAMETER ...
+2022-12-23 10:28:11,840 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis_16_512', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2022-12-23 10:28:15,391 - Model - INFO - test rot err (32 points) 5.66834, repeat sample rate nan

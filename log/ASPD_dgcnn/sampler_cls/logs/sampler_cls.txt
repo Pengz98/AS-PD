@@ -1,0 +1,419 @@
+2022-12-31 13:50:06,284 - Model - INFO - PARAMETER ...
+2022-12-31 13:50:06,284 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-31 13:50:16,326 - Model - INFO - test acc (16 points) 0.45152, cd 0.04715, hd 0.41692
+2022-12-31 13:50:23,026 - Model - INFO - test acc (21 points) 0.56170, cd 0.03663, hd 0.37026
+2022-12-31 13:50:30,088 - Model - INFO - test acc (27 points) 0.62019, cd 0.02893, hd 0.32972
+2022-12-31 13:50:37,554 - Model - INFO - test acc (36 points) 0.69311, cd 0.02208, hd 0.28881
+2022-12-31 13:50:45,157 - Model - INFO - test acc (48 points) 0.73277, cd 0.01689, hd 0.25359
+2022-12-31 13:50:52,978 - Model - INFO - test acc (64 points) 0.75881, cd 0.01288, hd 0.22161
+2022-12-31 13:51:14,283 - Model - INFO - test acc (84 points) 0.76482, cd 0.00997, hd 0.19485
+2022-12-31 13:52:07,694 - Model - INFO - test acc (111 points) 0.77404, cd 0.00767, hd 0.17082
+2022-12-31 13:53:09,176 - Model - INFO - test acc (147 points) 0.79006, cd 0.00590, hd 0.15014
+2022-12-31 13:54:24,366 - Model - INFO - test acc (194 points) 0.80809, cd 0.00455, hd 0.13116
+2022-12-31 13:55:57,050 - Model - INFO - test acc (256 points) 0.82933, cd 0.00352, hd 0.11588
+2022-12-31 13:57:50,886 - Model - INFO - test acc (337 points) 0.84135, cd 0.00271, hd 0.10230
+2022-12-31 14:00:12,841 - Model - INFO - test acc (445 points) 0.84856, cd 0.00202, hd 0.09127
+2022-12-31 14:03:15,485 - Model - INFO - test acc (588 points) 0.85657, cd 0.00138, hd 0.08216
+2022-12-31 14:07:06,752 - Model - INFO - test acc (776 points) 0.86218, cd 0.00077, hd 0.07490
+2022-12-31 14:12:05,368 - Model - INFO - test acc (1024 points) 0.86458, cd 0.00022, hd 0.06610
+2022-12-31 15:05:09,176 - Model - INFO - PARAMETER ...
+2022-12-31 15:05:09,176 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-31 15:05:32,365 - Model - INFO - test acc (16 points) 0.66827, cd 0.05700, hd 0.42900
+2022-12-31 15:05:50,619 - Model - INFO - test acc (21 points) 0.77684, cd 0.04384, hd 0.37774
+2022-12-31 15:06:11,158 - Model - INFO - test acc (27 points) 0.80889, cd 0.03451, hd 0.33650
+2022-12-31 15:06:32,822 - Model - INFO - test acc (36 points) 0.84215, cd 0.02617, hd 0.29448
+2022-12-31 15:06:57,773 - Model - INFO - test acc (48 points) 0.85096, cd 0.01998, hd 0.25729
+2022-12-31 15:07:26,601 - Model - INFO - test acc (64 points) 0.85256, cd 0.01527, hd 0.22448
+2022-12-31 15:08:01,770 - Model - INFO - test acc (84 points) 0.86538, cd 0.01190, hd 0.19758
+2022-12-31 15:08:42,408 - Model - INFO - test acc (111 points) 0.86058, cd 0.00923, hd 0.17343
+2022-12-31 15:09:33,696 - Model - INFO - test acc (147 points) 0.86819, cd 0.00718, hd 0.15226
+2022-12-31 15:10:36,251 - Model - INFO - test acc (194 points) 0.86699, cd 0.00562, hd 0.13438
+2022-12-31 15:11:54,649 - Model - INFO - test acc (256 points) 0.86859, cd 0.00445, hd 0.11897
+2022-12-31 15:13:34,636 - Model - INFO - test acc (337 points) 0.87460, cd 0.00354, hd 0.10711
+2022-12-31 15:15:41,698 - Model - INFO - test acc (445 points) 0.87260, cd 0.00280, hd 0.09704
+2022-12-31 15:18:26,616 - Model - INFO - test acc (588 points) 0.87540, cd 0.00217, hd 0.08868
+2022-12-31 15:21:59,119 - Model - INFO - test acc (776 points) 0.87580, cd 0.00161, hd 0.08055
+2022-12-31 15:26:34,243 - Model - INFO - test acc (1024 points) 0.87821, cd 0.00114, hd 0.05825
+2022-12-31 16:51:10,550 - Model - INFO - PARAMETER ...
+2022-12-31 16:51:10,550 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-31 16:51:33,734 - Model - INFO - test acc (16 points) 0.67027, cd 0.05674, hd 0.42869
+2022-12-31 16:51:51,106 - Model - INFO - test acc (17 points) 0.70353, cd 0.05380, hd 0.41691
+2022-12-31 16:52:43,165 - Model - INFO - PARAMETER ...
+2022-12-31 16:52:43,165 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-31 16:53:00,682 - Model - INFO - test acc (16 points) 0.67428, cd 0.05690, hd 0.42830
+2022-12-31 16:53:06,905 - Model - INFO - test acc (17 points) 0.69471, cd 0.05367, hd 0.41639
+2022-12-31 16:53:13,102 - Model - INFO - test acc (18 points) 0.72276, cd 0.05104, hd 0.40630
+2022-12-31 16:53:19,261 - Model - INFO - test acc (19 points) 0.73838, cd 0.04813, hd 0.39523
+2022-12-31 16:53:25,530 - Model - INFO - test acc (21 points) 0.76162, cd 0.04386, hd 0.37802
+2022-12-31 16:53:31,874 - Model - INFO - test acc (22 points) 0.77965, cd 0.04199, hd 0.37059
+2022-12-31 16:53:33,812 - Model - INFO - PARAMETER ...
+2022-12-31 16:53:33,812 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-31 16:53:43,107 - Model - INFO - test acc (16 points) 0.66546, cd 0.05688, hd 0.42811
+2022-12-31 16:53:49,268 - Model - INFO - test acc (17 points) 0.70633, cd 0.05386, hd 0.41694
+2022-12-31 16:53:55,701 - Model - INFO - test acc (18 points) 0.72276, cd 0.05084, hd 0.40498
+2022-12-31 16:54:02,094 - Model - INFO - test acc (20 points) 0.77083, cd 0.04605, hd 0.38689
+2022-12-31 16:54:08,417 - Model - INFO - test acc (22 points) 0.77484, cd 0.04190, hd 0.37005
+2022-12-31 16:54:14,675 - Model - INFO - test acc (24 points) 0.80329, cd 0.03859, hd 0.35465
+2022-12-31 16:54:20,896 - Model - INFO - test acc (26 points) 0.81170, cd 0.03579, hd 0.34171
+2022-12-31 16:54:26,948 - Model - INFO - test acc (28 points) 0.82652, cd 0.03338, hd 0.33159
+2022-12-31 16:54:33,033 - Model - INFO - test acc (31 points) 0.83373, cd 0.03018, hd 0.31581
+2022-12-31 16:54:39,169 - Model - INFO - test acc (34 points) 0.83574, cd 0.02765, hd 0.30249
+2022-12-31 16:54:45,347 - Model - INFO - test acc (37 points) 0.84535, cd 0.02554, hd 0.28965
+2022-12-31 16:54:51,559 - Model - INFO - test acc (40 points) 0.83974, cd 0.02370, hd 0.27946
+2022-12-31 16:54:57,811 - Model - INFO - test acc (44 points) 0.85096, cd 0.02167, hd 0.26707
+2022-12-31 16:55:04,114 - Model - INFO - test acc (48 points) 0.84295, cd 0.01996, hd 0.25753
+2022-12-31 16:55:10,462 - Model - INFO - test acc (52 points) 0.85096, cd 0.01853, hd 0.24730
+2022-12-31 16:55:16,863 - Model - INFO - test acc (57 points) 0.85056, cd 0.01700, hd 0.23691
+2022-12-31 16:55:23,320 - Model - INFO - test acc (62 points) 0.85096, cd 0.01573, hd 0.22781
+2022-12-31 16:55:29,858 - Model - INFO - test acc (67 points) 0.85016, cd 0.01463, hd 0.21980
+2022-12-31 16:55:36,462 - Model - INFO - test acc (73 points) 0.85377, cd 0.01351, hd 0.21038
+2022-12-31 16:55:43,154 - Model - INFO - test acc (80 points) 0.85697, cd 0.01241, hd 0.20196
+2022-12-31 16:55:49,922 - Model - INFO - test acc (87 points) 0.85938, cd 0.01151, hd 0.19413
+2022-12-31 16:55:56,785 - Model - INFO - test acc (95 points) 0.85577, cd 0.01062, hd 0.18616
+2022-12-31 16:56:03,741 - Model - INFO - test acc (103 points) 0.85417, cd 0.00986, hd 0.17939
+2022-12-31 16:56:10,798 - Model - INFO - test acc (112 points) 0.85817, cd 0.00913, hd 0.17225
+2022-12-31 16:56:17,969 - Model - INFO - test acc (122 points) 0.86859, cd 0.00846, hd 0.16597
+2022-12-31 16:56:25,304 - Model - INFO - test acc (133 points) 0.86859, cd 0.00784, hd 0.15910
+2022-12-31 16:56:32,775 - Model - INFO - test acc (145 points) 0.86659, cd 0.00726, hd 0.15286
+2022-12-31 16:56:40,393 - Model - INFO - test acc (158 points) 0.86018, cd 0.00673, hd 0.14731
+2022-12-31 16:56:48,181 - Model - INFO - test acc (172 points) 0.86899, cd 0.00625, hd 0.14197
+2022-12-31 16:56:56,143 - Model - INFO - test acc (187 points) 0.87300, cd 0.00580, hd 0.13657
+2022-12-31 16:57:04,314 - Model - INFO - test acc (204 points) 0.87059, cd 0.00539, hd 0.13134
+2022-12-31 16:57:12,691 - Model - INFO - test acc (222 points) 0.86899, cd 0.00501, hd 0.12664
+2022-12-31 16:57:21,283 - Model - INFO - test acc (241 points) 0.87099, cd 0.00468, hd 0.12219
+2022-12-31 16:57:30,172 - Model - INFO - test acc (263 points) 0.87380, cd 0.00435, hd 0.11759
+2022-12-31 16:57:39,329 - Model - INFO - test acc (286 points) 0.87340, cd 0.00406, hd 0.11404
+2022-12-31 16:57:48,783 - Model - INFO - test acc (312 points) 0.86859, cd 0.00378, hd 0.11005
+2022-12-31 16:57:58,589 - Model - INFO - test acc (339 points) 0.87700, cd 0.00353, hd 0.10671
+2022-12-31 16:58:08,816 - Model - INFO - test acc (369 points) 0.87580, cd 0.00329, hd 0.10343
+2022-12-31 16:58:19,453 - Model - INFO - test acc (402 points) 0.87340, cd 0.00306, hd 0.10040
+2022-12-31 16:58:30,484 - Model - INFO - test acc (438 points) 0.87139, cd 0.00284, hd 0.09748
+2022-12-31 16:58:41,927 - Model - INFO - test acc (477 points) 0.87460, cd 0.00263, hd 0.09476
+2022-12-31 16:58:53,923 - Model - INFO - test acc (519 points) 0.87179, cd 0.00244, hd 0.09233
+2022-12-31 16:59:06,474 - Model - INFO - test acc (565 points) 0.87460, cd 0.00226, hd 0.08984
+2022-12-31 16:59:19,630 - Model - INFO - test acc (615 points) 0.87380, cd 0.00207, hd 0.08741
+2022-12-31 16:59:33,469 - Model - INFO - test acc (669 points) 0.87420, cd 0.00190, hd 0.08505
+2022-12-31 16:59:48,063 - Model - INFO - test acc (729 points) 0.87340, cd 0.00173, hd 0.08250
+2022-12-31 17:00:03,491 - Model - INFO - test acc (793 points) 0.87620, cd 0.00157, hd 0.08007
+2022-12-31 17:00:23,428 - Model - INFO - test acc (864 points) 0.87540, cd 0.00141, hd 0.07685
+2022-12-31 17:00:40,704 - Model - INFO - test acc (940 points) 0.87901, cd 0.00127, hd 0.07261
+2022-12-31 17:00:58,965 - Model - INFO - test acc (1024 points) 0.87821, cd 0.00114, hd 0.05825
+2023-01-01 00:06:35,147 - Model - INFO - PARAMETER ...
+2023-01-01 00:06:35,147 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-01 00:06:45,936 - Model - INFO - test acc (16 points) 0.16506, cd 0.04789, hd 0.37905
+2023-01-01 00:06:51,126 - Model - INFO - test acc (17 points) 0.17348, cd 0.04499, hd 0.36693
+2023-01-01 00:06:56,595 - Model - INFO - test acc (18 points) 0.18429, cd 0.04240, hd 0.35601
+2023-01-01 00:07:02,556 - Model - INFO - test acc (20 points) 0.21314, cd 0.03809, hd 0.33742
+2023-01-01 00:07:08,906 - Model - INFO - test acc (22 points) 0.23998, cd 0.03455, hd 0.32090
+2023-01-01 00:07:16,053 - Model - INFO - test acc (24 points) 0.26282, cd 0.03161, hd 0.30658
+2023-01-01 00:07:23,312 - Model - INFO - test acc (26 points) 0.28806, cd 0.02917, hd 0.29412
+2023-01-01 00:07:30,850 - Model - INFO - test acc (28 points) 0.31811, cd 0.02706, hd 0.28299
+2023-01-01 00:07:39,129 - Model - INFO - test acc (31 points) 0.35056, cd 0.02442, hd 0.26835
+2023-01-01 00:07:48,321 - Model - INFO - test acc (34 points) 0.38261, cd 0.02225, hd 0.25560
+2023-01-01 00:07:58,019 - Model - INFO - test acc (37 points) 0.40545, cd 0.02046, hd 0.24435
+2023-01-01 00:08:08,659 - Model - INFO - test acc (40 points) 0.43269, cd 0.01895, hd 0.23442
+2023-01-01 00:08:20,264 - Model - INFO - test acc (44 points) 0.46554, cd 0.01726, hd 0.22294
+2023-01-01 00:08:32,794 - Model - INFO - test acc (48 points) 0.49840, cd 0.01586, hd 0.21290
+2023-01-01 00:08:46,923 - Model - INFO - test acc (52 points) 0.52244, cd 0.01467, hd 0.20429
+2023-01-01 00:09:01,395 - Model - INFO - test acc (57 points) 0.55248, cd 0.01342, hd 0.19476
+2023-01-01 00:09:17,056 - Model - INFO - test acc (62 points) 0.57692, cd 0.01237, hd 0.18657
+2023-01-01 00:09:34,086 - Model - INFO - test acc (67 points) 0.59415, cd 0.01148, hd 0.17928
+2023-01-01 00:09:49,684 - Model - INFO - test acc (73 points) 0.60978, cd 0.01056, hd 0.17146
+2023-01-01 00:10:09,714 - Model - INFO - test acc (80 points) 0.62500, cd 0.00967, hd 0.16345
+2023-01-01 00:10:31,409 - Model - INFO - test acc (87 points) 0.64463, cd 0.00893, hd 0.15648
+2023-01-01 00:10:55,001 - Model - INFO - test acc (95 points) 0.66426, cd 0.00821, hd 0.14949
+2023-01-01 00:11:20,369 - Model - INFO - test acc (103 points) 0.68349, cd 0.00760, hd 0.14331
+2023-01-01 00:11:48,759 - Model - INFO - test acc (112 points) 0.69832, cd 0.00702, hd 0.13724
+2023-01-01 00:12:18,478 - Model - INFO - test acc (122 points) 0.71915, cd 0.00648, hd 0.13128
+2023-01-01 00:12:50,994 - Model - INFO - test acc (133 points) 0.73117, cd 0.00597, hd 0.12548
+2023-01-01 00:13:24,934 - Model - INFO - test acc (145 points) 0.74119, cd 0.00551, hd 0.11990
+2023-01-01 00:14:00,736 - Model - INFO - test acc (158 points) 0.75441, cd 0.00509, hd 0.11457
+2023-01-01 00:14:43,931 - Model - INFO - test acc (172 points) 0.76242, cd 0.00470, hd 0.10935
+2023-01-01 00:15:29,336 - Model - INFO - test acc (187 points) 0.77524, cd 0.00436, hd 0.10445
+2023-01-01 00:16:19,432 - Model - INFO - test acc (204 points) 0.78285, cd 0.00402, hd 0.09956
+2023-01-01 00:17:09,698 - Model - INFO - test acc (222 points) 0.79327, cd 0.00373, hd 0.09498
+2023-01-01 00:18:07,726 - Model - INFO - test acc (241 points) 0.80729, cd 0.00346, hd 0.09076
+2023-01-01 00:19:11,532 - Model - INFO - test acc (263 points) 0.81731, cd 0.00319, hd 0.08654
+2023-01-01 00:20:20,427 - Model - INFO - test acc (286 points) 0.82853, cd 0.00296, hd 0.08280
+2023-01-01 00:21:31,410 - Model - INFO - test acc (312 points) 0.83133, cd 0.00272, hd 0.07921
+2023-01-01 00:22:52,313 - Model - INFO - test acc (339 points) 0.83213, cd 0.00251, hd 0.07603
+2023-01-01 00:24:20,365 - Model - INFO - test acc (369 points) 0.83814, cd 0.00230, hd 0.07299
+2023-01-01 00:25:56,186 - Model - INFO - test acc (402 points) 0.84295, cd 0.00209, hd 0.07016
+2023-01-01 00:27:38,165 - Model - INFO - test acc (438 points) 0.85056, cd 0.00189, hd 0.06749
+2023-01-01 00:29:29,006 - Model - INFO - test acc (477 points) 0.85377, cd 0.00169, hd 0.06499
+2023-01-01 00:31:33,052 - Model - INFO - test acc (519 points) 0.85897, cd 0.00150, hd 0.06262
+2023-01-01 00:33:47,973 - Model - INFO - test acc (565 points) 0.85938, cd 0.00131, hd 0.06034
+2023-01-01 00:36:12,267 - Model - INFO - test acc (615 points) 0.86058, cd 0.00112, hd 0.05816
+2023-01-01 00:38:48,729 - Model - INFO - test acc (669 points) 0.86298, cd 0.00093, hd 0.05605
+2023-01-01 00:41:37,714 - Model - INFO - test acc (729 points) 0.86378, cd 0.00073, hd 0.05396
+2023-01-01 00:44:36,298 - Model - INFO - test acc (793 points) 0.86538, cd 0.00054, hd 0.05192
+2023-01-01 00:48:00,421 - Model - INFO - test acc (864 points) 0.86619, cd 0.00035, hd 0.04951
+2023-01-01 00:51:41,367 - Model - INFO - test acc (940 points) 0.86979, cd 0.00016, hd 0.04629
+2023-01-01 00:55:41,701 - Model - INFO - test acc (1024 points) 0.87139, cd -0.00000, hd 0.00000
+2023-01-01 11:06:15,771 - Model - INFO - PARAMETER ...
+2023-01-01 11:06:15,771 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='rs', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-01 11:06:19,174 - Model - INFO - test acc (16 points) 0.06130, cd 0.06644, hd 0.59621
+2023-01-01 11:06:19,346 - Model - INFO - test acc (17 points) 0.06611, cd 0.06250, hd 0.58254
+2023-01-01 11:06:19,564 - Model - INFO - test acc (18 points) 0.06651, cd 0.05899, hd 0.56715
+2023-01-01 11:06:19,752 - Model - INFO - test acc (20 points) 0.06811, cd 0.05419, hd 0.55287
+2023-01-01 11:06:19,927 - Model - INFO - test acc (22 points) 0.07572, cd 0.04986, hd 0.53427
+2023-01-01 11:06:20,100 - Model - INFO - test acc (24 points) 0.08934, cd 0.04578, hd 0.51659
+2023-01-01 11:06:20,266 - Model - INFO - test acc (26 points) 0.09135, cd 0.04270, hd 0.50285
+2023-01-01 11:06:20,434 - Model - INFO - test acc (28 points) 0.11498, cd 0.03941, hd 0.48455
+2023-01-01 11:06:20,609 - Model - INFO - test acc (31 points) 0.12380, cd 0.03632, hd 0.47038
+2023-01-01 11:06:20,803 - Model - INFO - test acc (34 points) 0.15825, cd 0.03317, hd 0.45382
+2023-01-01 11:06:20,998 - Model - INFO - test acc (37 points) 0.17107, cd 0.03081, hd 0.44140
+2023-01-01 11:06:21,191 - Model - INFO - test acc (40 points) 0.19471, cd 0.02858, hd 0.42778
+2023-01-01 11:06:21,388 - Model - INFO - test acc (44 points) 0.23237, cd 0.02606, hd 0.41099
+2023-01-01 11:06:21,586 - Model - INFO - test acc (48 points) 0.26522, cd 0.02420, hd 0.39951
+2023-01-01 11:06:21,786 - Model - INFO - test acc (52 points) 0.28606, cd 0.02238, hd 0.38584
+2023-01-01 11:06:21,990 - Model - INFO - test acc (57 points) 0.33013, cd 0.02063, hd 0.37321
+2023-01-01 11:06:22,194 - Model - INFO - test acc (62 points) 0.35817, cd 0.01901, hd 0.36019
+2023-01-01 11:06:22,425 - Model - INFO - test acc (67 points) 0.39103, cd 0.01764, hd 0.35008
+2023-01-01 11:06:22,654 - Model - INFO - test acc (73 points) 0.42388, cd 0.01628, hd 0.33672
+2023-01-01 11:06:22,892 - Model - INFO - test acc (80 points) 0.44511, cd 0.01486, hd 0.32397
+2023-01-01 11:06:23,132 - Model - INFO - test acc (87 points) 0.47115, cd 0.01378, hd 0.31465
+2023-01-01 11:06:23,374 - Model - INFO - test acc (95 points) 0.51522, cd 0.01270, hd 0.30258
+2023-01-01 11:06:23,623 - Model - INFO - test acc (103 points) 0.53486, cd 0.01173, hd 0.29200
+2023-01-01 11:06:23,879 - Model - INFO - test acc (112 points) 0.54728, cd 0.01080, hd 0.28008
+2023-01-01 11:06:24,135 - Model - INFO - test acc (122 points) 0.57973, cd 0.00990, hd 0.26825
+2023-01-01 11:06:24,429 - Model - INFO - test acc (133 points) 0.61178, cd 0.00915, hd 0.25969
+2023-01-01 11:06:24,729 - Model - INFO - test acc (145 points) 0.63462, cd 0.00841, hd 0.25225
+2023-01-01 11:06:25,037 - Model - INFO - test acc (158 points) 0.67388, cd 0.00773, hd 0.24110
+2023-01-01 11:06:25,357 - Model - INFO - test acc (172 points) 0.67829, cd 0.00711, hd 0.23074
+2023-01-01 11:06:25,676 - Model - INFO - test acc (187 points) 0.69631, cd 0.00653, hd 0.22170
+2023-01-01 11:06:26,024 - Model - INFO - test acc (204 points) 0.70913, cd 0.00597, hd 0.21277
+2023-01-01 11:06:26,372 - Model - INFO - test acc (222 points) 0.73397, cd 0.00547, hd 0.20374
+2023-01-01 11:06:26,732 - Model - INFO - test acc (241 points) 0.73277, cd 0.00503, hd 0.19472
+2023-01-01 11:06:27,140 - Model - INFO - test acc (263 points) 0.75561, cd 0.00459, hd 0.18666
+2023-01-01 11:06:27,556 - Model - INFO - test acc (286 points) 0.76763, cd 0.00419, hd 0.17855
+2023-01-01 11:06:27,992 - Model - INFO - test acc (312 points) 0.78085, cd 0.00381, hd 0.17007
+2023-01-01 11:06:28,447 - Model - INFO - test acc (339 points) 0.79247, cd 0.00347, hd 0.16272
+2023-01-01 11:06:28,925 - Model - INFO - test acc (369 points) 0.80128, cd 0.00314, hd 0.15516
+2023-01-01 11:06:29,456 - Model - INFO - test acc (402 points) 0.81170, cd 0.00283, hd 0.14814
+2023-01-01 11:06:30,001 - Model - INFO - test acc (438 points) 0.82091, cd 0.00253, hd 0.14075
+2023-01-01 11:06:30,582 - Model - INFO - test acc (477 points) 0.82692, cd 0.00226, hd 0.13318
+2023-01-01 11:06:31,219 - Model - INFO - test acc (519 points) 0.83454, cd 0.00200, hd 0.12603
+2023-01-01 11:06:31,878 - Model - INFO - test acc (565 points) 0.84255, cd 0.00174, hd 0.11828
+2023-01-01 11:06:32,571 - Model - INFO - test acc (615 points) 0.84976, cd 0.00149, hd 0.11141
+2023-01-01 11:06:33,329 - Model - INFO - test acc (669 points) 0.85056, cd 0.00125, hd 0.10484
+2023-01-01 11:06:34,129 - Model - INFO - test acc (729 points) 0.85697, cd 0.00100, hd 0.09764
+2023-01-01 11:06:34,998 - Model - INFO - test acc (793 points) 0.86659, cd 0.00076, hd 0.09125
+2023-01-01 11:06:35,927 - Model - INFO - test acc (864 points) 0.86659, cd 0.00051, hd 0.08458
+2023-01-01 11:06:36,925 - Model - INFO - test acc (940 points) 0.86739, cd 0.00026, hd 0.07827
+2023-01-01 11:06:37,987 - Model - INFO - test acc (1024 points) 0.87139, cd -0.00000, hd 0.00000
+2023-01-01 11:08:00,361 - Model - INFO - PARAMETER ...
+2023-01-01 11:08:00,361 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='rs', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-01 11:08:03,736 - Model - INFO - test acc (16 points) 0.05769, cd 0.06613, hd 0.59547
+2023-01-01 11:08:03,903 - Model - INFO - test acc (17 points) 0.06250, cd 0.06251, hd 0.58118
+2023-01-01 11:08:04,075 - Model - INFO - test acc (18 points) 0.06691, cd 0.05939, hd 0.57216
+2023-01-01 11:08:04,244 - Model - INFO - test acc (20 points) 0.07292, cd 0.05426, hd 0.55269
+2023-01-01 11:08:04,417 - Model - INFO - test acc (22 points) 0.07812, cd 0.04970, hd 0.53406
+2023-01-01 11:08:04,591 - Model - INFO - test acc (24 points) 0.09095, cd 0.04592, hd 0.51619
+2023-01-01 11:08:04,761 - Model - INFO - test acc (26 points) 0.10176, cd 0.04246, hd 0.49948
+2023-01-01 11:08:04,937 - Model - INFO - test acc (28 points) 0.11098, cd 0.03986, hd 0.48764
+2023-01-01 11:08:05,112 - Model - INFO - test acc (31 points) 0.14062, cd 0.03626, hd 0.47293
+2023-01-01 11:08:05,308 - Model - INFO - test acc (34 points) 0.15745, cd 0.03322, hd 0.45393
+2023-01-01 11:08:05,509 - Model - INFO - test acc (37 points) 0.17869, cd 0.03063, hd 0.43930
+2023-01-01 11:08:05,706 - Model - INFO - test acc (40 points) 0.20353, cd 0.02850, hd 0.42701
+2023-01-01 11:08:05,913 - Model - INFO - test acc (44 points) 0.22997, cd 0.02621, hd 0.41134
+2023-01-01 11:08:06,116 - Model - INFO - test acc (48 points) 0.26162, cd 0.02413, hd 0.39768
+2023-01-01 11:08:06,331 - Model - INFO - test acc (52 points) 0.29127, cd 0.02241, hd 0.38955
+2023-01-01 11:08:06,539 - Model - INFO - test acc (57 points) 0.32652, cd 0.02049, hd 0.37235
+2023-01-01 11:08:06,746 - Model - INFO - test acc (62 points) 0.35577, cd 0.01900, hd 0.36095
+2023-01-01 11:08:06,979 - Model - INFO - test acc (67 points) 0.38982, cd 0.01763, hd 0.34823
+2023-01-01 11:08:07,209 - Model - INFO - test acc (73 points) 0.41106, cd 0.01627, hd 0.33651
+2023-01-01 11:08:07,450 - Model - INFO - test acc (80 points) 0.44271, cd 0.01492, hd 0.32459
+2023-01-01 11:08:07,694 - Model - INFO - test acc (87 points) 0.47636, cd 0.01378, hd 0.31364
+2023-01-01 11:08:07,974 - Model - INFO - test acc (95 points) 0.51282, cd 0.01268, hd 0.30181
+2023-01-01 11:08:08,223 - Model - INFO - test acc (103 points) 0.53926, cd 0.01172, hd 0.29176
+2023-01-01 11:08:08,476 - Model - INFO - test acc (112 points) 0.55849, cd 0.01082, hd 0.28157
+2023-01-01 11:08:08,733 - Model - INFO - test acc (122 points) 0.58694, cd 0.00995, hd 0.27118
+2023-01-01 11:08:09,029 - Model - INFO - test acc (133 points) 0.61258, cd 0.00916, hd 0.26113
+2023-01-01 11:08:09,330 - Model - INFO - test acc (145 points) 0.63862, cd 0.00839, hd 0.24939
+2023-01-01 11:08:09,648 - Model - INFO - test acc (158 points) 0.65144, cd 0.00770, hd 0.24013
+2023-01-01 11:08:09,967 - Model - INFO - test acc (172 points) 0.67788, cd 0.00710, hd 0.23208
+2023-01-01 11:08:10,287 - Model - INFO - test acc (187 points) 0.69311, cd 0.00651, hd 0.22100
+2023-01-01 11:08:10,632 - Model - INFO - test acc (204 points) 0.70873, cd 0.00599, hd 0.21454
+2023-01-01 11:08:10,981 - Model - INFO - test acc (222 points) 0.72756, cd 0.00548, hd 0.20426
+2023-01-01 11:08:11,342 - Model - INFO - test acc (241 points) 0.74119, cd 0.00503, hd 0.19533
+2023-01-01 11:08:11,748 - Model - INFO - test acc (263 points) 0.75401, cd 0.00458, hd 0.18678
+2023-01-01 11:08:12,168 - Model - INFO - test acc (286 points) 0.76723, cd 0.00419, hd 0.17903
+2023-01-01 11:08:12,604 - Model - INFO - test acc (312 points) 0.77604, cd 0.00381, hd 0.17088
+2023-01-01 11:08:13,086 - Model - INFO - test acc (339 points) 0.79527, cd 0.00347, hd 0.16314
+2023-01-01 11:08:13,576 - Model - INFO - test acc (369 points) 0.80048, cd 0.00314, hd 0.15593
+2023-01-01 11:08:14,116 - Model - INFO - test acc (402 points) 0.80248, cd 0.00283, hd 0.14793
+2023-01-01 11:08:14,704 - Model - INFO - test acc (438 points) 0.81931, cd 0.00254, hd 0.14125
+2023-01-01 11:08:15,379 - Model - INFO - test acc (477 points) 0.82893, cd 0.00226, hd 0.13336
+2023-01-01 11:08:16,047 - Model - INFO - test acc (519 points) 0.84014, cd 0.00200, hd 0.12638
+2023-01-01 11:08:16,713 - Model - INFO - test acc (565 points) 0.84655, cd 0.00174, hd 0.11941
+2023-01-01 11:08:17,476 - Model - INFO - test acc (615 points) 0.84816, cd 0.00149, hd 0.11209
+2023-01-01 11:08:18,294 - Model - INFO - test acc (669 points) 0.85216, cd 0.00125, hd 0.10574
+2023-01-01 11:08:19,153 - Model - INFO - test acc (729 points) 0.85497, cd 0.00100, hd 0.09828
+2023-01-01 11:08:20,066 - Model - INFO - test acc (793 points) 0.86178, cd 0.00076, hd 0.09137
+2023-01-01 11:08:21,057 - Model - INFO - test acc (864 points) 0.86378, cd 0.00051, hd 0.08461
+2023-01-01 11:08:22,114 - Model - INFO - test acc (940 points) 0.86819, cd 0.00026, hd 0.07803
+2023-01-01 11:08:23,273 - Model - INFO - test acc (1024 points) 0.87139, cd -0.00000, hd 0.00000
+2023-01-01 11:08:28,867 - Model - INFO - PARAMETER ...
+2023-01-01 11:08:28,867 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-01 11:08:32,347 - Model - INFO - test acc (16 points) 0.16506, cd 0.04789, hd 0.37905
+2023-01-01 11:08:32,643 - Model - INFO - test acc (17 points) 0.17348, cd 0.04499, hd 0.36693
+2023-01-01 11:08:32,950 - Model - INFO - test acc (18 points) 0.18429, cd 0.04240, hd 0.35601
+2023-01-01 11:08:33,283 - Model - INFO - test acc (20 points) 0.21314, cd 0.03809, hd 0.33742
+2023-01-01 11:08:33,634 - Model - INFO - test acc (22 points) 0.23998, cd 0.03455, hd 0.32090
+2023-01-01 11:08:33,997 - Model - INFO - test acc (24 points) 0.26282, cd 0.03161, hd 0.30658
+2023-01-01 11:08:34,392 - Model - INFO - test acc (26 points) 0.28806, cd 0.02917, hd 0.29412
+2023-01-01 11:08:34,802 - Model - INFO - test acc (28 points) 0.31811, cd 0.02706, hd 0.28299
+2023-01-01 11:08:35,251 - Model - INFO - test acc (31 points) 0.35056, cd 0.02442, hd 0.26835
+2023-01-01 11:08:35,738 - Model - INFO - test acc (34 points) 0.38261, cd 0.02225, hd 0.25560
+2023-01-01 11:08:36,249 - Model - INFO - test acc (37 points) 0.40545, cd 0.02046, hd 0.24435
+2023-01-01 11:08:36,779 - Model - INFO - test acc (40 points) 0.43269, cd 0.01895, hd 0.23442
+2023-01-01 11:08:37,355 - Model - INFO - test acc (44 points) 0.46554, cd 0.01726, hd 0.22294
+2023-01-01 11:08:37,969 - Model - INFO - test acc (48 points) 0.49840, cd 0.01586, hd 0.21290
+2023-01-01 11:08:38,620 - Model - INFO - test acc (52 points) 0.52244, cd 0.01467, hd 0.20429
+2023-01-01 11:08:39,328 - Model - INFO - test acc (57 points) 0.55248, cd 0.01342, hd 0.19476
+2023-01-01 11:08:40,089 - Model - INFO - test acc (62 points) 0.57692, cd 0.01237, hd 0.18657
+2023-01-01 11:08:40,959 - Model - INFO - test acc (67 points) 0.59415, cd 0.01148, hd 0.17928
+2023-01-01 11:08:41,987 - Model - INFO - test acc (73 points) 0.60978, cd 0.01056, hd 0.17146
+2023-01-01 11:08:43,053 - Model - INFO - test acc (80 points) 0.62500, cd 0.00967, hd 0.16345
+2023-01-01 11:08:44,158 - Model - INFO - test acc (87 points) 0.64463, cd 0.00893, hd 0.15648
+2023-01-01 11:08:45,429 - Model - INFO - test acc (95 points) 0.66426, cd 0.00821, hd 0.14949
+2023-01-01 11:08:46,620 - Model - INFO - test acc (103 points) 0.68349, cd 0.00760, hd 0.14331
+2023-01-01 11:08:47,875 - Model - INFO - test acc (112 points) 0.69832, cd 0.00702, hd 0.13724
+2023-01-01 11:08:49,232 - Model - INFO - test acc (122 points) 0.71915, cd 0.00648, hd 0.13128
+2023-01-01 11:08:50,709 - Model - INFO - test acc (133 points) 0.73117, cd 0.00597, hd 0.12548
+2023-01-01 11:08:52,312 - Model - INFO - test acc (145 points) 0.74119, cd 0.00551, hd 0.11990
+2023-01-01 11:08:54,027 - Model - INFO - test acc (158 points) 0.75441, cd 0.00509, hd 0.11457
+2023-01-01 11:08:55,881 - Model - INFO - test acc (172 points) 0.76242, cd 0.00470, hd 0.10935
+2023-01-01 11:08:57,882 - Model - INFO - test acc (187 points) 0.77524, cd 0.00436, hd 0.10445
+2023-01-01 11:09:00,054 - Model - INFO - test acc (204 points) 0.78285, cd 0.00402, hd 0.09956
+2023-01-01 11:09:02,401 - Model - INFO - test acc (222 points) 0.79327, cd 0.00373, hd 0.09498
+2023-01-01 11:09:04,914 - Model - INFO - test acc (241 points) 0.80729, cd 0.00346, hd 0.09076
+2023-01-01 11:09:07,684 - Model - INFO - test acc (263 points) 0.81731, cd 0.00319, hd 0.08654
+2023-01-01 11:09:10,663 - Model - INFO - test acc (286 points) 0.82853, cd 0.00296, hd 0.08280
+2023-01-01 11:09:13,888 - Model - INFO - test acc (312 points) 0.83133, cd 0.00272, hd 0.07921
+2023-01-01 11:09:17,448 - Model - INFO - test acc (339 points) 0.83213, cd 0.00251, hd 0.07603
+2023-01-01 11:09:21,315 - Model - INFO - test acc (369 points) 0.83814, cd 0.00230, hd 0.07299
+2023-01-01 11:09:25,571 - Model - INFO - test acc (402 points) 0.84295, cd 0.00209, hd 0.07016
+2023-01-01 11:09:30,099 - Model - INFO - test acc (438 points) 0.85056, cd 0.00189, hd 0.06749
+2023-01-01 11:09:35,143 - Model - INFO - test acc (477 points) 0.85377, cd 0.00169, hd 0.06499
+2023-01-01 11:09:40,525 - Model - INFO - test acc (519 points) 0.85897, cd 0.00150, hd 0.06262
+2023-01-01 11:09:46,344 - Model - INFO - test acc (565 points) 0.85938, cd 0.00131, hd 0.06034
+2023-01-01 11:09:52,660 - Model - INFO - test acc (615 points) 0.86058, cd 0.00112, hd 0.05816
+2023-01-01 11:09:59,553 - Model - INFO - test acc (669 points) 0.86298, cd 0.00093, hd 0.05605
+2023-01-01 11:10:07,270 - Model - INFO - test acc (729 points) 0.86378, cd 0.00073, hd 0.05396
+2023-01-01 11:10:16,355 - Model - INFO - test acc (793 points) 0.86538, cd 0.00054, hd 0.05192
+2023-01-01 11:10:25,969 - Model - INFO - test acc (864 points) 0.86619, cd 0.00035, hd 0.04951
+2023-01-01 11:10:35,570 - Model - INFO - test acc (940 points) 0.86979, cd 0.00016, hd 0.04629
+2023-01-01 11:10:46,171 - Model - INFO - test acc (1024 points) 0.87139, cd -0.00000, hd 0.00000
+2023-01-01 13:39:12,314 - Model - INFO - PARAMETER ...
+2023-01-01 13:39:12,314 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 13:41:21,053 - Model - INFO - PARAMETER ...
+2023-01-01 13:41:21,053 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 13:42:59,898 - Model - INFO - PARAMETER ...
+2023-01-01 13:42:59,898 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=128, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 13:54:58,761 - Model - INFO - PARAMETER ...
+2023-01-01 13:54:58,761 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 13:56:49,612 - Model - INFO - PARAMETER ...
+2023-01-01 13:56:49,612 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 13:57:03,436 - Model - INFO - PARAMETER ...
+2023-01-01 13:57:03,436 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 13:58:14,938 - Model - INFO - PARAMETER ...
+2023-01-01 13:58:14,938 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 13:59:19,896 - Model - INFO - PARAMETER ...
+2023-01-01 13:59:19,896 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 14:01:09,748 - Model - INFO - PARAMETER ...
+2023-01-01 14:01:09,748 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='rs', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 14:03:21,101 - Model - INFO - PARAMETER ...
+2023-01-01 14:03:21,101 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=8, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 14:04:13,026 - Model - INFO - PARAMETER ...
+2023-01-01 14:04:13,026 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=8, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-01 14:04:55,096 - Model - INFO - PARAMETER ...
+2023-01-01 14:04:55,096 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=8, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='rs', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:27:07,628 - Model - INFO - PARAMETER ...
+2023-01-03 17:27:07,628 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=8, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:27:33,968 - Model - INFO - PARAMETER ...
+2023-01-03 17:27:33,968 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=8, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:28:31,717 - Model - INFO - PARAMETER ...
+2023-01-03 17:28:31,717 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:29:08,171 - Model - INFO - PARAMETER ...
+2023-01-03 17:29:08,171 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:35:42,029 - Model - INFO - PARAMETER ...
+2023-01-03 17:35:42,029 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:36:25,439 - Model - INFO - PARAMETER ...
+2023-01-03 17:36:25,439 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:37:05,793 - Model - INFO - PARAMETER ...
+2023-01-03 17:37:05,793 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=8, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:37:30,074 - Model - INFO - PARAMETER ...
+2023-01-03 17:37:30,074 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=8, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:38:45,857 - Model - INFO - PARAMETER ...
+2023-01-03 17:38:45,857 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=8, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='rs', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:39:29,494 - Model - INFO - PARAMETER ...
+2023-01-03 17:39:29,494 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=8, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='rs', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:40:09,889 - Model - INFO - PARAMETER ...
+2023-01-03 17:40:09,889 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='rs', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 17:41:04,540 - Model - INFO - PARAMETER ...
+2023-01-03 17:41:04,540 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='rs', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:17:39,857 - Model - INFO - PARAMETER ...
+2023-01-03 21:17:39,857 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=1, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:18:05,838 - Model - INFO - PARAMETER ...
+2023-01-03 21:18:05,838 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=1, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:19:13,149 - Model - INFO - PARAMETER ...
+2023-01-03 21:19:13,149 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=2, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:24:55,200 - Model - INFO - PARAMETER ...
+2023-01-03 21:24:55,200 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=3, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:25:20,302 - Model - INFO - PARAMETER ...
+2023-01-03 21:25:20,302 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=4, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:25:43,416 - Model - INFO - PARAMETER ...
+2023-01-03 21:25:43,416 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=5, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:37:55,272 - Model - INFO - PARAMETER ...
+2023-01-03 21:37:55,272 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=5, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:38:20,269 - Model - INFO - PARAMETER ...
+2023-01-03 21:38:20,269 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=1, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:38:46,251 - Model - INFO - PARAMETER ...
+2023-01-03 21:38:46,251 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=2, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:39:24,505 - Model - INFO - PARAMETER ...
+2023-01-03 21:39:24,505 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=10, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-03 21:39:59,647 - Model - INFO - PARAMETER ...
+2023-01-03 21:39:59,647 - Model - INFO - Namespace(actual_n_sample=32, batch_size=4, cascade_way=False, check_repeat=True, class_choice=0, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2023-01-04 16:27:39,020 - Model - INFO - PARAMETER ...
+2023-01-04 16:27:39,020 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 16:27:45,128 - Model - INFO - test acc (256 points) 0.81130, cd 0.00327, hd 0.08781
+2023-01-04 19:16:18,891 - Model - INFO - PARAMETER ...
+2023-01-04 19:16:18,891 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=True, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 19:16:27,959 - Model - INFO - PARAMETER ...
+2023-01-04 19:16:27,959 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 19:16:59,127 - Model - INFO - test acc (64 points) 0.85096, cd 0.01528, hd 0.22465
+2023-01-04 19:18:38,501 - Model - INFO - PARAMETER ...
+2023-01-04 19:18:38,501 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 19:19:09,435 - Model - INFO - test acc (64 points) 0.78726, cd 0.01528, hd 0.22465
+2023-01-04 19:19:31,019 - Model - INFO - PARAMETER ...
+2023-01-04 19:19:31,019 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla_2', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 19:20:01,555 - Model - INFO - test acc (64 points) 0.74079, cd 0.01528, hd 0.22465
+2023-01-04 19:20:31,163 - Model - INFO - PARAMETER ...
+2023-01-04 19:20:31,163 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla_2', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 19:20:50,039 - Model - INFO - test acc (64 points) 0.54928, cd 0.01199, hd 0.18345
+2023-01-04 19:21:03,948 - Model - INFO - PARAMETER ...
+2023-01-04 19:21:03,948 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 19:21:24,448 - Model - INFO - test acc (64 points) 0.57612, cd 0.01199, hd 0.18345
+2023-01-04 19:21:39,451 - Model - INFO - PARAMETER ...
+2023-01-04 19:21:39,451 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 19:21:59,838 - Model - INFO - test acc (64 points) 0.56611, cd 0.01199, hd 0.18345
+2023-01-04 20:00:14,954 - Model - INFO - PARAMETER ...
+2023-01-04 20:00:14,954 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 20:01:25,185 - Model - INFO - test acc (256 points) 0.87821, cd 0.00445, hd 0.11930
+2023-01-04 20:01:48,594 - Model - INFO - PARAMETER ...
+2023-01-04 20:01:48,594 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 20:02:58,797 - Model - INFO - test acc (256 points) 0.86498, cd 0.00445, hd 0.11930
+2023-01-04 20:03:16,488 - Model - INFO - PARAMETER ...
+2023-01-04 20:03:16,489 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla_2', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 20:03:28,592 - Model - INFO - test acc (256 points) 0.86058, cd 0.00445, hd 0.11930
+2023-01-04 20:03:56,209 - Model - INFO - PARAMETER ...
+2023-01-04 20:03:56,209 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla_2', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 20:04:05,655 - Model - INFO - test acc (32 points) 0.53526, cd 0.02928, hd 0.31051
+2023-01-04 20:04:39,550 - Model - INFO - PARAMETER ...
+2023-01-04 20:04:39,550 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 20:04:48,951 - Model - INFO - test acc (32 points) 0.64383, cd 0.02928, hd 0.31051
+2023-01-04 20:05:06,211 - Model - INFO - PARAMETER ...
+2023-01-04 20:05:06,211 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=8, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2023-01-04 20:05:16,013 - Model - INFO - test acc (32 points) 0.82973, cd 0.02928, hd 0.31051

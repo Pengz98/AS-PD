@@ -1,0 +1,1831 @@
+2022-10-06 12:05:26,826 - Model - INFO - PARAMETER ...
+2022-10-06 12:05:26,826 - Model - INFO - Namespace(batch_size=64, data_dir='modelnet40_ply_hdf5_2048', decay_rate=0.0001, epoch=250, gpu='0', learning_rate=0.001, log_dir='baseline_aug_2', lr_decay=0.7, model='pointnet_cls_vanilla_2', n_point=1024, normalize=True, optimizer='Adam', process_data=False, step_size=20, use_large_dataset=False, use_uniform_sample=False)
+2022-10-06 12:05:28,180 - Model - INFO - num of train_data: 9840
+2022-10-06 12:05:28,180 - Model - INFO - num of test_data: 2468
+2022-10-06 12:05:29,452 - Model - INFO - No existing models, starting training from scratch...
+2022-10-06 12:05:29,453 - Model - INFO - Epoch 0 (0/249):
+2022-10-06 12:05:29,453 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:05:29,453 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:07:07,856 - Model - INFO - PARAMETER ...
+2022-10-06 12:07:07,856 - Model - INFO - Namespace(batch_size=64, data_dir='modelnet40_ply_hdf5_2048', decay_rate=0.0001, epoch=250, gpu='0', learning_rate=0.001, log_dir='baseline_aug_2', lr_decay=0.7, model='pointnet_cls_vanilla_2', n_point=1024, normalize=True, optimizer='Adam', process_data=False, step_size=20, use_large_dataset=False, use_uniform_sample=False)
+2022-10-06 12:07:09,217 - Model - INFO - num of train_data: 9840
+2022-10-06 12:07:09,217 - Model - INFO - num of test_data: 2468
+2022-10-06 12:07:10,503 - Model - INFO - No existing models, starting training from scratch...
+2022-10-06 12:07:10,503 - Model - INFO - Epoch 0 (0/249):
+2022-10-06 12:07:10,503 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:07:10,503 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:05,535 - Model - INFO - PARAMETER ...
+2022-10-06 12:08:05,535 - Model - INFO - Namespace(batch_size=64, data_dir='modelnet40_ply_hdf5_2048', decay_rate=0.0001, epoch=250, gpu='0', learning_rate=0.001, log_dir='baseline_aug_2', lr_decay=0.7, model='pointnet_cls_vanilla_2', n_point=1024, normalize=True, optimizer='Adam', process_data=False, step_size=20, use_large_dataset=False, use_uniform_sample=False)
+2022-10-06 12:08:06,888 - Model - INFO - num of train_data: 9840
+2022-10-06 12:08:06,888 - Model - INFO - num of test_data: 2468
+2022-10-06 12:08:08,169 - Model - INFO - No existing models, starting training from scratch...
+2022-10-06 12:08:08,169 - Model - INFO - Epoch 0 (0/249):
+2022-10-06 12:08:08,169 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:08,169 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:12,210 - Model - INFO - Train Instance Accuracy: 0.519481
+2022-10-06 12:08:12,210 - Model - INFO - Train Instance Loss: 1.837460
+2022-10-06 12:08:12,502 - Model - INFO - Test Instance Accuracy: 0.591435
+2022-10-06 12:08:12,502 - Model - INFO - Best Instance Accuracy: 0.591435
+2022-10-06 12:08:12,503 - Model - INFO - Save model...
+2022-10-06 12:08:12,503 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:08:12,512 - Model - INFO - Epoch 1 (1/249):
+2022-10-06 12:08:12,512 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:12,512 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:16,182 - Model - INFO - Train Instance Accuracy: 0.699303
+2022-10-06 12:08:16,182 - Model - INFO - Train Instance Loss: 1.079002
+2022-10-06 12:08:16,475 - Model - INFO - Test Instance Accuracy: 0.680778
+2022-10-06 12:08:16,475 - Model - INFO - Best Instance Accuracy: 0.680778
+2022-10-06 12:08:16,475 - Model - INFO - Save model...
+2022-10-06 12:08:16,475 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:08:16,484 - Model - INFO - Epoch 2 (2/249):
+2022-10-06 12:08:16,485 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:16,485 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:20,148 - Model - INFO - Train Instance Accuracy: 0.744149
+2022-10-06 12:08:20,148 - Model - INFO - Train Instance Loss: 0.895721
+2022-10-06 12:08:20,441 - Model - INFO - Test Instance Accuracy: 0.728811
+2022-10-06 12:08:20,441 - Model - INFO - Best Instance Accuracy: 0.728811
+2022-10-06 12:08:20,441 - Model - INFO - Save model...
+2022-10-06 12:08:20,441 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:08:20,450 - Model - INFO - Epoch 3 (3/249):
+2022-10-06 12:08:20,450 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:20,450 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:24,117 - Model - INFO - Train Instance Accuracy: 0.768804
+2022-10-06 12:08:24,117 - Model - INFO - Train Instance Loss: 0.786505
+2022-10-06 12:08:24,411 - Model - INFO - Test Instance Accuracy: 0.758280
+2022-10-06 12:08:24,411 - Model - INFO - Best Instance Accuracy: 0.758280
+2022-10-06 12:08:24,411 - Model - INFO - Save model...
+2022-10-06 12:08:24,411 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:08:24,421 - Model - INFO - Epoch 4 (4/249):
+2022-10-06 12:08:24,421 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:24,421 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:28,085 - Model - INFO - Train Instance Accuracy: 0.782873
+2022-10-06 12:08:28,085 - Model - INFO - Train Instance Loss: 0.724164
+2022-10-06 12:08:28,378 - Model - INFO - Test Instance Accuracy: 0.700009
+2022-10-06 12:08:28,378 - Model - INFO - Best Instance Accuracy: 0.758280
+2022-10-06 12:08:28,379 - Model - INFO - Epoch 5 (5/249):
+2022-10-06 12:08:28,379 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:28,379 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:32,046 - Model - INFO - Train Instance Accuracy: 0.794237
+2022-10-06 12:08:32,046 - Model - INFO - Train Instance Loss: 0.674328
+2022-10-06 12:08:32,341 - Model - INFO - Test Instance Accuracy: 0.741141
+2022-10-06 12:08:32,341 - Model - INFO - Best Instance Accuracy: 0.758280
+2022-10-06 12:08:32,341 - Model - INFO - Epoch 6 (6/249):
+2022-10-06 12:08:32,341 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:32,341 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:36,016 - Model - INFO - Train Instance Accuracy: 0.803808
+2022-10-06 12:08:36,016 - Model - INFO - Train Instance Loss: 0.645075
+2022-10-06 12:08:36,311 - Model - INFO - Test Instance Accuracy: 0.728499
+2022-10-06 12:08:36,311 - Model - INFO - Best Instance Accuracy: 0.758280
+2022-10-06 12:08:36,311 - Model - INFO - Epoch 7 (7/249):
+2022-10-06 12:08:36,311 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:36,311 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:39,980 - Model - INFO - Train Instance Accuracy: 0.805871
+2022-10-06 12:08:39,980 - Model - INFO - Train Instance Loss: 0.614522
+2022-10-06 12:08:40,274 - Model - INFO - Test Instance Accuracy: 0.763355
+2022-10-06 12:08:40,274 - Model - INFO - Best Instance Accuracy: 0.763355
+2022-10-06 12:08:40,274 - Model - INFO - Save model...
+2022-10-06 12:08:40,274 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:08:40,283 - Model - INFO - Epoch 8 (8/249):
+2022-10-06 12:08:40,283 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:40,283 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:43,960 - Model - INFO - Train Instance Accuracy: 0.816491
+2022-10-06 12:08:43,960 - Model - INFO - Train Instance Loss: 0.590038
+2022-10-06 12:08:44,254 - Model - INFO - Test Instance Accuracy: 0.770566
+2022-10-06 12:08:44,254 - Model - INFO - Best Instance Accuracy: 0.770566
+2022-10-06 12:08:44,254 - Model - INFO - Save model...
+2022-10-06 12:08:44,255 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:08:44,264 - Model - INFO - Epoch 9 (9/249):
+2022-10-06 12:08:44,264 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:44,264 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:47,940 - Model - INFO - Train Instance Accuracy: 0.820076
+2022-10-06 12:08:47,940 - Model - INFO - Train Instance Loss: 0.570633
+2022-10-06 12:08:48,235 - Model - INFO - Test Instance Accuracy: 0.784900
+2022-10-06 12:08:48,235 - Model - INFO - Best Instance Accuracy: 0.784900
+2022-10-06 12:08:48,235 - Model - INFO - Save model...
+2022-10-06 12:08:48,235 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:08:48,245 - Model - INFO - Epoch 10 (10/249):
+2022-10-06 12:08:48,245 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:48,245 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:51,920 - Model - INFO - Train Instance Accuracy: 0.824405
+2022-10-06 12:08:51,920 - Model - INFO - Train Instance Loss: 0.552576
+2022-10-06 12:08:52,215 - Model - INFO - Test Instance Accuracy: 0.787616
+2022-10-06 12:08:52,215 - Model - INFO - Best Instance Accuracy: 0.787616
+2022-10-06 12:08:52,215 - Model - INFO - Save model...
+2022-10-06 12:08:52,215 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:08:52,224 - Model - INFO - Epoch 11 (11/249):
+2022-10-06 12:08:52,224 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:52,224 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:55,905 - Model - INFO - Train Instance Accuracy: 0.832014
+2022-10-06 12:08:55,905 - Model - INFO - Train Instance Loss: 0.531162
+2022-10-06 12:08:56,201 - Model - INFO - Test Instance Accuracy: 0.773816
+2022-10-06 12:08:56,201 - Model - INFO - Best Instance Accuracy: 0.787616
+2022-10-06 12:08:56,201 - Model - INFO - Epoch 12 (12/249):
+2022-10-06 12:08:56,201 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:08:56,201 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:08:59,885 - Model - INFO - Train Instance Accuracy: 0.837223
+2022-10-06 12:08:59,885 - Model - INFO - Train Instance Loss: 0.519444
+2022-10-06 12:09:00,181 - Model - INFO - Test Instance Accuracy: 0.809740
+2022-10-06 12:09:00,181 - Model - INFO - Best Instance Accuracy: 0.809740
+2022-10-06 12:09:00,181 - Model - INFO - Save model...
+2022-10-06 12:09:00,181 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:09:00,190 - Model - INFO - Epoch 13 (13/249):
+2022-10-06 12:09:00,191 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:09:00,191 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:09:03,869 - Model - INFO - Train Instance Accuracy: 0.836411
+2022-10-06 12:09:03,869 - Model - INFO - Train Instance Loss: 0.510718
+2022-10-06 12:09:04,164 - Model - INFO - Test Instance Accuracy: 0.755609
+2022-10-06 12:09:04,164 - Model - INFO - Best Instance Accuracy: 0.809740
+2022-10-06 12:09:04,165 - Model - INFO - Epoch 14 (14/249):
+2022-10-06 12:09:04,165 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:09:04,165 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:09:07,849 - Model - INFO - Train Instance Accuracy: 0.837629
+2022-10-06 12:09:07,849 - Model - INFO - Train Instance Loss: 0.501975
+2022-10-06 12:09:08,144 - Model - INFO - Test Instance Accuracy: 0.777110
+2022-10-06 12:09:08,144 - Model - INFO - Best Instance Accuracy: 0.809740
+2022-10-06 12:09:08,144 - Model - INFO - Epoch 15 (15/249):
+2022-10-06 12:09:08,144 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:09:08,144 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:09:11,830 - Model - INFO - Train Instance Accuracy: 0.839928
+2022-10-06 12:09:11,830 - Model - INFO - Train Instance Loss: 0.494463
+2022-10-06 12:09:12,125 - Model - INFO - Test Instance Accuracy: 0.785791
+2022-10-06 12:09:12,125 - Model - INFO - Best Instance Accuracy: 0.809740
+2022-10-06 12:09:12,125 - Model - INFO - Epoch 16 (16/249):
+2022-10-06 12:09:12,125 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:09:12,125 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:09:15,813 - Model - INFO - Train Instance Accuracy: 0.848789
+2022-10-06 12:09:15,813 - Model - INFO - Train Instance Loss: 0.481491
+2022-10-06 12:09:16,107 - Model - INFO - Test Instance Accuracy: 0.801327
+2022-10-06 12:09:16,108 - Model - INFO - Best Instance Accuracy: 0.809740
+2022-10-06 12:09:16,108 - Model - INFO - Epoch 17 (17/249):
+2022-10-06 12:09:16,108 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:09:16,108 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:09:19,797 - Model - INFO - Train Instance Accuracy: 0.850311
+2022-10-06 12:09:19,797 - Model - INFO - Train Instance Loss: 0.463186
+2022-10-06 12:09:20,091 - Model - INFO - Test Instance Accuracy: 0.813657
+2022-10-06 12:09:20,091 - Model - INFO - Best Instance Accuracy: 0.813657
+2022-10-06 12:09:20,091 - Model - INFO - Save model...
+2022-10-06 12:09:20,091 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:09:20,101 - Model - INFO - Epoch 18 (18/249):
+2022-10-06 12:09:20,101 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:09:20,101 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:09:23,789 - Model - INFO - Train Instance Accuracy: 0.855689
+2022-10-06 12:09:23,789 - Model - INFO - Train Instance Loss: 0.458044
+2022-10-06 12:09:24,083 - Model - INFO - Test Instance Accuracy: 0.770744
+2022-10-06 12:09:24,083 - Model - INFO - Best Instance Accuracy: 0.813657
+2022-10-06 12:09:24,083 - Model - INFO - Epoch 19 (19/249):
+2022-10-06 12:09:24,084 - Model - INFO - Learning rate:0.001000
+2022-10-06 12:09:24,084 - Model - INFO - BN momentum updated to: 0.100000
+2022-10-06 12:09:27,772 - Model - INFO - Train Instance Accuracy: 0.860051
+2022-10-06 12:09:27,772 - Model - INFO - Train Instance Loss: 0.451806
+2022-10-06 12:09:28,066 - Model - INFO - Test Instance Accuracy: 0.815171
+2022-10-06 12:09:28,066 - Model - INFO - Best Instance Accuracy: 0.815171
+2022-10-06 12:09:28,067 - Model - INFO - Save model...
+2022-10-06 12:09:28,067 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:09:28,076 - Model - INFO - Epoch 20 (20/249):
+2022-10-06 12:09:28,076 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:09:28,076 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:09:31,765 - Model - INFO - Train Instance Accuracy: 0.871550
+2022-10-06 12:09:31,766 - Model - INFO - Train Instance Loss: 0.402411
+2022-10-06 12:09:32,060 - Model - INFO - Test Instance Accuracy: 0.815349
+2022-10-06 12:09:32,060 - Model - INFO - Best Instance Accuracy: 0.815349
+2022-10-06 12:09:32,060 - Model - INFO - Save model...
+2022-10-06 12:09:32,060 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:09:32,069 - Model - INFO - Epoch 21 (21/249):
+2022-10-06 12:09:32,070 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:09:32,070 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:09:35,759 - Model - INFO - Train Instance Accuracy: 0.868845
+2022-10-06 12:09:35,759 - Model - INFO - Train Instance Loss: 0.402899
+2022-10-06 12:09:36,054 - Model - INFO - Test Instance Accuracy: 0.765937
+2022-10-06 12:09:36,055 - Model - INFO - Best Instance Accuracy: 0.815349
+2022-10-06 12:09:36,055 - Model - INFO - Epoch 22 (22/249):
+2022-10-06 12:09:36,055 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:09:36,055 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:09:39,744 - Model - INFO - Train Instance Accuracy: 0.872497
+2022-10-06 12:09:39,744 - Model - INFO - Train Instance Loss: 0.394302
+2022-10-06 12:09:40,040 - Model - INFO - Test Instance Accuracy: 0.795317
+2022-10-06 12:09:40,040 - Model - INFO - Best Instance Accuracy: 0.815349
+2022-10-06 12:09:40,040 - Model - INFO - Epoch 23 (23/249):
+2022-10-06 12:09:40,040 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:09:40,040 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:09:43,728 - Model - INFO - Train Instance Accuracy: 0.871821
+2022-10-06 12:09:43,728 - Model - INFO - Train Instance Loss: 0.387467
+2022-10-06 12:09:44,024 - Model - INFO - Test Instance Accuracy: 0.826968
+2022-10-06 12:09:44,024 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:09:44,025 - Model - INFO - Save model...
+2022-10-06 12:09:44,025 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:09:44,034 - Model - INFO - Epoch 24 (24/249):
+2022-10-06 12:09:44,034 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:09:44,034 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:09:47,727 - Model - INFO - Train Instance Accuracy: 0.874966
+2022-10-06 12:09:47,727 - Model - INFO - Train Instance Loss: 0.375280
+2022-10-06 12:09:48,022 - Model - INFO - Test Instance Accuracy: 0.800525
+2022-10-06 12:09:48,022 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:09:48,022 - Model - INFO - Epoch 25 (25/249):
+2022-10-06 12:09:48,022 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:09:48,023 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:09:51,715 - Model - INFO - Train Instance Accuracy: 0.874594
+2022-10-06 12:09:51,715 - Model - INFO - Train Instance Loss: 0.381899
+2022-10-06 12:09:52,011 - Model - INFO - Test Instance Accuracy: 0.818732
+2022-10-06 12:09:52,011 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:09:52,012 - Model - INFO - Epoch 26 (26/249):
+2022-10-06 12:09:52,012 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:09:52,012 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:09:55,707 - Model - INFO - Train Instance Accuracy: 0.874290
+2022-10-06 12:09:55,707 - Model - INFO - Train Instance Loss: 0.375231
+2022-10-06 12:09:56,003 - Model - INFO - Test Instance Accuracy: 0.811832
+2022-10-06 12:09:56,004 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:09:56,004 - Model - INFO - Epoch 27 (27/249):
+2022-10-06 12:09:56,004 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:09:56,004 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:09:59,698 - Model - INFO - Train Instance Accuracy: 0.875203
+2022-10-06 12:09:59,698 - Model - INFO - Train Instance Loss: 0.370991
+2022-10-06 12:09:59,993 - Model - INFO - Test Instance Accuracy: 0.778579
+2022-10-06 12:09:59,993 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:09:59,993 - Model - INFO - Epoch 28 (28/249):
+2022-10-06 12:09:59,993 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:09:59,994 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:03,693 - Model - INFO - Train Instance Accuracy: 0.875372
+2022-10-06 12:10:03,693 - Model - INFO - Train Instance Loss: 0.375921
+2022-10-06 12:10:03,988 - Model - INFO - Test Instance Accuracy: 0.808449
+2022-10-06 12:10:03,988 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:03,989 - Model - INFO - Epoch 29 (29/249):
+2022-10-06 12:10:03,989 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:03,989 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:07,684 - Model - INFO - Train Instance Accuracy: 0.882812
+2022-10-06 12:10:07,684 - Model - INFO - Train Instance Loss: 0.346248
+2022-10-06 12:10:07,979 - Model - INFO - Test Instance Accuracy: 0.781695
+2022-10-06 12:10:07,979 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:07,980 - Model - INFO - Epoch 30 (30/249):
+2022-10-06 12:10:07,980 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:07,980 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:11,676 - Model - INFO - Train Instance Accuracy: 0.879802
+2022-10-06 12:10:11,676 - Model - INFO - Train Instance Loss: 0.357077
+2022-10-06 12:10:11,972 - Model - INFO - Test Instance Accuracy: 0.821759
+2022-10-06 12:10:11,972 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:11,972 - Model - INFO - Epoch 31 (31/249):
+2022-10-06 12:10:11,972 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:11,972 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:15,669 - Model - INFO - Train Instance Accuracy: 0.881561
+2022-10-06 12:10:15,669 - Model - INFO - Train Instance Loss: 0.353337
+2022-10-06 12:10:15,965 - Model - INFO - Test Instance Accuracy: 0.814236
+2022-10-06 12:10:15,965 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:15,965 - Model - INFO - Epoch 32 (32/249):
+2022-10-06 12:10:15,965 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:15,965 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:19,660 - Model - INFO - Train Instance Accuracy: 0.880783
+2022-10-06 12:10:19,661 - Model - INFO - Train Instance Loss: 0.358575
+2022-10-06 12:10:19,956 - Model - INFO - Test Instance Accuracy: 0.805021
+2022-10-06 12:10:19,956 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:19,957 - Model - INFO - Epoch 33 (33/249):
+2022-10-06 12:10:19,957 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:19,957 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:23,652 - Model - INFO - Train Instance Accuracy: 0.886668
+2022-10-06 12:10:23,652 - Model - INFO - Train Instance Loss: 0.342353
+2022-10-06 12:10:23,947 - Model - INFO - Test Instance Accuracy: 0.807959
+2022-10-06 12:10:23,947 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:23,948 - Model - INFO - Epoch 34 (34/249):
+2022-10-06 12:10:23,948 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:23,948 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:27,645 - Model - INFO - Train Instance Accuracy: 0.883557
+2022-10-06 12:10:27,646 - Model - INFO - Train Instance Loss: 0.344241
+2022-10-06 12:10:27,940 - Model - INFO - Test Instance Accuracy: 0.802217
+2022-10-06 12:10:27,941 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:27,941 - Model - INFO - Epoch 35 (35/249):
+2022-10-06 12:10:27,941 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:27,941 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:31,637 - Model - INFO - Train Instance Accuracy: 0.883793
+2022-10-06 12:10:31,637 - Model - INFO - Train Instance Loss: 0.346141
+2022-10-06 12:10:31,931 - Model - INFO - Test Instance Accuracy: 0.809740
+2022-10-06 12:10:31,932 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:31,932 - Model - INFO - Epoch 36 (36/249):
+2022-10-06 12:10:31,932 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:31,932 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:35,630 - Model - INFO - Train Instance Accuracy: 0.887344
+2022-10-06 12:10:35,630 - Model - INFO - Train Instance Loss: 0.335911
+2022-10-06 12:10:35,925 - Model - INFO - Test Instance Accuracy: 0.805333
+2022-10-06 12:10:35,925 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:35,925 - Model - INFO - Epoch 37 (37/249):
+2022-10-06 12:10:35,925 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:35,925 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:39,624 - Model - INFO - Train Instance Accuracy: 0.888055
+2022-10-06 12:10:39,624 - Model - INFO - Train Instance Loss: 0.335620
+2022-10-06 12:10:39,919 - Model - INFO - Test Instance Accuracy: 0.805912
+2022-10-06 12:10:39,919 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:39,919 - Model - INFO - Epoch 38 (38/249):
+2022-10-06 12:10:39,919 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:39,919 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:43,619 - Model - INFO - Train Instance Accuracy: 0.887987
+2022-10-06 12:10:43,619 - Model - INFO - Train Instance Loss: 0.333628
+2022-10-06 12:10:43,914 - Model - INFO - Test Instance Accuracy: 0.761619
+2022-10-06 12:10:43,914 - Model - INFO - Best Instance Accuracy: 0.826968
+2022-10-06 12:10:43,914 - Model - INFO - Epoch 39 (39/249):
+2022-10-06 12:10:43,914 - Model - INFO - Learning rate:0.000700
+2022-10-06 12:10:43,914 - Model - INFO - BN momentum updated to: 0.050000
+2022-10-06 12:10:47,611 - Model - INFO - Train Instance Accuracy: 0.891538
+2022-10-06 12:10:47,612 - Model - INFO - Train Instance Loss: 0.321403
+2022-10-06 12:10:47,906 - Model - INFO - Test Instance Accuracy: 0.833378
+2022-10-06 12:10:47,906 - Model - INFO - Best Instance Accuracy: 0.833378
+2022-10-06 12:10:47,907 - Model - INFO - Save model...
+2022-10-06 12:10:47,907 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:10:47,916 - Model - INFO - Epoch 40 (40/249):
+2022-10-06 12:10:47,916 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:10:47,916 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:10:51,613 - Model - INFO - Train Instance Accuracy: 0.899655
+2022-10-06 12:10:51,613 - Model - INFO - Train Instance Loss: 0.297452
+2022-10-06 12:10:51,908 - Model - INFO - Test Instance Accuracy: 0.842682
+2022-10-06 12:10:51,908 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:10:51,908 - Model - INFO - Save model...
+2022-10-06 12:10:51,908 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:10:51,918 - Model - INFO - Epoch 41 (41/249):
+2022-10-06 12:10:51,918 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:10:51,918 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:10:55,615 - Model - INFO - Train Instance Accuracy: 0.902293
+2022-10-06 12:10:55,615 - Model - INFO - Train Instance Loss: 0.287635
+2022-10-06 12:10:55,910 - Model - INFO - Test Instance Accuracy: 0.830173
+2022-10-06 12:10:55,910 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:10:55,910 - Model - INFO - Epoch 42 (42/249):
+2022-10-06 12:10:55,910 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:10:55,910 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:10:59,609 - Model - INFO - Train Instance Accuracy: 0.903172
+2022-10-06 12:10:59,609 - Model - INFO - Train Instance Loss: 0.281498
+2022-10-06 12:10:59,904 - Model - INFO - Test Instance Accuracy: 0.813346
+2022-10-06 12:10:59,904 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:10:59,904 - Model - INFO - Epoch 43 (43/249):
+2022-10-06 12:10:59,904 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:10:59,905 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:03,603 - Model - INFO - Train Instance Accuracy: 0.908448
+2022-10-06 12:11:03,603 - Model - INFO - Train Instance Loss: 0.276320
+2022-10-06 12:11:03,898 - Model - INFO - Test Instance Accuracy: 0.835069
+2022-10-06 12:11:03,898 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:03,898 - Model - INFO - Epoch 44 (44/249):
+2022-10-06 12:11:03,899 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:03,899 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:07,599 - Model - INFO - Train Instance Accuracy: 0.904187
+2022-10-06 12:11:07,599 - Model - INFO - Train Instance Loss: 0.283580
+2022-10-06 12:11:07,893 - Model - INFO - Test Instance Accuracy: 0.828036
+2022-10-06 12:11:07,894 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:07,894 - Model - INFO - Epoch 45 (45/249):
+2022-10-06 12:11:07,894 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:07,894 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:11,601 - Model - INFO - Train Instance Accuracy: 0.910376
+2022-10-06 12:11:11,601 - Model - INFO - Train Instance Loss: 0.274333
+2022-10-06 12:11:11,897 - Model - INFO - Test Instance Accuracy: 0.814815
+2022-10-06 12:11:11,897 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:11,897 - Model - INFO - Epoch 46 (46/249):
+2022-10-06 12:11:11,897 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:11,897 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:15,607 - Model - INFO - Train Instance Accuracy: 0.905979
+2022-10-06 12:11:15,607 - Model - INFO - Train Instance Loss: 0.273651
+2022-10-06 12:11:15,903 - Model - INFO - Test Instance Accuracy: 0.832577
+2022-10-06 12:11:15,903 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:15,903 - Model - INFO - Epoch 47 (47/249):
+2022-10-06 12:11:15,903 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:15,903 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:19,615 - Model - INFO - Train Instance Accuracy: 0.904863
+2022-10-06 12:11:19,615 - Model - INFO - Train Instance Loss: 0.273146
+2022-10-06 12:11:19,911 - Model - INFO - Test Instance Accuracy: 0.805600
+2022-10-06 12:11:19,911 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:19,911 - Model - INFO - Epoch 48 (48/249):
+2022-10-06 12:11:19,911 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:19,911 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:23,624 - Model - INFO - Train Instance Accuracy: 0.907434
+2022-10-06 12:11:23,624 - Model - INFO - Train Instance Loss: 0.275550
+2022-10-06 12:11:23,921 - Model - INFO - Test Instance Accuracy: 0.800214
+2022-10-06 12:11:23,921 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:23,921 - Model - INFO - Epoch 49 (49/249):
+2022-10-06 12:11:23,921 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:23,921 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:27,633 - Model - INFO - Train Instance Accuracy: 0.903680
+2022-10-06 12:11:27,633 - Model - INFO - Train Instance Loss: 0.278154
+2022-10-06 12:11:27,929 - Model - INFO - Test Instance Accuracy: 0.824252
+2022-10-06 12:11:27,929 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:27,929 - Model - INFO - Epoch 50 (50/249):
+2022-10-06 12:11:27,929 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:27,930 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:31,639 - Model - INFO - Train Instance Accuracy: 0.906757
+2022-10-06 12:11:31,639 - Model - INFO - Train Instance Loss: 0.271045
+2022-10-06 12:11:31,935 - Model - INFO - Test Instance Accuracy: 0.802707
+2022-10-06 12:11:31,935 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:31,935 - Model - INFO - Epoch 51 (51/249):
+2022-10-06 12:11:31,935 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:31,935 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:35,646 - Model - INFO - Train Instance Accuracy: 0.904762
+2022-10-06 12:11:35,646 - Model - INFO - Train Instance Loss: 0.268817
+2022-10-06 12:11:35,942 - Model - INFO - Test Instance Accuracy: 0.832265
+2022-10-06 12:11:35,942 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:35,943 - Model - INFO - Epoch 52 (52/249):
+2022-10-06 12:11:35,943 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:35,943 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:39,654 - Model - INFO - Train Instance Accuracy: 0.908787
+2022-10-06 12:11:39,654 - Model - INFO - Train Instance Loss: 0.264852
+2022-10-06 12:11:39,950 - Model - INFO - Test Instance Accuracy: 0.826656
+2022-10-06 12:11:39,950 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:39,951 - Model - INFO - Epoch 53 (53/249):
+2022-10-06 12:11:39,951 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:39,951 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:43,661 - Model - INFO - Train Instance Accuracy: 0.910613
+2022-10-06 12:11:43,661 - Model - INFO - Train Instance Loss: 0.262065
+2022-10-06 12:11:43,957 - Model - INFO - Test Instance Accuracy: 0.805021
+2022-10-06 12:11:43,957 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:43,957 - Model - INFO - Epoch 54 (54/249):
+2022-10-06 12:11:43,957 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:43,957 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:47,668 - Model - INFO - Train Instance Accuracy: 0.910545
+2022-10-06 12:11:47,668 - Model - INFO - Train Instance Loss: 0.255189
+2022-10-06 12:11:47,965 - Model - INFO - Test Instance Accuracy: 0.795807
+2022-10-06 12:11:47,965 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:47,965 - Model - INFO - Epoch 55 (55/249):
+2022-10-06 12:11:47,965 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:47,966 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:51,678 - Model - INFO - Train Instance Accuracy: 0.912067
+2022-10-06 12:11:51,678 - Model - INFO - Train Instance Loss: 0.256255
+2022-10-06 12:11:51,975 - Model - INFO - Test Instance Accuracy: 0.763043
+2022-10-06 12:11:51,975 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:51,975 - Model - INFO - Epoch 56 (56/249):
+2022-10-06 12:11:51,975 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:51,975 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:55,691 - Model - INFO - Train Instance Accuracy: 0.911120
+2022-10-06 12:11:55,691 - Model - INFO - Train Instance Loss: 0.259870
+2022-10-06 12:11:55,987 - Model - INFO - Test Instance Accuracy: 0.812233
+2022-10-06 12:11:55,987 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:11:55,987 - Model - INFO - Epoch 57 (57/249):
+2022-10-06 12:11:55,987 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:11:55,987 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:11:59,707 - Model - INFO - Train Instance Accuracy: 0.911898
+2022-10-06 12:11:59,707 - Model - INFO - Train Instance Loss: 0.254047
+2022-10-06 12:12:00,002 - Model - INFO - Test Instance Accuracy: 0.797409
+2022-10-06 12:12:00,002 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:00,002 - Model - INFO - Epoch 58 (58/249):
+2022-10-06 12:12:00,002 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:12:00,003 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:12:03,710 - Model - INFO - Train Instance Accuracy: 0.912371
+2022-10-06 12:12:03,710 - Model - INFO - Train Instance Loss: 0.256587
+2022-10-06 12:12:04,008 - Model - INFO - Test Instance Accuracy: 0.804532
+2022-10-06 12:12:04,008 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:04,008 - Model - INFO - Epoch 59 (59/249):
+2022-10-06 12:12:04,008 - Model - INFO - Learning rate:0.000490
+2022-10-06 12:12:04,008 - Model - INFO - BN momentum updated to: 0.025000
+2022-10-06 12:12:07,713 - Model - INFO - Train Instance Accuracy: 0.913488
+2022-10-06 12:12:07,713 - Model - INFO - Train Instance Loss: 0.244894
+2022-10-06 12:12:08,009 - Model - INFO - Test Instance Accuracy: 0.827546
+2022-10-06 12:12:08,009 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:08,009 - Model - INFO - Epoch 60 (60/249):
+2022-10-06 12:12:08,009 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:08,009 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:11,714 - Model - INFO - Train Instance Accuracy: 0.923295
+2022-10-06 12:12:11,714 - Model - INFO - Train Instance Loss: 0.226812
+2022-10-06 12:12:12,009 - Model - INFO - Test Instance Accuracy: 0.838987
+2022-10-06 12:12:12,010 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:12,010 - Model - INFO - Epoch 61 (61/249):
+2022-10-06 12:12:12,010 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:12,010 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:15,716 - Model - INFO - Train Instance Accuracy: 0.923431
+2022-10-06 12:12:15,716 - Model - INFO - Train Instance Loss: 0.222382
+2022-10-06 12:12:16,012 - Model - INFO - Test Instance Accuracy: 0.828481
+2022-10-06 12:12:16,012 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:16,012 - Model - INFO - Epoch 62 (62/249):
+2022-10-06 12:12:16,012 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:16,012 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:19,718 - Model - INFO - Train Instance Accuracy: 0.922315
+2022-10-06 12:12:19,718 - Model - INFO - Train Instance Loss: 0.220490
+2022-10-06 12:12:20,013 - Model - INFO - Test Instance Accuracy: 0.823851
+2022-10-06 12:12:20,013 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:20,014 - Model - INFO - Epoch 63 (63/249):
+2022-10-06 12:12:20,014 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:20,014 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:23,718 - Model - INFO - Train Instance Accuracy: 0.926711
+2022-10-06 12:12:23,718 - Model - INFO - Train Instance Loss: 0.213562
+2022-10-06 12:12:24,014 - Model - INFO - Test Instance Accuracy: 0.838586
+2022-10-06 12:12:24,014 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:24,014 - Model - INFO - Epoch 64 (64/249):
+2022-10-06 12:12:24,014 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:24,014 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:27,720 - Model - INFO - Train Instance Accuracy: 0.925764
+2022-10-06 12:12:27,720 - Model - INFO - Train Instance Loss: 0.211161
+2022-10-06 12:12:28,015 - Model - INFO - Test Instance Accuracy: 0.828170
+2022-10-06 12:12:28,016 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:28,016 - Model - INFO - Epoch 65 (65/249):
+2022-10-06 12:12:28,016 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:28,016 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:31,721 - Model - INFO - Train Instance Accuracy: 0.924412
+2022-10-06 12:12:31,721 - Model - INFO - Train Instance Loss: 0.208367
+2022-10-06 12:12:32,016 - Model - INFO - Test Instance Accuracy: 0.826478
+2022-10-06 12:12:32,016 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:32,017 - Model - INFO - Epoch 66 (66/249):
+2022-10-06 12:12:32,017 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:32,017 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:35,723 - Model - INFO - Train Instance Accuracy: 0.925731
+2022-10-06 12:12:35,723 - Model - INFO - Train Instance Loss: 0.209178
+2022-10-06 12:12:36,019 - Model - INFO - Test Instance Accuracy: 0.836583
+2022-10-06 12:12:36,019 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:36,019 - Model - INFO - Epoch 67 (67/249):
+2022-10-06 12:12:36,019 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:36,019 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:39,726 - Model - INFO - Train Instance Accuracy: 0.930262
+2022-10-06 12:12:39,726 - Model - INFO - Train Instance Loss: 0.209287
+2022-10-06 12:12:40,021 - Model - INFO - Test Instance Accuracy: 0.830262
+2022-10-06 12:12:40,021 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:40,021 - Model - INFO - Epoch 68 (68/249):
+2022-10-06 12:12:40,021 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:40,021 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:43,727 - Model - INFO - Train Instance Accuracy: 0.923667
+2022-10-06 12:12:43,727 - Model - INFO - Train Instance Loss: 0.216744
+2022-10-06 12:12:44,023 - Model - INFO - Test Instance Accuracy: 0.832488
+2022-10-06 12:12:44,023 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:44,023 - Model - INFO - Epoch 69 (69/249):
+2022-10-06 12:12:44,023 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:44,023 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:47,729 - Model - INFO - Train Instance Accuracy: 0.930127
+2022-10-06 12:12:47,729 - Model - INFO - Train Instance Loss: 0.198711
+2022-10-06 12:12:48,025 - Model - INFO - Test Instance Accuracy: 0.830173
+2022-10-06 12:12:48,025 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:48,025 - Model - INFO - Epoch 70 (70/249):
+2022-10-06 12:12:48,025 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:48,025 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:51,732 - Model - INFO - Train Instance Accuracy: 0.928504
+2022-10-06 12:12:51,732 - Model - INFO - Train Instance Loss: 0.208604
+2022-10-06 12:12:52,027 - Model - INFO - Test Instance Accuracy: 0.827991
+2022-10-06 12:12:52,027 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:52,027 - Model - INFO - Epoch 71 (71/249):
+2022-10-06 12:12:52,027 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:52,027 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:55,732 - Model - INFO - Train Instance Accuracy: 0.927794
+2022-10-06 12:12:55,732 - Model - INFO - Train Instance Loss: 0.202784
+2022-10-06 12:12:56,027 - Model - INFO - Test Instance Accuracy: 0.819756
+2022-10-06 12:12:56,028 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:12:56,028 - Model - INFO - Epoch 72 (72/249):
+2022-10-06 12:12:56,028 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:12:56,028 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:12:59,734 - Model - INFO - Train Instance Accuracy: 0.925088
+2022-10-06 12:12:59,735 - Model - INFO - Train Instance Loss: 0.208541
+2022-10-06 12:13:00,031 - Model - INFO - Test Instance Accuracy: 0.823273
+2022-10-06 12:13:00,031 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:00,032 - Model - INFO - Epoch 73 (73/249):
+2022-10-06 12:13:00,032 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:13:00,032 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:13:03,737 - Model - INFO - Train Instance Accuracy: 0.931751
+2022-10-06 12:13:03,737 - Model - INFO - Train Instance Loss: 0.201235
+2022-10-06 12:13:04,033 - Model - INFO - Test Instance Accuracy: 0.815260
+2022-10-06 12:13:04,033 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:04,033 - Model - INFO - Epoch 74 (74/249):
+2022-10-06 12:13:04,033 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:13:04,033 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:13:07,739 - Model - INFO - Train Instance Accuracy: 0.928808
+2022-10-06 12:13:07,739 - Model - INFO - Train Instance Loss: 0.207069
+2022-10-06 12:13:08,034 - Model - INFO - Test Instance Accuracy: 0.826077
+2022-10-06 12:13:08,034 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:08,034 - Model - INFO - Epoch 75 (75/249):
+2022-10-06 12:13:08,034 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:13:08,034 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:13:11,742 - Model - INFO - Train Instance Accuracy: 0.931751
+2022-10-06 12:13:11,742 - Model - INFO - Train Instance Loss: 0.194718
+2022-10-06 12:13:12,037 - Model - INFO - Test Instance Accuracy: 0.801727
+2022-10-06 12:13:12,037 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:12,037 - Model - INFO - Epoch 76 (76/249):
+2022-10-06 12:13:12,037 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:13:12,038 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:13:15,745 - Model - INFO - Train Instance Accuracy: 0.929654
+2022-10-06 12:13:15,745 - Model - INFO - Train Instance Loss: 0.193612
+2022-10-06 12:13:16,040 - Model - INFO - Test Instance Accuracy: 0.784188
+2022-10-06 12:13:16,040 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:16,040 - Model - INFO - Epoch 77 (77/249):
+2022-10-06 12:13:16,040 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:13:16,041 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:13:19,747 - Model - INFO - Train Instance Accuracy: 0.933408
+2022-10-06 12:13:19,747 - Model - INFO - Train Instance Loss: 0.193033
+2022-10-06 12:13:20,043 - Model - INFO - Test Instance Accuracy: 0.827279
+2022-10-06 12:13:20,043 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:20,043 - Model - INFO - Epoch 78 (78/249):
+2022-10-06 12:13:20,043 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:13:20,043 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:13:23,752 - Model - INFO - Train Instance Accuracy: 0.935166
+2022-10-06 12:13:23,752 - Model - INFO - Train Instance Loss: 0.188251
+2022-10-06 12:13:24,048 - Model - INFO - Test Instance Accuracy: 0.816863
+2022-10-06 12:13:24,048 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:24,048 - Model - INFO - Epoch 79 (79/249):
+2022-10-06 12:13:24,048 - Model - INFO - Learning rate:0.000343
+2022-10-06 12:13:24,048 - Model - INFO - BN momentum updated to: 0.012500
+2022-10-06 12:13:27,755 - Model - INFO - Train Instance Accuracy: 0.932325
+2022-10-06 12:13:27,755 - Model - INFO - Train Instance Loss: 0.193468
+2022-10-06 12:13:28,051 - Model - INFO - Test Instance Accuracy: 0.832087
+2022-10-06 12:13:28,051 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:28,051 - Model - INFO - Epoch 80 (80/249):
+2022-10-06 12:13:28,051 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:13:28,051 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:13:31,756 - Model - INFO - Train Instance Accuracy: 0.936587
+2022-10-06 12:13:31,756 - Model - INFO - Train Instance Loss: 0.182517
+2022-10-06 12:13:32,052 - Model - INFO - Test Instance Accuracy: 0.830974
+2022-10-06 12:13:32,052 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:32,052 - Model - INFO - Epoch 81 (81/249):
+2022-10-06 12:13:32,052 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:13:32,052 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:13:35,758 - Model - INFO - Train Instance Accuracy: 0.939225
+2022-10-06 12:13:35,758 - Model - INFO - Train Instance Loss: 0.179938
+2022-10-06 12:13:36,054 - Model - INFO - Test Instance Accuracy: 0.830084
+2022-10-06 12:13:36,054 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:36,054 - Model - INFO - Epoch 82 (82/249):
+2022-10-06 12:13:36,054 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:13:36,054 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:13:39,760 - Model - INFO - Train Instance Accuracy: 0.939631
+2022-10-06 12:13:39,760 - Model - INFO - Train Instance Loss: 0.171763
+2022-10-06 12:13:40,056 - Model - INFO - Test Instance Accuracy: 0.839076
+2022-10-06 12:13:40,056 - Model - INFO - Best Instance Accuracy: 0.842682
+2022-10-06 12:13:40,056 - Model - INFO - Epoch 83 (83/249):
+2022-10-06 12:13:40,056 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:13:40,056 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:13:43,762 - Model - INFO - Train Instance Accuracy: 0.938143
+2022-10-06 12:13:43,762 - Model - INFO - Train Instance Loss: 0.175826
+2022-10-06 12:13:44,058 - Model - INFO - Test Instance Accuracy: 0.847712
+2022-10-06 12:13:44,058 - Model - INFO - Best Instance Accuracy: 0.847712
+2022-10-06 12:13:44,058 - Model - INFO - Save model...
+2022-10-06 12:13:44,058 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:13:44,093 - Model - INFO - Epoch 84 (84/249):
+2022-10-06 12:13:44,094 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:13:44,094 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:13:47,808 - Model - INFO - Train Instance Accuracy: 0.941085
+2022-10-06 12:13:47,808 - Model - INFO - Train Instance Loss: 0.174583
+2022-10-06 12:13:48,103 - Model - INFO - Test Instance Accuracy: 0.823762
+2022-10-06 12:13:48,103 - Model - INFO - Best Instance Accuracy: 0.847712
+2022-10-06 12:13:48,103 - Model - INFO - Epoch 85 (85/249):
+2022-10-06 12:13:48,103 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:13:48,104 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:13:51,811 - Model - INFO - Train Instance Accuracy: 0.941051
+2022-10-06 12:13:51,811 - Model - INFO - Train Instance Loss: 0.173890
+2022-10-06 12:13:52,107 - Model - INFO - Test Instance Accuracy: 0.847000
+2022-10-06 12:13:52,107 - Model - INFO - Best Instance Accuracy: 0.847712
+2022-10-06 12:13:52,107 - Model - INFO - Epoch 86 (86/249):
+2022-10-06 12:13:52,107 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:13:52,107 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:13:55,813 - Model - INFO - Train Instance Accuracy: 0.939326
+2022-10-06 12:13:55,813 - Model - INFO - Train Instance Loss: 0.169746
+2022-10-06 12:13:56,109 - Model - INFO - Test Instance Accuracy: 0.844418
+2022-10-06 12:13:56,109 - Model - INFO - Best Instance Accuracy: 0.847712
+2022-10-06 12:13:56,109 - Model - INFO - Epoch 87 (87/249):
+2022-10-06 12:13:56,109 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:13:56,109 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:13:59,817 - Model - INFO - Train Instance Accuracy: 0.938954
+2022-10-06 12:13:59,817 - Model - INFO - Train Instance Loss: 0.172664
+2022-10-06 12:14:00,113 - Model - INFO - Test Instance Accuracy: 0.838186
+2022-10-06 12:14:00,113 - Model - INFO - Best Instance Accuracy: 0.847712
+2022-10-06 12:14:00,114 - Model - INFO - Epoch 88 (88/249):
+2022-10-06 12:14:00,114 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:00,114 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:03,821 - Model - INFO - Train Instance Accuracy: 0.942911
+2022-10-06 12:14:03,821 - Model - INFO - Train Instance Loss: 0.167078
+2022-10-06 12:14:04,116 - Model - INFO - Test Instance Accuracy: 0.848602
+2022-10-06 12:14:04,117 - Model - INFO - Best Instance Accuracy: 0.848602
+2022-10-06 12:14:04,117 - Model - INFO - Save model...
+2022-10-06 12:14:04,117 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:14:04,163 - Model - INFO - Epoch 89 (89/249):
+2022-10-06 12:14:04,163 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:04,163 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:07,880 - Model - INFO - Train Instance Accuracy: 0.943385
+2022-10-06 12:14:07,880 - Model - INFO - Train Instance Loss: 0.162727
+2022-10-06 12:14:08,175 - Model - INFO - Test Instance Accuracy: 0.848602
+2022-10-06 12:14:08,175 - Model - INFO - Best Instance Accuracy: 0.848602
+2022-10-06 12:14:08,176 - Model - INFO - Save model...
+2022-10-06 12:14:08,176 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:14:08,210 - Model - INFO - Epoch 90 (90/249):
+2022-10-06 12:14:08,210 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:08,211 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:11,923 - Model - INFO - Train Instance Accuracy: 0.946361
+2022-10-06 12:14:11,923 - Model - INFO - Train Instance Loss: 0.158219
+2022-10-06 12:14:12,219 - Model - INFO - Test Instance Accuracy: 0.828259
+2022-10-06 12:14:12,219 - Model - INFO - Best Instance Accuracy: 0.848602
+2022-10-06 12:14:12,219 - Model - INFO - Epoch 91 (91/249):
+2022-10-06 12:14:12,219 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:12,219 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:15,924 - Model - INFO - Train Instance Accuracy: 0.944366
+2022-10-06 12:14:15,924 - Model - INFO - Train Instance Loss: 0.159341
+2022-10-06 12:14:16,220 - Model - INFO - Test Instance Accuracy: 0.860132
+2022-10-06 12:14:16,220 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:16,221 - Model - INFO - Save model...
+2022-10-06 12:14:16,221 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:14:16,258 - Model - INFO - Epoch 92 (92/249):
+2022-10-06 12:14:16,258 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:16,258 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:19,967 - Model - INFO - Train Instance Accuracy: 0.942235
+2022-10-06 12:14:19,967 - Model - INFO - Train Instance Loss: 0.163692
+2022-10-06 12:14:20,264 - Model - INFO - Test Instance Accuracy: 0.835871
+2022-10-06 12:14:20,264 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:20,264 - Model - INFO - Epoch 93 (93/249):
+2022-10-06 12:14:20,264 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:20,264 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:23,968 - Model - INFO - Train Instance Accuracy: 0.943824
+2022-10-06 12:14:23,968 - Model - INFO - Train Instance Loss: 0.160096
+2022-10-06 12:14:24,264 - Model - INFO - Test Instance Accuracy: 0.818866
+2022-10-06 12:14:24,264 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:24,265 - Model - INFO - Epoch 94 (94/249):
+2022-10-06 12:14:24,265 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:24,265 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:27,969 - Model - INFO - Train Instance Accuracy: 0.944873
+2022-10-06 12:14:27,969 - Model - INFO - Train Instance Loss: 0.161614
+2022-10-06 12:14:28,266 - Model - INFO - Test Instance Accuracy: 0.846421
+2022-10-06 12:14:28,266 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:28,266 - Model - INFO - Epoch 95 (95/249):
+2022-10-06 12:14:28,266 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:28,266 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:31,969 - Model - INFO - Train Instance Accuracy: 0.943824
+2022-10-06 12:14:31,970 - Model - INFO - Train Instance Loss: 0.156582
+2022-10-06 12:14:32,265 - Model - INFO - Test Instance Accuracy: 0.816818
+2022-10-06 12:14:32,265 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:32,266 - Model - INFO - Epoch 96 (96/249):
+2022-10-06 12:14:32,266 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:32,266 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:35,970 - Model - INFO - Train Instance Accuracy: 0.944433
+2022-10-06 12:14:35,970 - Model - INFO - Train Instance Loss: 0.157437
+2022-10-06 12:14:36,266 - Model - INFO - Test Instance Accuracy: 0.815661
+2022-10-06 12:14:36,266 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:36,266 - Model - INFO - Epoch 97 (97/249):
+2022-10-06 12:14:36,266 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:36,266 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:39,969 - Model - INFO - Train Instance Accuracy: 0.940037
+2022-10-06 12:14:39,969 - Model - INFO - Train Instance Loss: 0.172172
+2022-10-06 12:14:40,265 - Model - INFO - Test Instance Accuracy: 0.839076
+2022-10-06 12:14:40,266 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:40,266 - Model - INFO - Epoch 98 (98/249):
+2022-10-06 12:14:40,266 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:40,266 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:43,970 - Model - INFO - Train Instance Accuracy: 0.946496
+2022-10-06 12:14:43,970 - Model - INFO - Train Instance Loss: 0.157502
+2022-10-06 12:14:44,266 - Model - INFO - Test Instance Accuracy: 0.843394
+2022-10-06 12:14:44,266 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:44,266 - Model - INFO - Epoch 99 (99/249):
+2022-10-06 12:14:44,266 - Model - INFO - Learning rate:0.000240
+2022-10-06 12:14:44,266 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:47,971 - Model - INFO - Train Instance Accuracy: 0.940544
+2022-10-06 12:14:47,971 - Model - INFO - Train Instance Loss: 0.161304
+2022-10-06 12:14:48,267 - Model - INFO - Test Instance Accuracy: 0.848113
+2022-10-06 12:14:48,267 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:48,267 - Model - INFO - Epoch 100 (100/249):
+2022-10-06 12:14:48,267 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:14:48,268 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:51,971 - Model - INFO - Train Instance Accuracy: 0.949134
+2022-10-06 12:14:51,971 - Model - INFO - Train Instance Loss: 0.146223
+2022-10-06 12:14:52,266 - Model - INFO - Test Instance Accuracy: 0.854434
+2022-10-06 12:14:52,266 - Model - INFO - Best Instance Accuracy: 0.860132
+2022-10-06 12:14:52,266 - Model - INFO - Epoch 101 (101/249):
+2022-10-06 12:14:52,266 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:14:52,266 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:14:55,971 - Model - INFO - Train Instance Accuracy: 0.950758
+2022-10-06 12:14:55,971 - Model - INFO - Train Instance Loss: 0.137802
+2022-10-06 12:14:56,267 - Model - INFO - Test Instance Accuracy: 0.860532
+2022-10-06 12:14:56,267 - Model - INFO - Best Instance Accuracy: 0.860532
+2022-10-06 12:14:56,267 - Model - INFO - Save model...
+2022-10-06 12:14:56,267 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:14:56,303 - Model - INFO - Epoch 102 (102/249):
+2022-10-06 12:14:56,303 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:14:56,303 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:00,007 - Model - INFO - Train Instance Accuracy: 0.947173
+2022-10-06 12:15:00,008 - Model - INFO - Train Instance Loss: 0.148952
+2022-10-06 12:15:00,304 - Model - INFO - Test Instance Accuracy: 0.843082
+2022-10-06 12:15:00,304 - Model - INFO - Best Instance Accuracy: 0.860532
+2022-10-06 12:15:00,304 - Model - INFO - Epoch 103 (103/249):
+2022-10-06 12:15:00,305 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:00,305 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:04,004 - Model - INFO - Train Instance Accuracy: 0.953463
+2022-10-06 12:15:04,004 - Model - INFO - Train Instance Loss: 0.136423
+2022-10-06 12:15:04,300 - Model - INFO - Test Instance Accuracy: 0.842993
+2022-10-06 12:15:04,300 - Model - INFO - Best Instance Accuracy: 0.860532
+2022-10-06 12:15:04,300 - Model - INFO - Epoch 104 (104/249):
+2022-10-06 12:15:04,300 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:04,300 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:07,999 - Model - INFO - Train Instance Accuracy: 0.949236
+2022-10-06 12:15:07,999 - Model - INFO - Train Instance Loss: 0.144488
+2022-10-06 12:15:08,297 - Model - INFO - Test Instance Accuracy: 0.839788
+2022-10-06 12:15:08,297 - Model - INFO - Best Instance Accuracy: 0.860532
+2022-10-06 12:15:08,297 - Model - INFO - Epoch 105 (105/249):
+2022-10-06 12:15:08,297 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:08,297 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:11,997 - Model - INFO - Train Instance Accuracy: 0.951197
+2022-10-06 12:15:11,997 - Model - INFO - Train Instance Loss: 0.138375
+2022-10-06 12:15:12,293 - Model - INFO - Test Instance Accuracy: 0.860621
+2022-10-06 12:15:12,293 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:12,293 - Model - INFO - Save model...
+2022-10-06 12:15:12,293 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:15:12,303 - Model - INFO - Epoch 106 (106/249):
+2022-10-06 12:15:12,303 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:12,303 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:16,002 - Model - INFO - Train Instance Accuracy: 0.951772
+2022-10-06 12:15:16,002 - Model - INFO - Train Instance Loss: 0.137795
+2022-10-06 12:15:16,297 - Model - INFO - Test Instance Accuracy: 0.844907
+2022-10-06 12:15:16,297 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:16,297 - Model - INFO - Epoch 107 (107/249):
+2022-10-06 12:15:16,297 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:16,298 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:19,998 - Model - INFO - Train Instance Accuracy: 0.946293
+2022-10-06 12:15:19,998 - Model - INFO - Train Instance Loss: 0.142704
+2022-10-06 12:15:20,293 - Model - INFO - Test Instance Accuracy: 0.841302
+2022-10-06 12:15:20,293 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:20,294 - Model - INFO - Epoch 108 (108/249):
+2022-10-06 12:15:20,294 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:20,294 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:23,992 - Model - INFO - Train Instance Accuracy: 0.952516
+2022-10-06 12:15:23,992 - Model - INFO - Train Instance Loss: 0.137469
+2022-10-06 12:15:24,288 - Model - INFO - Test Instance Accuracy: 0.850917
+2022-10-06 12:15:24,288 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:24,288 - Model - INFO - Epoch 109 (109/249):
+2022-10-06 12:15:24,288 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:24,288 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:27,988 - Model - INFO - Train Instance Accuracy: 0.953565
+2022-10-06 12:15:27,988 - Model - INFO - Train Instance Loss: 0.137565
+2022-10-06 12:15:28,283 - Model - INFO - Test Instance Accuracy: 0.843616
+2022-10-06 12:15:28,283 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:28,283 - Model - INFO - Epoch 110 (110/249):
+2022-10-06 12:15:28,283 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:28,283 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:31,982 - Model - INFO - Train Instance Accuracy: 0.952956
+2022-10-06 12:15:31,982 - Model - INFO - Train Instance Loss: 0.133781
+2022-10-06 12:15:32,277 - Model - INFO - Test Instance Accuracy: 0.841613
+2022-10-06 12:15:32,277 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:32,277 - Model - INFO - Epoch 111 (111/249):
+2022-10-06 12:15:32,277 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:32,277 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:35,975 - Model - INFO - Train Instance Accuracy: 0.949675
+2022-10-06 12:15:35,975 - Model - INFO - Train Instance Loss: 0.140439
+2022-10-06 12:15:36,270 - Model - INFO - Test Instance Accuracy: 0.857728
+2022-10-06 12:15:36,270 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:36,271 - Model - INFO - Epoch 112 (112/249):
+2022-10-06 12:15:36,271 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:36,271 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:39,969 - Model - INFO - Train Instance Accuracy: 0.953835
+2022-10-06 12:15:39,969 - Model - INFO - Train Instance Loss: 0.133667
+2022-10-06 12:15:40,264 - Model - INFO - Test Instance Accuracy: 0.834001
+2022-10-06 12:15:40,264 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:40,264 - Model - INFO - Epoch 113 (113/249):
+2022-10-06 12:15:40,264 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:40,264 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:43,962 - Model - INFO - Train Instance Accuracy: 0.954038
+2022-10-06 12:15:43,962 - Model - INFO - Train Instance Loss: 0.131946
+2022-10-06 12:15:44,257 - Model - INFO - Test Instance Accuracy: 0.855903
+2022-10-06 12:15:44,257 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:44,257 - Model - INFO - Epoch 114 (114/249):
+2022-10-06 12:15:44,258 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:44,258 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:47,959 - Model - INFO - Train Instance Accuracy: 0.951705
+2022-10-06 12:15:47,959 - Model - INFO - Train Instance Loss: 0.137929
+2022-10-06 12:15:48,254 - Model - INFO - Test Instance Accuracy: 0.856125
+2022-10-06 12:15:48,255 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:48,255 - Model - INFO - Epoch 115 (115/249):
+2022-10-06 12:15:48,255 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:48,255 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:51,954 - Model - INFO - Train Instance Accuracy: 0.949337
+2022-10-06 12:15:51,954 - Model - INFO - Train Instance Loss: 0.140677
+2022-10-06 12:15:52,249 - Model - INFO - Test Instance Accuracy: 0.853722
+2022-10-06 12:15:52,249 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:52,249 - Model - INFO - Epoch 116 (116/249):
+2022-10-06 12:15:52,249 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:52,249 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:55,948 - Model - INFO - Train Instance Accuracy: 0.951028
+2022-10-06 12:15:55,948 - Model - INFO - Train Instance Loss: 0.135312
+2022-10-06 12:15:56,243 - Model - INFO - Test Instance Accuracy: 0.854923
+2022-10-06 12:15:56,243 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:15:56,243 - Model - INFO - Epoch 117 (117/249):
+2022-10-06 12:15:56,243 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:15:56,243 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:15:59,944 - Model - INFO - Train Instance Accuracy: 0.952584
+2022-10-06 12:15:59,944 - Model - INFO - Train Instance Loss: 0.130649
+2022-10-06 12:16:00,241 - Model - INFO - Test Instance Accuracy: 0.848914
+2022-10-06 12:16:00,241 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:00,242 - Model - INFO - Epoch 118 (118/249):
+2022-10-06 12:16:00,242 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:16:00,242 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:03,941 - Model - INFO - Train Instance Accuracy: 0.954748
+2022-10-06 12:16:03,941 - Model - INFO - Train Instance Loss: 0.130539
+2022-10-06 12:16:04,235 - Model - INFO - Test Instance Accuracy: 0.846020
+2022-10-06 12:16:04,236 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:04,236 - Model - INFO - Epoch 119 (119/249):
+2022-10-06 12:16:04,236 - Model - INFO - Learning rate:0.000168
+2022-10-06 12:16:04,236 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:07,934 - Model - INFO - Train Instance Accuracy: 0.953768
+2022-10-06 12:16:07,934 - Model - INFO - Train Instance Loss: 0.133390
+2022-10-06 12:16:08,229 - Model - INFO - Test Instance Accuracy: 0.850027
+2022-10-06 12:16:08,229 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:08,229 - Model - INFO - Epoch 120 (120/249):
+2022-10-06 12:16:08,229 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:08,229 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:11,928 - Model - INFO - Train Instance Accuracy: 0.953869
+2022-10-06 12:16:11,928 - Model - INFO - Train Instance Loss: 0.128253
+2022-10-06 12:16:12,223 - Model - INFO - Test Instance Accuracy: 0.856927
+2022-10-06 12:16:12,223 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:12,224 - Model - INFO - Epoch 121 (121/249):
+2022-10-06 12:16:12,224 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:12,224 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:15,922 - Model - INFO - Train Instance Accuracy: 0.957217
+2022-10-06 12:16:15,922 - Model - INFO - Train Instance Loss: 0.122300
+2022-10-06 12:16:16,216 - Model - INFO - Test Instance Accuracy: 0.858129
+2022-10-06 12:16:16,216 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:16,217 - Model - INFO - Epoch 122 (122/249):
+2022-10-06 12:16:16,217 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:16,217 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:19,916 - Model - INFO - Train Instance Accuracy: 0.961005
+2022-10-06 12:16:19,916 - Model - INFO - Train Instance Loss: 0.115610
+2022-10-06 12:16:20,211 - Model - INFO - Test Instance Accuracy: 0.849003
+2022-10-06 12:16:20,211 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:20,211 - Model - INFO - Epoch 123 (123/249):
+2022-10-06 12:16:20,211 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:20,211 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:23,908 - Model - INFO - Train Instance Accuracy: 0.954343
+2022-10-06 12:16:23,908 - Model - INFO - Train Instance Loss: 0.124724
+2022-10-06 12:16:24,203 - Model - INFO - Test Instance Accuracy: 0.855235
+2022-10-06 12:16:24,203 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:24,203 - Model - INFO - Epoch 124 (124/249):
+2022-10-06 12:16:24,203 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:24,203 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:27,905 - Model - INFO - Train Instance Accuracy: 0.958469
+2022-10-06 12:16:27,905 - Model - INFO - Train Instance Loss: 0.116715
+2022-10-06 12:16:28,200 - Model - INFO - Test Instance Accuracy: 0.852030
+2022-10-06 12:16:28,200 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:28,200 - Model - INFO - Epoch 125 (125/249):
+2022-10-06 12:16:28,200 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:28,200 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:31,897 - Model - INFO - Train Instance Accuracy: 0.956981
+2022-10-06 12:16:31,897 - Model - INFO - Train Instance Loss: 0.120675
+2022-10-06 12:16:32,193 - Model - INFO - Test Instance Accuracy: 0.855324
+2022-10-06 12:16:32,193 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:32,193 - Model - INFO - Epoch 126 (126/249):
+2022-10-06 12:16:32,193 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:32,193 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:35,893 - Model - INFO - Train Instance Accuracy: 0.956879
+2022-10-06 12:16:35,893 - Model - INFO - Train Instance Loss: 0.122639
+2022-10-06 12:16:36,188 - Model - INFO - Test Instance Accuracy: 0.856036
+2022-10-06 12:16:36,189 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:36,189 - Model - INFO - Epoch 127 (127/249):
+2022-10-06 12:16:36,189 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:36,189 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:39,887 - Model - INFO - Train Instance Accuracy: 0.959145
+2022-10-06 12:16:39,887 - Model - INFO - Train Instance Loss: 0.122017
+2022-10-06 12:16:40,182 - Model - INFO - Test Instance Accuracy: 0.854923
+2022-10-06 12:16:40,182 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:40,182 - Model - INFO - Epoch 128 (128/249):
+2022-10-06 12:16:40,183 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:40,183 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:43,881 - Model - INFO - Train Instance Accuracy: 0.958841
+2022-10-06 12:16:43,882 - Model - INFO - Train Instance Loss: 0.116165
+2022-10-06 12:16:44,176 - Model - INFO - Test Instance Accuracy: 0.851318
+2022-10-06 12:16:44,176 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:44,176 - Model - INFO - Epoch 129 (129/249):
+2022-10-06 12:16:44,176 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:44,176 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:47,875 - Model - INFO - Train Instance Accuracy: 0.959044
+2022-10-06 12:16:47,875 - Model - INFO - Train Instance Loss: 0.119775
+2022-10-06 12:16:48,172 - Model - INFO - Test Instance Accuracy: 0.859019
+2022-10-06 12:16:48,172 - Model - INFO - Best Instance Accuracy: 0.860621
+2022-10-06 12:16:48,172 - Model - INFO - Epoch 130 (130/249):
+2022-10-06 12:16:48,172 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:48,172 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:51,870 - Model - INFO - Train Instance Accuracy: 0.957691
+2022-10-06 12:16:51,870 - Model - INFO - Train Instance Loss: 0.117171
+2022-10-06 12:16:52,167 - Model - INFO - Test Instance Accuracy: 0.860933
+2022-10-06 12:16:52,167 - Model - INFO - Best Instance Accuracy: 0.860933
+2022-10-06 12:16:52,167 - Model - INFO - Save model...
+2022-10-06 12:16:52,167 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:16:52,203 - Model - INFO - Epoch 131 (131/249):
+2022-10-06 12:16:52,203 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:52,204 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:55,909 - Model - INFO - Train Instance Accuracy: 0.961952
+2022-10-06 12:16:55,909 - Model - INFO - Train Instance Loss: 0.112871
+2022-10-06 12:16:56,204 - Model - INFO - Test Instance Accuracy: 0.860532
+2022-10-06 12:16:56,204 - Model - INFO - Best Instance Accuracy: 0.860933
+2022-10-06 12:16:56,205 - Model - INFO - Epoch 132 (132/249):
+2022-10-06 12:16:56,205 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:16:56,205 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:16:59,905 - Model - INFO - Train Instance Accuracy: 0.961140
+2022-10-06 12:16:59,905 - Model - INFO - Train Instance Loss: 0.112144
+2022-10-06 12:17:00,202 - Model - INFO - Test Instance Accuracy: 0.857728
+2022-10-06 12:17:00,202 - Model - INFO - Best Instance Accuracy: 0.860933
+2022-10-06 12:17:00,202 - Model - INFO - Epoch 133 (133/249):
+2022-10-06 12:17:00,202 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:17:00,202 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:03,902 - Model - INFO - Train Instance Accuracy: 0.965808
+2022-10-06 12:17:03,902 - Model - INFO - Train Instance Loss: 0.106610
+2022-10-06 12:17:04,197 - Model - INFO - Test Instance Accuracy: 0.852609
+2022-10-06 12:17:04,198 - Model - INFO - Best Instance Accuracy: 0.860933
+2022-10-06 12:17:04,198 - Model - INFO - Epoch 134 (134/249):
+2022-10-06 12:17:04,198 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:17:04,198 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:07,897 - Model - INFO - Train Instance Accuracy: 0.959855
+2022-10-06 12:17:07,897 - Model - INFO - Train Instance Loss: 0.117401
+2022-10-06 12:17:08,194 - Model - INFO - Test Instance Accuracy: 0.863248
+2022-10-06 12:17:08,194 - Model - INFO - Best Instance Accuracy: 0.863248
+2022-10-06 12:17:08,194 - Model - INFO - Save model...
+2022-10-06 12:17:08,194 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:17:08,233 - Model - INFO - Epoch 135 (135/249):
+2022-10-06 12:17:08,233 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:17:08,233 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:11,939 - Model - INFO - Train Instance Accuracy: 0.962087
+2022-10-06 12:17:11,939 - Model - INFO - Train Instance Loss: 0.112460
+2022-10-06 12:17:12,234 - Model - INFO - Test Instance Accuracy: 0.847400
+2022-10-06 12:17:12,234 - Model - INFO - Best Instance Accuracy: 0.863248
+2022-10-06 12:17:12,234 - Model - INFO - Epoch 136 (136/249):
+2022-10-06 12:17:12,234 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:17:12,234 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:15,935 - Model - INFO - Train Instance Accuracy: 0.960126
+2022-10-06 12:17:15,935 - Model - INFO - Train Instance Loss: 0.114087
+2022-10-06 12:17:16,230 - Model - INFO - Test Instance Accuracy: 0.856526
+2022-10-06 12:17:16,230 - Model - INFO - Best Instance Accuracy: 0.863248
+2022-10-06 12:17:16,230 - Model - INFO - Epoch 137 (137/249):
+2022-10-06 12:17:16,230 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:17:16,230 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:19,928 - Model - INFO - Train Instance Accuracy: 0.961208
+2022-10-06 12:17:19,928 - Model - INFO - Train Instance Loss: 0.113098
+2022-10-06 12:17:20,223 - Model - INFO - Test Instance Accuracy: 0.860532
+2022-10-06 12:17:20,223 - Model - INFO - Best Instance Accuracy: 0.863248
+2022-10-06 12:17:20,223 - Model - INFO - Epoch 138 (138/249):
+2022-10-06 12:17:20,223 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:17:20,223 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:23,922 - Model - INFO - Train Instance Accuracy: 0.961310
+2022-10-06 12:17:23,922 - Model - INFO - Train Instance Loss: 0.112313
+2022-10-06 12:17:24,218 - Model - INFO - Test Instance Accuracy: 0.860132
+2022-10-06 12:17:24,218 - Model - INFO - Best Instance Accuracy: 0.863248
+2022-10-06 12:17:24,219 - Model - INFO - Epoch 139 (139/249):
+2022-10-06 12:17:24,219 - Model - INFO - Learning rate:0.000118
+2022-10-06 12:17:24,219 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:27,918 - Model - INFO - Train Instance Accuracy: 0.960667
+2022-10-06 12:17:27,918 - Model - INFO - Train Instance Loss: 0.111787
+2022-10-06 12:17:28,215 - Model - INFO - Test Instance Accuracy: 0.854523
+2022-10-06 12:17:28,215 - Model - INFO - Best Instance Accuracy: 0.863248
+2022-10-06 12:17:28,215 - Model - INFO - Epoch 140 (140/249):
+2022-10-06 12:17:28,215 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:17:28,215 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:31,914 - Model - INFO - Train Instance Accuracy: 0.963237
+2022-10-06 12:17:31,914 - Model - INFO - Train Instance Loss: 0.108107
+2022-10-06 12:17:32,210 - Model - INFO - Test Instance Accuracy: 0.863738
+2022-10-06 12:17:32,210 - Model - INFO - Best Instance Accuracy: 0.863738
+2022-10-06 12:17:32,210 - Model - INFO - Save model...
+2022-10-06 12:17:32,210 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:17:32,246 - Model - INFO - Epoch 141 (141/249):
+2022-10-06 12:17:32,246 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:17:32,246 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:35,950 - Model - INFO - Train Instance Accuracy: 0.962595
+2022-10-06 12:17:35,950 - Model - INFO - Train Instance Loss: 0.107286
+2022-10-06 12:17:36,245 - Model - INFO - Test Instance Accuracy: 0.856526
+2022-10-06 12:17:36,245 - Model - INFO - Best Instance Accuracy: 0.863738
+2022-10-06 12:17:36,246 - Model - INFO - Epoch 142 (142/249):
+2022-10-06 12:17:36,246 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:17:36,246 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:39,947 - Model - INFO - Train Instance Accuracy: 0.964725
+2022-10-06 12:17:39,947 - Model - INFO - Train Instance Loss: 0.106792
+2022-10-06 12:17:40,241 - Model - INFO - Test Instance Accuracy: 0.857327
+2022-10-06 12:17:40,242 - Model - INFO - Best Instance Accuracy: 0.863738
+2022-10-06 12:17:40,242 - Model - INFO - Epoch 143 (143/249):
+2022-10-06 12:17:40,242 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:17:40,242 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:43,942 - Model - INFO - Train Instance Accuracy: 0.964421
+2022-10-06 12:17:43,942 - Model - INFO - Train Instance Loss: 0.102240
+2022-10-06 12:17:44,237 - Model - INFO - Test Instance Accuracy: 0.862936
+2022-10-06 12:17:44,237 - Model - INFO - Best Instance Accuracy: 0.863738
+2022-10-06 12:17:44,237 - Model - INFO - Epoch 144 (144/249):
+2022-10-06 12:17:44,237 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:17:44,237 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:47,935 - Model - INFO - Train Instance Accuracy: 0.964624
+2022-10-06 12:17:47,935 - Model - INFO - Train Instance Loss: 0.105672
+2022-10-06 12:17:48,231 - Model - INFO - Test Instance Accuracy: 0.858529
+2022-10-06 12:17:48,231 - Model - INFO - Best Instance Accuracy: 0.863738
+2022-10-06 12:17:48,231 - Model - INFO - Epoch 145 (145/249):
+2022-10-06 12:17:48,231 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:17:48,231 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:51,931 - Model - INFO - Train Instance Accuracy: 0.964150
+2022-10-06 12:17:51,931 - Model - INFO - Train Instance Loss: 0.106023
+2022-10-06 12:17:52,226 - Model - INFO - Test Instance Accuracy: 0.858930
+2022-10-06 12:17:52,226 - Model - INFO - Best Instance Accuracy: 0.863738
+2022-10-06 12:17:52,227 - Model - INFO - Epoch 146 (146/249):
+2022-10-06 12:17:52,227 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:17:52,227 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:55,926 - Model - INFO - Train Instance Accuracy: 0.965334
+2022-10-06 12:17:55,926 - Model - INFO - Train Instance Loss: 0.104849
+2022-10-06 12:17:56,222 - Model - INFO - Test Instance Accuracy: 0.862936
+2022-10-06 12:17:56,223 - Model - INFO - Best Instance Accuracy: 0.863738
+2022-10-06 12:17:56,223 - Model - INFO - Epoch 147 (147/249):
+2022-10-06 12:17:56,223 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:17:56,223 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:17:59,921 - Model - INFO - Train Instance Accuracy: 0.967127
+2022-10-06 12:17:59,921 - Model - INFO - Train Instance Loss: 0.097234
+2022-10-06 12:18:00,219 - Model - INFO - Test Instance Accuracy: 0.866542
+2022-10-06 12:18:00,219 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:00,219 - Model - INFO - Save model...
+2022-10-06 12:18:00,219 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:18:00,259 - Model - INFO - Epoch 148 (148/249):
+2022-10-06 12:18:00,259 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:00,259 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:03,966 - Model - INFO - Train Instance Accuracy: 0.964421
+2022-10-06 12:18:03,966 - Model - INFO - Train Instance Loss: 0.101803
+2022-10-06 12:18:04,262 - Model - INFO - Test Instance Accuracy: 0.858529
+2022-10-06 12:18:04,262 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:04,262 - Model - INFO - Epoch 149 (149/249):
+2022-10-06 12:18:04,262 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:04,262 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:07,963 - Model - INFO - Train Instance Accuracy: 0.965503
+2022-10-06 12:18:07,963 - Model - INFO - Train Instance Loss: 0.098951
+2022-10-06 12:18:08,260 - Model - INFO - Test Instance Accuracy: 0.863738
+2022-10-06 12:18:08,260 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:08,260 - Model - INFO - Epoch 150 (150/249):
+2022-10-06 12:18:08,260 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:08,260 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:11,959 - Model - INFO - Train Instance Accuracy: 0.964793
+2022-10-06 12:18:11,959 - Model - INFO - Train Instance Loss: 0.103201
+2022-10-06 12:18:12,256 - Model - INFO - Test Instance Accuracy: 0.857817
+2022-10-06 12:18:12,256 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:12,257 - Model - INFO - Epoch 151 (151/249):
+2022-10-06 12:18:12,257 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:12,257 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:15,956 - Model - INFO - Train Instance Accuracy: 0.966112
+2022-10-06 12:18:15,956 - Model - INFO - Train Instance Loss: 0.100635
+2022-10-06 12:18:16,252 - Model - INFO - Test Instance Accuracy: 0.861645
+2022-10-06 12:18:16,252 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:16,253 - Model - INFO - Epoch 152 (152/249):
+2022-10-06 12:18:16,253 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:16,253 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:19,952 - Model - INFO - Train Instance Accuracy: 0.965334
+2022-10-06 12:18:19,952 - Model - INFO - Train Instance Loss: 0.102347
+2022-10-06 12:18:20,249 - Model - INFO - Test Instance Accuracy: 0.858529
+2022-10-06 12:18:20,249 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:20,249 - Model - INFO - Epoch 153 (153/249):
+2022-10-06 12:18:20,249 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:20,249 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:23,948 - Model - INFO - Train Instance Accuracy: 0.965131
+2022-10-06 12:18:23,948 - Model - INFO - Train Instance Loss: 0.102762
+2022-10-06 12:18:24,244 - Model - INFO - Test Instance Accuracy: 0.855725
+2022-10-06 12:18:24,244 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:24,245 - Model - INFO - Epoch 154 (154/249):
+2022-10-06 12:18:24,245 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:24,245 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:27,943 - Model - INFO - Train Instance Accuracy: 0.963745
+2022-10-06 12:18:27,943 - Model - INFO - Train Instance Loss: 0.104895
+2022-10-06 12:18:28,239 - Model - INFO - Test Instance Accuracy: 0.864138
+2022-10-06 12:18:28,240 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:28,240 - Model - INFO - Epoch 155 (155/249):
+2022-10-06 12:18:28,240 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:28,240 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:31,938 - Model - INFO - Train Instance Accuracy: 0.964353
+2022-10-06 12:18:31,938 - Model - INFO - Train Instance Loss: 0.101112
+2022-10-06 12:18:32,233 - Model - INFO - Test Instance Accuracy: 0.864539
+2022-10-06 12:18:32,234 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:32,234 - Model - INFO - Epoch 156 (156/249):
+2022-10-06 12:18:32,234 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:32,234 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:35,932 - Model - INFO - Train Instance Accuracy: 0.964894
+2022-10-06 12:18:35,932 - Model - INFO - Train Instance Loss: 0.101924
+2022-10-06 12:18:36,228 - Model - INFO - Test Instance Accuracy: 0.858529
+2022-10-06 12:18:36,228 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:36,229 - Model - INFO - Epoch 157 (157/249):
+2022-10-06 12:18:36,229 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:36,229 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:39,927 - Model - INFO - Train Instance Accuracy: 0.963778
+2022-10-06 12:18:39,927 - Model - INFO - Train Instance Loss: 0.102886
+2022-10-06 12:18:40,223 - Model - INFO - Test Instance Accuracy: 0.861734
+2022-10-06 12:18:40,223 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:40,223 - Model - INFO - Epoch 158 (158/249):
+2022-10-06 12:18:40,223 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:40,224 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:43,921 - Model - INFO - Train Instance Accuracy: 0.964928
+2022-10-06 12:18:43,921 - Model - INFO - Train Instance Loss: 0.100151
+2022-10-06 12:18:44,217 - Model - INFO - Test Instance Accuracy: 0.857327
+2022-10-06 12:18:44,217 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:44,218 - Model - INFO - Epoch 159 (159/249):
+2022-10-06 12:18:44,218 - Model - INFO - Learning rate:0.000082
+2022-10-06 12:18:44,218 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:47,916 - Model - INFO - Train Instance Accuracy: 0.965469
+2022-10-06 12:18:47,916 - Model - INFO - Train Instance Loss: 0.098775
+2022-10-06 12:18:48,212 - Model - INFO - Test Instance Accuracy: 0.860532
+2022-10-06 12:18:48,212 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:48,212 - Model - INFO - Epoch 160 (160/249):
+2022-10-06 12:18:48,212 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:18:48,212 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:51,910 - Model - INFO - Train Instance Accuracy: 0.965368
+2022-10-06 12:18:51,910 - Model - INFO - Train Instance Loss: 0.097907
+2022-10-06 12:18:52,206 - Model - INFO - Test Instance Accuracy: 0.863337
+2022-10-06 12:18:52,206 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:52,206 - Model - INFO - Epoch 161 (161/249):
+2022-10-06 12:18:52,206 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:18:52,207 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:55,907 - Model - INFO - Train Instance Accuracy: 0.967296
+2022-10-06 12:18:55,907 - Model - INFO - Train Instance Loss: 0.096543
+2022-10-06 12:18:56,204 - Model - INFO - Test Instance Accuracy: 0.864939
+2022-10-06 12:18:56,204 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:18:56,204 - Model - INFO - Epoch 162 (162/249):
+2022-10-06 12:18:56,204 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:18:56,204 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:18:59,905 - Model - INFO - Train Instance Accuracy: 0.968615
+2022-10-06 12:18:59,905 - Model - INFO - Train Instance Loss: 0.092798
+2022-10-06 12:19:00,202 - Model - INFO - Test Instance Accuracy: 0.864539
+2022-10-06 12:19:00,202 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:19:00,203 - Model - INFO - Epoch 163 (163/249):
+2022-10-06 12:19:00,203 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:00,203 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:03,901 - Model - INFO - Train Instance Accuracy: 0.965064
+2022-10-06 12:19:03,901 - Model - INFO - Train Instance Loss: 0.093918
+2022-10-06 12:19:04,197 - Model - INFO - Test Instance Accuracy: 0.857728
+2022-10-06 12:19:04,197 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:19:04,197 - Model - INFO - Epoch 164 (164/249):
+2022-10-06 12:19:04,197 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:04,198 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:07,897 - Model - INFO - Train Instance Accuracy: 0.967803
+2022-10-06 12:19:07,897 - Model - INFO - Train Instance Loss: 0.093597
+2022-10-06 12:19:08,192 - Model - INFO - Test Instance Accuracy: 0.861734
+2022-10-06 12:19:08,192 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:19:08,193 - Model - INFO - Epoch 165 (165/249):
+2022-10-06 12:19:08,193 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:08,193 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:11,892 - Model - INFO - Train Instance Accuracy: 0.968040
+2022-10-06 12:19:11,892 - Model - INFO - Train Instance Loss: 0.091572
+2022-10-06 12:19:12,188 - Model - INFO - Test Instance Accuracy: 0.860532
+2022-10-06 12:19:12,188 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:19:12,188 - Model - INFO - Epoch 166 (166/249):
+2022-10-06 12:19:12,188 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:12,188 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:15,886 - Model - INFO - Train Instance Accuracy: 0.968446
+2022-10-06 12:19:15,886 - Model - INFO - Train Instance Loss: 0.090747
+2022-10-06 12:19:16,182 - Model - INFO - Test Instance Accuracy: 0.862536
+2022-10-06 12:19:16,182 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:19:16,183 - Model - INFO - Epoch 167 (167/249):
+2022-10-06 12:19:16,183 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:16,183 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:19,882 - Model - INFO - Train Instance Accuracy: 0.967397
+2022-10-06 12:19:19,883 - Model - INFO - Train Instance Loss: 0.094238
+2022-10-06 12:19:20,178 - Model - INFO - Test Instance Accuracy: 0.861334
+2022-10-06 12:19:20,178 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:19:20,178 - Model - INFO - Epoch 168 (168/249):
+2022-10-06 12:19:20,179 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:20,179 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:23,875 - Model - INFO - Train Instance Accuracy: 0.967566
+2022-10-06 12:19:23,875 - Model - INFO - Train Instance Loss: 0.092748
+2022-10-06 12:19:24,171 - Model - INFO - Test Instance Accuracy: 0.864539
+2022-10-06 12:19:24,171 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:19:24,171 - Model - INFO - Epoch 169 (169/249):
+2022-10-06 12:19:24,172 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:24,172 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:27,872 - Model - INFO - Train Instance Accuracy: 0.968479
+2022-10-06 12:19:27,872 - Model - INFO - Train Instance Loss: 0.092341
+2022-10-06 12:19:28,167 - Model - INFO - Test Instance Accuracy: 0.860532
+2022-10-06 12:19:28,167 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:19:28,167 - Model - INFO - Epoch 170 (170/249):
+2022-10-06 12:19:28,168 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:28,168 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:31,866 - Model - INFO - Train Instance Accuracy: 0.967228
+2022-10-06 12:19:31,866 - Model - INFO - Train Instance Loss: 0.092693
+2022-10-06 12:19:32,161 - Model - INFO - Test Instance Accuracy: 0.862447
+2022-10-06 12:19:32,162 - Model - INFO - Best Instance Accuracy: 0.866542
+2022-10-06 12:19:32,162 - Model - INFO - Epoch 171 (171/249):
+2022-10-06 12:19:32,162 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:32,162 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:35,861 - Model - INFO - Train Instance Accuracy: 0.967465
+2022-10-06 12:19:35,861 - Model - INFO - Train Instance Loss: 0.093296
+2022-10-06 12:19:36,157 - Model - INFO - Test Instance Accuracy: 0.868145
+2022-10-06 12:19:36,157 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:19:36,157 - Model - INFO - Save model...
+2022-10-06 12:19:36,157 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:19:36,195 - Model - INFO - Epoch 172 (172/249):
+2022-10-06 12:19:36,195 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:36,195 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:39,902 - Model - INFO - Train Instance Accuracy: 0.967972
+2022-10-06 12:19:39,902 - Model - INFO - Train Instance Loss: 0.093132
+2022-10-06 12:19:40,198 - Model - INFO - Test Instance Accuracy: 0.864939
+2022-10-06 12:19:40,198 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:19:40,198 - Model - INFO - Epoch 173 (173/249):
+2022-10-06 12:19:40,198 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:40,198 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:43,897 - Model - INFO - Train Instance Accuracy: 0.966822
+2022-10-06 12:19:43,897 - Model - INFO - Train Instance Loss: 0.094452
+2022-10-06 12:19:44,192 - Model - INFO - Test Instance Accuracy: 0.851718
+2022-10-06 12:19:44,192 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:19:44,192 - Model - INFO - Epoch 174 (174/249):
+2022-10-06 12:19:44,193 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:44,193 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:47,894 - Model - INFO - Train Instance Accuracy: 0.969460
+2022-10-06 12:19:47,894 - Model - INFO - Train Instance Loss: 0.089188
+2022-10-06 12:19:48,190 - Model - INFO - Test Instance Accuracy: 0.863738
+2022-10-06 12:19:48,190 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:19:48,190 - Model - INFO - Epoch 175 (175/249):
+2022-10-06 12:19:48,190 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:48,190 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:51,888 - Model - INFO - Train Instance Accuracy: 0.968581
+2022-10-06 12:19:51,889 - Model - INFO - Train Instance Loss: 0.089016
+2022-10-06 12:19:52,185 - Model - INFO - Test Instance Accuracy: 0.862135
+2022-10-06 12:19:52,185 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:19:52,185 - Model - INFO - Epoch 176 (176/249):
+2022-10-06 12:19:52,185 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:52,185 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:55,884 - Model - INFO - Train Instance Accuracy: 0.971489
+2022-10-06 12:19:55,885 - Model - INFO - Train Instance Loss: 0.087892
+2022-10-06 12:19:56,180 - Model - INFO - Test Instance Accuracy: 0.859330
+2022-10-06 12:19:56,181 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:19:56,181 - Model - INFO - Epoch 177 (177/249):
+2022-10-06 12:19:56,181 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:19:56,181 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:19:59,881 - Model - INFO - Train Instance Accuracy: 0.972639
+2022-10-06 12:19:59,881 - Model - INFO - Train Instance Loss: 0.087727
+2022-10-06 12:20:00,179 - Model - INFO - Test Instance Accuracy: 0.862936
+2022-10-06 12:20:00,179 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:00,179 - Model - INFO - Epoch 178 (178/249):
+2022-10-06 12:20:00,179 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:20:00,179 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:03,879 - Model - INFO - Train Instance Accuracy: 0.968107
+2022-10-06 12:20:03,879 - Model - INFO - Train Instance Loss: 0.090776
+2022-10-06 12:20:04,175 - Model - INFO - Test Instance Accuracy: 0.857728
+2022-10-06 12:20:04,176 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:04,176 - Model - INFO - Epoch 179 (179/249):
+2022-10-06 12:20:04,176 - Model - INFO - Learning rate:0.000058
+2022-10-06 12:20:04,176 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:07,882 - Model - INFO - Train Instance Accuracy: 0.969460
+2022-10-06 12:20:07,882 - Model - INFO - Train Instance Loss: 0.090423
+2022-10-06 12:20:08,180 - Model - INFO - Test Instance Accuracy: 0.861334
+2022-10-06 12:20:08,180 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:08,180 - Model - INFO - Epoch 180 (180/249):
+2022-10-06 12:20:08,180 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:08,180 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:11,892 - Model - INFO - Train Instance Accuracy: 0.968818
+2022-10-06 12:20:11,892 - Model - INFO - Train Instance Loss: 0.089621
+2022-10-06 12:20:12,189 - Model - INFO - Test Instance Accuracy: 0.864939
+2022-10-06 12:20:12,189 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:12,190 - Model - INFO - Epoch 181 (181/249):
+2022-10-06 12:20:12,190 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:12,190 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:15,901 - Model - INFO - Train Instance Accuracy: 0.970373
+2022-10-06 12:20:15,901 - Model - INFO - Train Instance Loss: 0.086634
+2022-10-06 12:20:16,198 - Model - INFO - Test Instance Accuracy: 0.859330
+2022-10-06 12:20:16,198 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:16,198 - Model - INFO - Epoch 182 (182/249):
+2022-10-06 12:20:16,198 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:16,198 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:19,910 - Model - INFO - Train Instance Accuracy: 0.970069
+2022-10-06 12:20:19,910 - Model - INFO - Train Instance Loss: 0.085769
+2022-10-06 12:20:20,208 - Model - INFO - Test Instance Accuracy: 0.858529
+2022-10-06 12:20:20,208 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:20,208 - Model - INFO - Epoch 183 (183/249):
+2022-10-06 12:20:20,208 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:20,208 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:23,919 - Model - INFO - Train Instance Accuracy: 0.970712
+2022-10-06 12:20:23,919 - Model - INFO - Train Instance Loss: 0.089088
+2022-10-06 12:20:24,217 - Model - INFO - Test Instance Accuracy: 0.867254
+2022-10-06 12:20:24,217 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:24,217 - Model - INFO - Epoch 184 (184/249):
+2022-10-06 12:20:24,217 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:24,217 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:27,927 - Model - INFO - Train Instance Accuracy: 0.973519
+2022-10-06 12:20:27,927 - Model - INFO - Train Instance Loss: 0.081730
+2022-10-06 12:20:28,224 - Model - INFO - Test Instance Accuracy: 0.868145
+2022-10-06 12:20:28,225 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:28,225 - Model - INFO - Save model...
+2022-10-06 12:20:28,225 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:20:28,262 - Model - INFO - Epoch 185 (185/249):
+2022-10-06 12:20:28,262 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:28,262 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:31,979 - Model - INFO - Train Instance Accuracy: 0.969596
+2022-10-06 12:20:31,979 - Model - INFO - Train Instance Loss: 0.086133
+2022-10-06 12:20:32,276 - Model - INFO - Test Instance Accuracy: 0.867343
+2022-10-06 12:20:32,276 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:32,276 - Model - INFO - Epoch 186 (186/249):
+2022-10-06 12:20:32,276 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:32,276 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:35,986 - Model - INFO - Train Instance Accuracy: 0.972369
+2022-10-06 12:20:35,986 - Model - INFO - Train Instance Loss: 0.085019
+2022-10-06 12:20:36,284 - Model - INFO - Test Instance Accuracy: 0.867343
+2022-10-06 12:20:36,284 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:36,284 - Model - INFO - Epoch 187 (187/249):
+2022-10-06 12:20:36,284 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:36,284 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:39,994 - Model - INFO - Train Instance Accuracy: 0.969460
+2022-10-06 12:20:39,994 - Model - INFO - Train Instance Loss: 0.086505
+2022-10-06 12:20:40,292 - Model - INFO - Test Instance Accuracy: 0.859731
+2022-10-06 12:20:40,292 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:40,292 - Model - INFO - Epoch 188 (188/249):
+2022-10-06 12:20:40,292 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:40,292 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:44,002 - Model - INFO - Train Instance Accuracy: 0.971659
+2022-10-06 12:20:44,002 - Model - INFO - Train Instance Loss: 0.083160
+2022-10-06 12:20:44,299 - Model - INFO - Test Instance Accuracy: 0.858841
+2022-10-06 12:20:44,299 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:44,299 - Model - INFO - Epoch 189 (189/249):
+2022-10-06 12:20:44,299 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:44,299 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:48,009 - Model - INFO - Train Instance Accuracy: 0.970035
+2022-10-06 12:20:48,009 - Model - INFO - Train Instance Loss: 0.085377
+2022-10-06 12:20:48,306 - Model - INFO - Test Instance Accuracy: 0.863248
+2022-10-06 12:20:48,306 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:48,306 - Model - INFO - Epoch 190 (190/249):
+2022-10-06 12:20:48,306 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:48,307 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:52,015 - Model - INFO - Train Instance Accuracy: 0.970035
+2022-10-06 12:20:52,015 - Model - INFO - Train Instance Loss: 0.084545
+2022-10-06 12:20:52,313 - Model - INFO - Test Instance Accuracy: 0.864138
+2022-10-06 12:20:52,313 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:52,313 - Model - INFO - Epoch 191 (191/249):
+2022-10-06 12:20:52,313 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:52,313 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:20:56,021 - Model - INFO - Train Instance Accuracy: 0.972910
+2022-10-06 12:20:56,021 - Model - INFO - Train Instance Loss: 0.083344
+2022-10-06 12:20:56,319 - Model - INFO - Test Instance Accuracy: 0.858129
+2022-10-06 12:20:56,319 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:20:56,319 - Model - INFO - Epoch 192 (192/249):
+2022-10-06 12:20:56,319 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:20:56,319 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:00,029 - Model - INFO - Train Instance Accuracy: 0.969393
+2022-10-06 12:21:00,029 - Model - INFO - Train Instance Loss: 0.088261
+2022-10-06 12:21:00,327 - Model - INFO - Test Instance Accuracy: 0.863337
+2022-10-06 12:21:00,327 - Model - INFO - Best Instance Accuracy: 0.868145
+2022-10-06 12:21:00,327 - Model - INFO - Epoch 193 (193/249):
+2022-10-06 12:21:00,328 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:21:00,328 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:04,037 - Model - INFO - Train Instance Accuracy: 0.973214
+2022-10-06 12:21:04,037 - Model - INFO - Train Instance Loss: 0.085238
+2022-10-06 12:21:04,334 - Model - INFO - Test Instance Accuracy: 0.868545
+2022-10-06 12:21:04,334 - Model - INFO - Best Instance Accuracy: 0.868545
+2022-10-06 12:21:04,334 - Model - INFO - Save model...
+2022-10-06 12:21:04,334 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:21:04,368 - Model - INFO - Epoch 194 (194/249):
+2022-10-06 12:21:04,368 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:21:04,368 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:08,082 - Model - INFO - Train Instance Accuracy: 0.970340
+2022-10-06 12:21:08,082 - Model - INFO - Train Instance Loss: 0.085140
+2022-10-06 12:21:08,380 - Model - INFO - Test Instance Accuracy: 0.865429
+2022-10-06 12:21:08,380 - Model - INFO - Best Instance Accuracy: 0.868545
+2022-10-06 12:21:08,380 - Model - INFO - Epoch 195 (195/249):
+2022-10-06 12:21:08,380 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:21:08,381 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:12,091 - Model - INFO - Train Instance Accuracy: 0.971456
+2022-10-06 12:21:12,091 - Model - INFO - Train Instance Loss: 0.085261
+2022-10-06 12:21:12,389 - Model - INFO - Test Instance Accuracy: 0.866542
+2022-10-06 12:21:12,389 - Model - INFO - Best Instance Accuracy: 0.868545
+2022-10-06 12:21:12,389 - Model - INFO - Epoch 196 (196/249):
+2022-10-06 12:21:12,389 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:21:12,389 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:16,099 - Model - INFO - Train Instance Accuracy: 0.971388
+2022-10-06 12:21:16,099 - Model - INFO - Train Instance Loss: 0.084820
+2022-10-06 12:21:16,396 - Model - INFO - Test Instance Accuracy: 0.868545
+2022-10-06 12:21:16,396 - Model - INFO - Best Instance Accuracy: 0.868545
+2022-10-06 12:21:16,396 - Model - INFO - Save model...
+2022-10-06 12:21:16,396 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:21:16,467 - Model - INFO - Epoch 197 (197/249):
+2022-10-06 12:21:16,467 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:21:16,467 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:20,189 - Model - INFO - Train Instance Accuracy: 0.970678
+2022-10-06 12:21:20,189 - Model - INFO - Train Instance Loss: 0.084265
+2022-10-06 12:21:20,485 - Model - INFO - Test Instance Accuracy: 0.866542
+2022-10-06 12:21:20,485 - Model - INFO - Best Instance Accuracy: 0.868545
+2022-10-06 12:21:20,485 - Model - INFO - Epoch 198 (198/249):
+2022-10-06 12:21:20,485 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:21:20,485 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:24,196 - Model - INFO - Train Instance Accuracy: 0.974297
+2022-10-06 12:21:24,196 - Model - INFO - Train Instance Loss: 0.078732
+2022-10-06 12:21:24,492 - Model - INFO - Test Instance Accuracy: 0.860933
+2022-10-06 12:21:24,492 - Model - INFO - Best Instance Accuracy: 0.868545
+2022-10-06 12:21:24,493 - Model - INFO - Epoch 199 (199/249):
+2022-10-06 12:21:24,493 - Model - INFO - Learning rate:0.000040
+2022-10-06 12:21:24,493 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:28,203 - Model - INFO - Train Instance Accuracy: 0.968344
+2022-10-06 12:21:28,203 - Model - INFO - Train Instance Loss: 0.085741
+2022-10-06 12:21:28,500 - Model - INFO - Test Instance Accuracy: 0.874154
+2022-10-06 12:21:28,500 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:21:28,500 - Model - INFO - Save model...
+2022-10-06 12:21:28,500 - Model - INFO - Saving at log/pointnet_cls_vanilla_2/baseline_aug_2/checkpoints/best_model.pth
+2022-10-06 12:21:28,535 - Model - INFO - Epoch 200 (200/249):
+2022-10-06 12:21:28,536 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:21:28,536 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:32,250 - Model - INFO - Train Instance Accuracy: 0.970170
+2022-10-06 12:21:32,250 - Model - INFO - Train Instance Loss: 0.082963
+2022-10-06 12:21:32,547 - Model - INFO - Test Instance Accuracy: 0.867343
+2022-10-06 12:21:32,547 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:21:32,547 - Model - INFO - Epoch 201 (201/249):
+2022-10-06 12:21:32,547 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:21:32,547 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:36,259 - Model - INFO - Train Instance Accuracy: 0.973316
+2022-10-06 12:21:36,259 - Model - INFO - Train Instance Loss: 0.079020
+2022-10-06 12:21:36,555 - Model - INFO - Test Instance Accuracy: 0.861334
+2022-10-06 12:21:36,555 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:21:36,555 - Model - INFO - Epoch 202 (202/249):
+2022-10-06 12:21:36,555 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:21:36,556 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:40,266 - Model - INFO - Train Instance Accuracy: 0.972335
+2022-10-06 12:21:40,267 - Model - INFO - Train Instance Loss: 0.081917
+2022-10-06 12:21:40,562 - Model - INFO - Test Instance Accuracy: 0.865340
+2022-10-06 12:21:40,562 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:21:40,562 - Model - INFO - Epoch 203 (203/249):
+2022-10-06 12:21:40,563 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:21:40,563 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:44,271 - Model - INFO - Train Instance Accuracy: 0.974297
+2022-10-06 12:21:44,271 - Model - INFO - Train Instance Loss: 0.079416
+2022-10-06 12:21:44,567 - Model - INFO - Test Instance Accuracy: 0.864539
+2022-10-06 12:21:44,568 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:21:44,568 - Model - INFO - Epoch 204 (204/249):
+2022-10-06 12:21:44,568 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:21:44,568 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:48,277 - Model - INFO - Train Instance Accuracy: 0.970610
+2022-10-06 12:21:48,277 - Model - INFO - Train Instance Loss: 0.082726
+2022-10-06 12:21:48,573 - Model - INFO - Test Instance Accuracy: 0.860933
+2022-10-06 12:21:48,573 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:21:48,573 - Model - INFO - Epoch 205 (205/249):
+2022-10-06 12:21:48,573 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:21:48,573 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:52,281 - Model - INFO - Train Instance Accuracy: 0.973316
+2022-10-06 12:21:52,282 - Model - INFO - Train Instance Loss: 0.079951
+2022-10-06 12:21:52,578 - Model - INFO - Test Instance Accuracy: 0.863337
+2022-10-06 12:21:52,578 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:21:52,578 - Model - INFO - Epoch 206 (206/249):
+2022-10-06 12:21:52,578 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:21:52,578 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:21:56,287 - Model - INFO - Train Instance Accuracy: 0.972639
+2022-10-06 12:21:56,287 - Model - INFO - Train Instance Loss: 0.083814
+2022-10-06 12:21:56,583 - Model - INFO - Test Instance Accuracy: 0.869347
+2022-10-06 12:21:56,583 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:21:56,583 - Model - INFO - Epoch 207 (207/249):
+2022-10-06 12:21:56,583 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:21:56,583 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:00,296 - Model - INFO - Train Instance Accuracy: 0.973113
+2022-10-06 12:22:00,296 - Model - INFO - Train Instance Loss: 0.081390
+2022-10-06 12:22:00,592 - Model - INFO - Test Instance Accuracy: 0.860532
+2022-10-06 12:22:00,592 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:00,592 - Model - INFO - Epoch 208 (208/249):
+2022-10-06 12:22:00,592 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:00,592 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:04,303 - Model - INFO - Train Instance Accuracy: 0.973045
+2022-10-06 12:22:04,303 - Model - INFO - Train Instance Loss: 0.078229
+2022-10-06 12:22:04,599 - Model - INFO - Test Instance Accuracy: 0.862536
+2022-10-06 12:22:04,599 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:04,599 - Model - INFO - Epoch 209 (209/249):
+2022-10-06 12:22:04,599 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:04,599 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:08,308 - Model - INFO - Train Instance Accuracy: 0.973586
+2022-10-06 12:22:08,308 - Model - INFO - Train Instance Loss: 0.078750
+2022-10-06 12:22:08,604 - Model - INFO - Test Instance Accuracy: 0.868145
+2022-10-06 12:22:08,604 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:08,604 - Model - INFO - Epoch 210 (210/249):
+2022-10-06 12:22:08,604 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:08,604 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:12,315 - Model - INFO - Train Instance Accuracy: 0.975345
+2022-10-06 12:22:12,315 - Model - INFO - Train Instance Loss: 0.074817
+2022-10-06 12:22:12,611 - Model - INFO - Test Instance Accuracy: 0.865340
+2022-10-06 12:22:12,611 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:12,612 - Model - INFO - Epoch 211 (211/249):
+2022-10-06 12:22:12,612 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:12,612 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:16,321 - Model - INFO - Train Instance Accuracy: 0.972978
+2022-10-06 12:22:16,321 - Model - INFO - Train Instance Loss: 0.083075
+2022-10-06 12:22:16,617 - Model - INFO - Test Instance Accuracy: 0.860132
+2022-10-06 12:22:16,617 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:16,618 - Model - INFO - Epoch 212 (212/249):
+2022-10-06 12:22:16,618 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:16,618 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:20,326 - Model - INFO - Train Instance Accuracy: 0.970881
+2022-10-06 12:22:20,326 - Model - INFO - Train Instance Loss: 0.080841
+2022-10-06 12:22:20,622 - Model - INFO - Test Instance Accuracy: 0.867343
+2022-10-06 12:22:20,622 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:20,623 - Model - INFO - Epoch 213 (213/249):
+2022-10-06 12:22:20,623 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:20,623 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:24,330 - Model - INFO - Train Instance Accuracy: 0.972808
+2022-10-06 12:22:24,330 - Model - INFO - Train Instance Loss: 0.079653
+2022-10-06 12:22:24,626 - Model - INFO - Test Instance Accuracy: 0.865741
+2022-10-06 12:22:24,626 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:24,626 - Model - INFO - Epoch 214 (214/249):
+2022-10-06 12:22:24,626 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:24,627 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:28,331 - Model - INFO - Train Instance Accuracy: 0.974229
+2022-10-06 12:22:28,331 - Model - INFO - Train Instance Loss: 0.078799
+2022-10-06 12:22:28,626 - Model - INFO - Test Instance Accuracy: 0.864939
+2022-10-06 12:22:28,626 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:28,626 - Model - INFO - Epoch 215 (215/249):
+2022-10-06 12:22:28,626 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:28,626 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:32,323 - Model - INFO - Train Instance Accuracy: 0.972470
+2022-10-06 12:22:32,323 - Model - INFO - Train Instance Loss: 0.077999
+2022-10-06 12:22:32,619 - Model - INFO - Test Instance Accuracy: 0.863337
+2022-10-06 12:22:32,619 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:32,619 - Model - INFO - Epoch 216 (216/249):
+2022-10-06 12:22:32,619 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:32,619 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:36,318 - Model - INFO - Train Instance Accuracy: 0.974804
+2022-10-06 12:22:36,318 - Model - INFO - Train Instance Loss: 0.077865
+2022-10-06 12:22:36,613 - Model - INFO - Test Instance Accuracy: 0.863337
+2022-10-06 12:22:36,613 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:36,613 - Model - INFO - Epoch 217 (217/249):
+2022-10-06 12:22:36,613 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:36,613 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:40,311 - Model - INFO - Train Instance Accuracy: 0.973620
+2022-10-06 12:22:40,311 - Model - INFO - Train Instance Loss: 0.080491
+2022-10-06 12:22:40,606 - Model - INFO - Test Instance Accuracy: 0.864539
+2022-10-06 12:22:40,606 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:40,606 - Model - INFO - Epoch 218 (218/249):
+2022-10-06 12:22:40,606 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:40,606 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:44,304 - Model - INFO - Train Instance Accuracy: 0.975616
+2022-10-06 12:22:44,304 - Model - INFO - Train Instance Loss: 0.076917
+2022-10-06 12:22:44,599 - Model - INFO - Test Instance Accuracy: 0.862936
+2022-10-06 12:22:44,599 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:44,599 - Model - INFO - Epoch 219 (219/249):
+2022-10-06 12:22:44,599 - Model - INFO - Learning rate:0.000028
+2022-10-06 12:22:44,599 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:48,296 - Model - INFO - Train Instance Accuracy: 0.972335
+2022-10-06 12:22:48,296 - Model - INFO - Train Instance Loss: 0.079912
+2022-10-06 12:22:48,591 - Model - INFO - Test Instance Accuracy: 0.868145
+2022-10-06 12:22:48,591 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:48,591 - Model - INFO - Epoch 220 (220/249):
+2022-10-06 12:22:48,591 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:22:48,591 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:52,289 - Model - INFO - Train Instance Accuracy: 0.971185
+2022-10-06 12:22:52,289 - Model - INFO - Train Instance Loss: 0.079653
+2022-10-06 12:22:52,583 - Model - INFO - Test Instance Accuracy: 0.867744
+2022-10-06 12:22:52,583 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:52,584 - Model - INFO - Epoch 221 (221/249):
+2022-10-06 12:22:52,584 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:22:52,584 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:22:56,279 - Model - INFO - Train Instance Accuracy: 0.974567
+2022-10-06 12:22:56,279 - Model - INFO - Train Instance Loss: 0.075622
+2022-10-06 12:22:56,575 - Model - INFO - Test Instance Accuracy: 0.864939
+2022-10-06 12:22:56,575 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:22:56,575 - Model - INFO - Epoch 222 (222/249):
+2022-10-06 12:22:56,575 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:22:56,575 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:00,277 - Model - INFO - Train Instance Accuracy: 0.973823
+2022-10-06 12:23:00,277 - Model - INFO - Train Instance Loss: 0.077857
+2022-10-06 12:23:00,573 - Model - INFO - Test Instance Accuracy: 0.868946
+2022-10-06 12:23:00,573 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:00,573 - Model - INFO - Epoch 223 (223/249):
+2022-10-06 12:23:00,573 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:00,573 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:04,272 - Model - INFO - Train Instance Accuracy: 0.972707
+2022-10-06 12:23:04,272 - Model - INFO - Train Instance Loss: 0.080202
+2022-10-06 12:23:04,569 - Model - INFO - Test Instance Accuracy: 0.865340
+2022-10-06 12:23:04,569 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:04,569 - Model - INFO - Epoch 224 (224/249):
+2022-10-06 12:23:04,569 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:04,569 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:08,265 - Model - INFO - Train Instance Accuracy: 0.975954
+2022-10-06 12:23:08,265 - Model - INFO - Train Instance Loss: 0.072268
+2022-10-06 12:23:08,562 - Model - INFO - Test Instance Accuracy: 0.865340
+2022-10-06 12:23:08,562 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:08,562 - Model - INFO - Epoch 225 (225/249):
+2022-10-06 12:23:08,562 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:08,562 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:12,260 - Model - INFO - Train Instance Accuracy: 0.973045
+2022-10-06 12:23:12,260 - Model - INFO - Train Instance Loss: 0.079201
+2022-10-06 12:23:12,557 - Model - INFO - Test Instance Accuracy: 0.865741
+2022-10-06 12:23:12,557 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:12,557 - Model - INFO - Epoch 226 (226/249):
+2022-10-06 12:23:12,557 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:12,557 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:16,252 - Model - INFO - Train Instance Accuracy: 0.974094
+2022-10-06 12:23:16,252 - Model - INFO - Train Instance Loss: 0.077382
+2022-10-06 12:23:16,549 - Model - INFO - Test Instance Accuracy: 0.865340
+2022-10-06 12:23:16,549 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:16,549 - Model - INFO - Epoch 227 (227/249):
+2022-10-06 12:23:16,549 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:16,549 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:20,247 - Model - INFO - Train Instance Accuracy: 0.973722
+2022-10-06 12:23:20,247 - Model - INFO - Train Instance Loss: 0.079358
+2022-10-06 12:23:20,543 - Model - INFO - Test Instance Accuracy: 0.867343
+2022-10-06 12:23:20,543 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:20,543 - Model - INFO - Epoch 228 (228/249):
+2022-10-06 12:23:20,543 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:20,543 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:24,239 - Model - INFO - Train Instance Accuracy: 0.972572
+2022-10-06 12:23:24,239 - Model - INFO - Train Instance Loss: 0.076910
+2022-10-06 12:23:24,535 - Model - INFO - Test Instance Accuracy: 0.868145
+2022-10-06 12:23:24,536 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:24,536 - Model - INFO - Epoch 229 (229/249):
+2022-10-06 12:23:24,536 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:24,536 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:28,235 - Model - INFO - Train Instance Accuracy: 0.972572
+2022-10-06 12:23:28,235 - Model - INFO - Train Instance Loss: 0.079234
+2022-10-06 12:23:28,531 - Model - INFO - Test Instance Accuracy: 0.864939
+2022-10-06 12:23:28,531 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:28,531 - Model - INFO - Epoch 230 (230/249):
+2022-10-06 12:23:28,531 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:28,531 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:32,226 - Model - INFO - Train Instance Accuracy: 0.976123
+2022-10-06 12:23:32,227 - Model - INFO - Train Instance Loss: 0.075717
+2022-10-06 12:23:32,522 - Model - INFO - Test Instance Accuracy: 0.866141
+2022-10-06 12:23:32,522 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:32,522 - Model - INFO - Epoch 231 (231/249):
+2022-10-06 12:23:32,523 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:32,523 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:36,218 - Model - INFO - Train Instance Accuracy: 0.974127
+2022-10-06 12:23:36,218 - Model - INFO - Train Instance Loss: 0.075429
+2022-10-06 12:23:36,514 - Model - INFO - Test Instance Accuracy: 0.867343
+2022-10-06 12:23:36,514 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:36,514 - Model - INFO - Epoch 232 (232/249):
+2022-10-06 12:23:36,514 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:36,514 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:40,211 - Model - INFO - Train Instance Accuracy: 0.974364
+2022-10-06 12:23:40,211 - Model - INFO - Train Instance Loss: 0.076225
+2022-10-06 12:23:40,508 - Model - INFO - Test Instance Accuracy: 0.863738
+2022-10-06 12:23:40,509 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:40,509 - Model - INFO - Epoch 233 (233/249):
+2022-10-06 12:23:40,509 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:40,509 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:44,207 - Model - INFO - Train Instance Accuracy: 0.974330
+2022-10-06 12:23:44,207 - Model - INFO - Train Instance Loss: 0.076181
+2022-10-06 12:23:44,503 - Model - INFO - Test Instance Accuracy: 0.863738
+2022-10-06 12:23:44,504 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:44,504 - Model - INFO - Epoch 234 (234/249):
+2022-10-06 12:23:44,504 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:44,504 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:48,202 - Model - INFO - Train Instance Accuracy: 0.973925
+2022-10-06 12:23:48,202 - Model - INFO - Train Instance Loss: 0.074090
+2022-10-06 12:23:48,498 - Model - INFO - Test Instance Accuracy: 0.862536
+2022-10-06 12:23:48,498 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:48,498 - Model - INFO - Epoch 235 (235/249):
+2022-10-06 12:23:48,498 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:48,498 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:52,195 - Model - INFO - Train Instance Accuracy: 0.973316
+2022-10-06 12:23:52,195 - Model - INFO - Train Instance Loss: 0.078157
+2022-10-06 12:23:52,492 - Model - INFO - Test Instance Accuracy: 0.866542
+2022-10-06 12:23:52,492 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:52,492 - Model - INFO - Epoch 236 (236/249):
+2022-10-06 12:23:52,492 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:52,492 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:23:56,189 - Model - INFO - Train Instance Accuracy: 0.977746
+2022-10-06 12:23:56,189 - Model - INFO - Train Instance Loss: 0.070935
+2022-10-06 12:23:56,486 - Model - INFO - Test Instance Accuracy: 0.866943
+2022-10-06 12:23:56,486 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:23:56,486 - Model - INFO - Epoch 237 (237/249):
+2022-10-06 12:23:56,486 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:23:56,486 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:00,187 - Model - INFO - Train Instance Accuracy: 0.977273
+2022-10-06 12:24:00,187 - Model - INFO - Train Instance Loss: 0.070718
+2022-10-06 12:24:00,482 - Model - INFO - Test Instance Accuracy: 0.864539
+2022-10-06 12:24:00,483 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:00,483 - Model - INFO - Epoch 238 (238/249):
+2022-10-06 12:24:00,483 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:24:00,483 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:04,181 - Model - INFO - Train Instance Accuracy: 0.976123
+2022-10-06 12:24:04,181 - Model - INFO - Train Instance Loss: 0.072538
+2022-10-06 12:24:04,476 - Model - INFO - Test Instance Accuracy: 0.861334
+2022-10-06 12:24:04,476 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:04,477 - Model - INFO - Epoch 239 (239/249):
+2022-10-06 12:24:04,477 - Model - INFO - Learning rate:0.000020
+2022-10-06 12:24:04,477 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:08,173 - Model - INFO - Train Instance Accuracy: 0.973552
+2022-10-06 12:24:08,173 - Model - INFO - Train Instance Loss: 0.074712
+2022-10-06 12:24:08,469 - Model - INFO - Test Instance Accuracy: 0.866943
+2022-10-06 12:24:08,469 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:08,469 - Model - INFO - Epoch 240 (240/249):
+2022-10-06 12:24:08,469 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:08,469 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:12,167 - Model - INFO - Train Instance Accuracy: 0.974161
+2022-10-06 12:24:12,167 - Model - INFO - Train Instance Loss: 0.073796
+2022-10-06 12:24:12,463 - Model - INFO - Test Instance Accuracy: 0.866542
+2022-10-06 12:24:12,463 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:12,463 - Model - INFO - Epoch 241 (241/249):
+2022-10-06 12:24:12,463 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:12,463 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:16,161 - Model - INFO - Train Instance Accuracy: 0.976360
+2022-10-06 12:24:16,161 - Model - INFO - Train Instance Loss: 0.071545
+2022-10-06 12:24:16,457 - Model - INFO - Test Instance Accuracy: 0.866943
+2022-10-06 12:24:16,457 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:16,457 - Model - INFO - Epoch 242 (242/249):
+2022-10-06 12:24:16,458 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:16,458 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:20,155 - Model - INFO - Train Instance Accuracy: 0.972436
+2022-10-06 12:24:20,155 - Model - INFO - Train Instance Loss: 0.077248
+2022-10-06 12:24:20,451 - Model - INFO - Test Instance Accuracy: 0.866943
+2022-10-06 12:24:20,451 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:20,451 - Model - INFO - Epoch 243 (243/249):
+2022-10-06 12:24:20,451 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:20,451 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:24,148 - Model - INFO - Train Instance Accuracy: 0.974973
+2022-10-06 12:24:24,148 - Model - INFO - Train Instance Loss: 0.074027
+2022-10-06 12:24:24,444 - Model - INFO - Test Instance Accuracy: 0.864539
+2022-10-06 12:24:24,444 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:24,444 - Model - INFO - Epoch 244 (244/249):
+2022-10-06 12:24:24,444 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:24,444 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:28,145 - Model - INFO - Train Instance Accuracy: 0.977340
+2022-10-06 12:24:28,145 - Model - INFO - Train Instance Loss: 0.070518
+2022-10-06 12:24:28,441 - Model - INFO - Test Instance Accuracy: 0.866943
+2022-10-06 12:24:28,441 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:28,441 - Model - INFO - Epoch 245 (245/249):
+2022-10-06 12:24:28,441 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:28,442 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:32,140 - Model - INFO - Train Instance Accuracy: 0.971963
+2022-10-06 12:24:32,140 - Model - INFO - Train Instance Loss: 0.078176
+2022-10-06 12:24:32,436 - Model - INFO - Test Instance Accuracy: 0.868145
+2022-10-06 12:24:32,436 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:32,436 - Model - INFO - Epoch 246 (246/249):
+2022-10-06 12:24:32,436 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:32,437 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:36,137 - Model - INFO - Train Instance Accuracy: 0.974973
+2022-10-06 12:24:36,137 - Model - INFO - Train Instance Loss: 0.074686
+2022-10-06 12:24:36,433 - Model - INFO - Test Instance Accuracy: 0.868545
+2022-10-06 12:24:36,433 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:36,433 - Model - INFO - Epoch 247 (247/249):
+2022-10-06 12:24:36,433 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:36,433 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:40,133 - Model - INFO - Train Instance Accuracy: 0.975074
+2022-10-06 12:24:40,133 - Model - INFO - Train Instance Loss: 0.075031
+2022-10-06 12:24:40,428 - Model - INFO - Test Instance Accuracy: 0.866943
+2022-10-06 12:24:40,428 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:40,428 - Model - INFO - Epoch 248 (248/249):
+2022-10-06 12:24:40,428 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:40,429 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:44,127 - Model - INFO - Train Instance Accuracy: 0.978355
+2022-10-06 12:24:44,127 - Model - INFO - Train Instance Loss: 0.066701
+2022-10-06 12:24:44,422 - Model - INFO - Test Instance Accuracy: 0.868145
+2022-10-06 12:24:44,422 - Model - INFO - Best Instance Accuracy: 0.874154
+2022-10-06 12:24:44,423 - Model - INFO - Epoch 249 (249/249):
+2022-10-06 12:24:44,423 - Model - INFO - Learning rate:0.000014
+2022-10-06 12:24:44,423 - Model - INFO - BN momentum updated to: 0.010000
+2022-10-06 12:24:48,122 - Model - INFO - Train Instance Accuracy: 0.973282
+2022-10-06 12:24:48,122 - Model - INFO - Train Instance Loss: 0.073053
+2022-10-06 12:24:48,417 - Model - INFO - Test Instance Accuracy: 0.869347
+2022-10-06 12:24:48,417 - Model - INFO - Best Instance Accuracy: 0.874154

@@ -1,0 +1,724 @@
+2022-12-23 15:46:25,328 - Model - INFO - PARAMETER ...
+2022-12-23 15:46:25,328 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=0.01, cascade_way=False, check_repeat=False, coarse_log_dir='sampler_cls_32_ol=0.01', data_dir='modelnet40_ply_hdf5_2048', decay_rate=0.0001, epoch=300, exp_decay=False, gpu='0', infinite_uni=False, initial_temp=0.01, learning_rate=0.0005, lmbda=0.5, log_dir='sampler_cls_16_512_ol=0.01', lr_decay=0.7, min_sigma=0.0001, n_point=1024, n_sample=32, optimizer='Adam', partial_train=False, pre_sample='fps', process_data=True, progressive_uni=False, progressive_version=True, random_seed=0, sample_model='AUPD_dgcnn', save_anchor=False, save_last=True, skip_projection=True, specific_mode=False, start_epoch=None, step_size=20, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', trainable_tmp=False, uni_train=False, use_atten=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=1)
+2022-12-23 15:47:29,774 - Model - INFO - epoch 0, train loss 0.61230, acc 0.81656
+2022-12-23 15:47:36,379 - Model - INFO - epoch 0, avg test acc (16-512 points) 0.74679
+2022-12-23 15:47:36,379 - Model - INFO - Save model...
+2022-12-23 15:47:36,379 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 15:47:36,405 - Model - INFO - Saving model....
+2022-12-23 15:48:37,135 - Model - INFO - epoch 1, train loss 0.58875, acc 0.82315
+2022-12-23 15:48:43,774 - Model - INFO - epoch 1, avg test acc (16-512 points) 0.72957
+2022-12-23 15:49:44,646 - Model - INFO - epoch 2, train loss 0.58155, acc 0.82498
+2022-12-23 15:49:51,303 - Model - INFO - epoch 2, avg test acc (16-512 points) 0.75280
+2022-12-23 15:49:51,303 - Model - INFO - Save model...
+2022-12-23 15:49:51,303 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 15:49:51,434 - Model - INFO - Saving model....
+2022-12-23 15:50:52,415 - Model - INFO - epoch 3, train loss 0.57236, acc 0.82721
+2022-12-23 15:50:59,071 - Model - INFO - epoch 3, avg test acc (16-512 points) 0.72516
+2022-12-23 15:51:59,849 - Model - INFO - epoch 4, train loss 0.57237, acc 0.83360
+2022-12-23 15:52:06,472 - Model - INFO - epoch 4, avg test acc (16-512 points) 0.73317
+2022-12-23 15:53:07,147 - Model - INFO - epoch 5, train loss 0.57952, acc 0.82853
+2022-12-23 15:53:13,751 - Model - INFO - epoch 5, avg test acc (16-512 points) 0.68950
+2022-12-23 15:54:14,420 - Model - INFO - epoch 6, train loss 0.56181, acc 0.83350
+2022-12-23 15:54:21,041 - Model - INFO - epoch 6, avg test acc (16-512 points) 0.76002
+2022-12-23 15:54:21,041 - Model - INFO - Save model...
+2022-12-23 15:54:21,041 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 15:54:21,208 - Model - INFO - Saving model....
+2022-12-23 15:55:21,915 - Model - INFO - epoch 7, train loss 0.54878, acc 0.83746
+2022-12-23 15:55:28,547 - Model - INFO - epoch 7, avg test acc (16-512 points) 0.74119
+2022-12-23 15:56:29,252 - Model - INFO - epoch 8, train loss 0.55367, acc 0.83289
+2022-12-23 15:56:35,873 - Model - INFO - epoch 8, avg test acc (16-512 points) 0.68790
+2022-12-23 15:57:36,579 - Model - INFO - epoch 9, train loss 0.56003, acc 0.83371
+2022-12-23 15:57:43,202 - Model - INFO - epoch 9, avg test acc (16-512 points) 0.73037
+2022-12-23 15:58:43,905 - Model - INFO - epoch 10, train loss 0.55474, acc 0.83340
+2022-12-23 15:58:50,525 - Model - INFO - epoch 10, avg test acc (16-512 points) 0.73798
+2022-12-23 15:59:51,203 - Model - INFO - epoch 11, train loss 0.53908, acc 0.84192
+2022-12-23 15:59:57,817 - Model - INFO - epoch 11, avg test acc (16-512 points) 0.75561
+2022-12-23 16:00:58,572 - Model - INFO - epoch 12, train loss 0.55393, acc 0.83411
+2022-12-23 16:01:05,214 - Model - INFO - epoch 12, avg test acc (16-512 points) 0.76242
+2022-12-23 16:01:05,214 - Model - INFO - Save model...
+2022-12-23 16:01:05,214 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 16:01:05,330 - Model - INFO - Saving model....
+2022-12-23 16:02:06,089 - Model - INFO - epoch 13, train loss 0.54261, acc 0.83624
+2022-12-23 16:02:12,716 - Model - INFO - epoch 13, avg test acc (16-512 points) 0.76763
+2022-12-23 16:02:12,716 - Model - INFO - Save model...
+2022-12-23 16:02:12,716 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 16:02:12,850 - Model - INFO - Saving model....
+2022-12-23 16:03:13,566 - Model - INFO - epoch 14, train loss 0.53369, acc 0.84395
+2022-12-23 16:03:20,194 - Model - INFO - epoch 14, avg test acc (16-512 points) 0.74399
+2022-12-23 16:04:20,925 - Model - INFO - epoch 15, train loss 0.52762, acc 0.84649
+2022-12-23 16:04:27,550 - Model - INFO - epoch 15, avg test acc (16-512 points) 0.74800
+2022-12-23 16:05:28,194 - Model - INFO - epoch 16, train loss 0.53315, acc 0.83959
+2022-12-23 16:05:34,806 - Model - INFO - epoch 16, avg test acc (16-512 points) 0.76683
+2022-12-23 16:06:35,435 - Model - INFO - epoch 17, train loss 0.53672, acc 0.84213
+2022-12-23 16:06:42,042 - Model - INFO - epoch 17, avg test acc (16-512 points) 0.74599
+2022-12-23 16:07:42,658 - Model - INFO - epoch 18, train loss 0.50765, acc 0.84568
+2022-12-23 16:07:49,264 - Model - INFO - epoch 18, avg test acc (16-512 points) 0.74159
+2022-12-23 16:08:49,888 - Model - INFO - epoch 19, train loss 0.51776, acc 0.84416
+2022-12-23 16:08:56,497 - Model - INFO - epoch 19, avg test acc (16-512 points) 0.74479
+2022-12-23 16:09:57,113 - Model - INFO - epoch 20, train loss 0.51689, acc 0.84801
+2022-12-23 16:10:03,729 - Model - INFO - epoch 20, avg test acc (16-512 points) 0.76482
+2022-12-23 16:11:04,340 - Model - INFO - epoch 21, train loss 0.49263, acc 0.85542
+2022-12-23 16:11:10,957 - Model - INFO - epoch 21, avg test acc (16-512 points) 0.74840
+2022-12-23 16:12:11,580 - Model - INFO - epoch 22, train loss 0.49507, acc 0.85735
+2022-12-23 16:12:18,196 - Model - INFO - epoch 22, avg test acc (16-512 points) 0.76162
+2022-12-23 16:13:18,809 - Model - INFO - epoch 23, train loss 0.48525, acc 0.86019
+2022-12-23 16:13:25,425 - Model - INFO - epoch 23, avg test acc (16-512 points) 0.77845
+2022-12-23 16:13:25,425 - Model - INFO - Save model...
+2022-12-23 16:13:25,425 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 16:13:25,541 - Model - INFO - Saving model....
+2022-12-23 16:14:26,176 - Model - INFO - epoch 24, train loss 0.48734, acc 0.85603
+2022-12-23 16:14:32,794 - Model - INFO - epoch 24, avg test acc (16-512 points) 0.76603
+2022-12-23 16:15:33,419 - Model - INFO - epoch 25, train loss 0.50119, acc 0.85298
+2022-12-23 16:15:40,033 - Model - INFO - epoch 25, avg test acc (16-512 points) 0.75601
+2022-12-23 16:16:40,670 - Model - INFO - epoch 26, train loss 0.48153, acc 0.85623
+2022-12-23 16:16:47,288 - Model - INFO - epoch 26, avg test acc (16-512 points) 0.77484
+2022-12-23 16:17:47,927 - Model - INFO - epoch 27, train loss 0.48533, acc 0.85958
+2022-12-23 16:17:54,545 - Model - INFO - epoch 27, avg test acc (16-512 points) 0.76482
+2022-12-23 16:18:55,174 - Model - INFO - epoch 28, train loss 0.49226, acc 0.85907
+2022-12-23 16:19:01,786 - Model - INFO - epoch 28, avg test acc (16-512 points) 0.76442
+2022-12-23 16:20:02,414 - Model - INFO - epoch 29, train loss 0.47878, acc 0.86039
+2022-12-23 16:20:09,039 - Model - INFO - epoch 29, avg test acc (16-512 points) 0.76482
+2022-12-23 16:21:09,644 - Model - INFO - epoch 30, train loss 0.47047, acc 0.86181
+2022-12-23 16:21:16,262 - Model - INFO - epoch 30, avg test acc (16-512 points) 0.76643
+2022-12-23 16:22:16,856 - Model - INFO - epoch 31, train loss 0.48462, acc 0.85420
+2022-12-23 16:22:23,472 - Model - INFO - epoch 31, avg test acc (16-512 points) 0.77163
+2022-12-23 16:23:24,061 - Model - INFO - epoch 32, train loss 0.47969, acc 0.86100
+2022-12-23 16:23:30,673 - Model - INFO - epoch 32, avg test acc (16-512 points) 0.78045
+2022-12-23 16:23:30,673 - Model - INFO - Save model...
+2022-12-23 16:23:30,673 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 16:23:30,802 - Model - INFO - Saving model....
+2022-12-23 16:24:31,388 - Model - INFO - epoch 33, train loss 0.47973, acc 0.86262
+2022-12-23 16:24:38,001 - Model - INFO - epoch 33, avg test acc (16-512 points) 0.75761
+2022-12-23 16:25:38,591 - Model - INFO - epoch 34, train loss 0.48073, acc 0.85836
+2022-12-23 16:25:45,200 - Model - INFO - epoch 34, avg test acc (16-512 points) 0.77845
+2022-12-23 16:26:45,793 - Model - INFO - epoch 35, train loss 0.47596, acc 0.86252
+2022-12-23 16:26:52,401 - Model - INFO - epoch 35, avg test acc (16-512 points) 0.75921
+2022-12-23 16:27:52,991 - Model - INFO - epoch 36, train loss 0.47339, acc 0.86597
+2022-12-23 16:27:59,597 - Model - INFO - epoch 36, avg test acc (16-512 points) 0.75681
+2022-12-23 16:29:00,188 - Model - INFO - epoch 37, train loss 0.48875, acc 0.85745
+2022-12-23 16:29:06,805 - Model - INFO - epoch 37, avg test acc (16-512 points) 0.76362
+2022-12-23 16:30:07,399 - Model - INFO - epoch 38, train loss 0.47528, acc 0.86577
+2022-12-23 16:30:14,005 - Model - INFO - epoch 38, avg test acc (16-512 points) 0.75921
+2022-12-23 16:31:14,590 - Model - INFO - epoch 39, train loss 0.46951, acc 0.86333
+2022-12-23 16:31:21,206 - Model - INFO - epoch 39, avg test acc (16-512 points) 0.76923
+2022-12-23 16:32:21,794 - Model - INFO - epoch 40, train loss 0.45941, acc 0.86912
+2022-12-23 16:32:28,404 - Model - INFO - epoch 40, avg test acc (16-512 points) 0.75441
+2022-12-23 16:33:28,989 - Model - INFO - epoch 41, train loss 0.45138, acc 0.87094
+2022-12-23 16:33:35,606 - Model - INFO - epoch 41, avg test acc (16-512 points) 0.75441
+2022-12-23 16:34:36,205 - Model - INFO - epoch 42, train loss 0.43247, acc 0.87723
+2022-12-23 16:34:42,825 - Model - INFO - epoch 42, avg test acc (16-512 points) 0.76242
+2022-12-23 16:35:43,427 - Model - INFO - epoch 43, train loss 0.44836, acc 0.87226
+2022-12-23 16:35:50,030 - Model - INFO - epoch 43, avg test acc (16-512 points) 0.77123
+2022-12-23 16:36:50,673 - Model - INFO - epoch 44, train loss 0.44319, acc 0.87459
+2022-12-23 16:36:57,290 - Model - INFO - epoch 44, avg test acc (16-512 points) 0.76202
+2022-12-23 16:37:57,929 - Model - INFO - epoch 45, train loss 0.44288, acc 0.87601
+2022-12-23 16:38:04,554 - Model - INFO - epoch 45, avg test acc (16-512 points) 0.77925
+2022-12-23 16:39:05,189 - Model - INFO - epoch 46, train loss 0.44883, acc 0.87277
+2022-12-23 16:39:11,804 - Model - INFO - epoch 46, avg test acc (16-512 points) 0.78085
+2022-12-23 16:39:11,804 - Model - INFO - Save model...
+2022-12-23 16:39:11,804 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 16:39:11,920 - Model - INFO - Saving model....
+2022-12-23 16:40:12,537 - Model - INFO - epoch 47, train loss 0.44408, acc 0.87287
+2022-12-23 16:40:19,153 - Model - INFO - epoch 47, avg test acc (16-512 points) 0.78966
+2022-12-23 16:40:19,153 - Model - INFO - Save model...
+2022-12-23 16:40:19,153 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 16:40:19,326 - Model - INFO - Saving model....
+2022-12-23 16:41:19,910 - Model - INFO - epoch 48, train loss 0.44578, acc 0.87429
+2022-12-23 16:41:26,520 - Model - INFO - epoch 48, avg test acc (16-512 points) 0.78165
+2022-12-23 16:42:27,123 - Model - INFO - epoch 49, train loss 0.44593, acc 0.87520
+2022-12-23 16:42:33,735 - Model - INFO - epoch 49, avg test acc (16-512 points) 0.77845
+2022-12-23 16:43:34,663 - Model - INFO - epoch 50, train loss 0.44567, acc 0.87348
+2022-12-23 16:43:41,648 - Model - INFO - epoch 50, avg test acc (16-512 points) 0.75921
+2022-12-23 16:44:43,784 - Model - INFO - epoch 51, train loss 0.45049, acc 0.87459
+2022-12-23 16:44:50,599 - Model - INFO - epoch 51, avg test acc (16-512 points) 0.76402
+2022-12-23 16:45:52,795 - Model - INFO - epoch 52, train loss 0.43560, acc 0.87744
+2022-12-23 16:45:59,680 - Model - INFO - epoch 52, avg test acc (16-512 points) 0.76963
+2022-12-23 16:47:01,837 - Model - INFO - epoch 53, train loss 0.43732, acc 0.87591
+2022-12-23 16:47:08,721 - Model - INFO - epoch 53, avg test acc (16-512 points) 0.74960
+2022-12-23 16:48:10,924 - Model - INFO - epoch 54, train loss 0.43642, acc 0.87784
+2022-12-23 16:48:17,777 - Model - INFO - epoch 54, avg test acc (16-512 points) 0.79006
+2022-12-23 16:48:17,777 - Model - INFO - Save model...
+2022-12-23 16:48:17,777 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 16:48:17,910 - Model - INFO - Saving model....
+2022-12-23 16:49:20,179 - Model - INFO - epoch 55, train loss 0.43437, acc 0.87835
+2022-12-23 16:49:26,960 - Model - INFO - epoch 55, avg test acc (16-512 points) 0.77564
+2022-12-23 16:50:27,815 - Model - INFO - epoch 56, train loss 0.42848, acc 0.88078
+2022-12-23 16:50:34,436 - Model - INFO - epoch 56, avg test acc (16-512 points) 0.78886
+2022-12-23 16:51:35,113 - Model - INFO - epoch 57, train loss 0.44467, acc 0.87744
+2022-12-23 16:51:41,723 - Model - INFO - epoch 57, avg test acc (16-512 points) 0.75521
+2022-12-23 16:52:42,351 - Model - INFO - epoch 58, train loss 0.44117, acc 0.87459
+2022-12-23 16:52:48,959 - Model - INFO - epoch 58, avg test acc (16-512 points) 0.76322
+2022-12-23 16:53:49,500 - Model - INFO - epoch 59, train loss 0.44279, acc 0.87642
+2022-12-23 16:53:56,103 - Model - INFO - epoch 59, avg test acc (16-512 points) 0.76883
+2022-12-23 16:54:56,638 - Model - INFO - epoch 60, train loss 0.43706, acc 0.88058
+2022-12-23 16:55:03,242 - Model - INFO - epoch 60, avg test acc (16-512 points) 0.76522
+2022-12-23 16:56:03,779 - Model - INFO - epoch 61, train loss 0.42907, acc 0.88383
+2022-12-23 16:56:10,381 - Model - INFO - epoch 61, avg test acc (16-512 points) 0.78285
+2022-12-23 16:57:10,927 - Model - INFO - epoch 62, train loss 0.40917, acc 0.88799
+2022-12-23 16:57:17,529 - Model - INFO - epoch 62, avg test acc (16-512 points) 0.77083
+2022-12-23 16:58:18,060 - Model - INFO - epoch 63, train loss 0.41498, acc 0.88697
+2022-12-23 16:58:24,668 - Model - INFO - epoch 63, avg test acc (16-512 points) 0.79247
+2022-12-23 16:58:24,668 - Model - INFO - Save model...
+2022-12-23 16:58:24,668 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 16:58:24,798 - Model - INFO - Saving model....
+2022-12-23 16:59:25,332 - Model - INFO - epoch 64, train loss 0.41274, acc 0.88718
+2022-12-23 16:59:31,936 - Model - INFO - epoch 64, avg test acc (16-512 points) 0.78045
+2022-12-23 17:00:32,485 - Model - INFO - epoch 65, train loss 0.42073, acc 0.88596
+2022-12-23 17:00:39,086 - Model - INFO - epoch 65, avg test acc (16-512 points) 0.75962
+2022-12-23 17:01:39,636 - Model - INFO - epoch 66, train loss 0.42910, acc 0.88464
+2022-12-23 17:01:46,232 - Model - INFO - epoch 66, avg test acc (16-512 points) 0.77644
+2022-12-23 17:02:46,793 - Model - INFO - epoch 67, train loss 0.41125, acc 0.88657
+2022-12-23 17:02:53,394 - Model - INFO - epoch 67, avg test acc (16-512 points) 0.80449
+2022-12-23 17:02:53,394 - Model - INFO - Save model...
+2022-12-23 17:02:53,394 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 17:02:53,766 - Model - INFO - Saving model....
+2022-12-23 17:03:54,309 - Model - INFO - epoch 68, train loss 0.41707, acc 0.88707
+2022-12-23 17:04:00,911 - Model - INFO - epoch 68, avg test acc (16-512 points) 0.78365
+2022-12-23 17:05:01,448 - Model - INFO - epoch 69, train loss 0.41772, acc 0.88839
+2022-12-23 17:05:08,050 - Model - INFO - epoch 69, avg test acc (16-512 points) 0.78486
+2022-12-23 17:06:08,579 - Model - INFO - epoch 70, train loss 0.41420, acc 0.88809
+2022-12-23 17:06:15,170 - Model - INFO - epoch 70, avg test acc (16-512 points) 0.79367
+2022-12-23 17:07:15,708 - Model - INFO - epoch 71, train loss 0.41353, acc 0.88789
+2022-12-23 17:07:22,307 - Model - INFO - epoch 71, avg test acc (16-512 points) 0.77524
+2022-12-23 17:08:22,859 - Model - INFO - epoch 72, train loss 0.41931, acc 0.88241
+2022-12-23 17:08:29,463 - Model - INFO - epoch 72, avg test acc (16-512 points) 0.79367
+2022-12-23 17:09:29,995 - Model - INFO - epoch 73, train loss 0.40657, acc 0.88920
+2022-12-23 17:09:36,594 - Model - INFO - epoch 73, avg test acc (16-512 points) 0.78045
+2022-12-23 17:10:37,136 - Model - INFO - epoch 74, train loss 0.40985, acc 0.88677
+2022-12-23 17:10:43,738 - Model - INFO - epoch 74, avg test acc (16-512 points) 0.78125
+2022-12-23 17:11:44,275 - Model - INFO - epoch 75, train loss 0.39969, acc 0.88839
+2022-12-23 17:11:50,882 - Model - INFO - epoch 75, avg test acc (16-512 points) 0.77925
+2022-12-23 17:12:51,410 - Model - INFO - epoch 76, train loss 0.41085, acc 0.88535
+2022-12-23 17:12:58,010 - Model - INFO - epoch 76, avg test acc (16-512 points) 0.80008
+2022-12-23 17:13:58,628 - Model - INFO - epoch 77, train loss 0.40153, acc 0.89245
+2022-12-23 17:14:05,247 - Model - INFO - epoch 77, avg test acc (16-512 points) 0.80128
+2022-12-23 17:15:05,882 - Model - INFO - epoch 78, train loss 0.39951, acc 0.88941
+2022-12-23 17:15:12,496 - Model - INFO - epoch 78, avg test acc (16-512 points) 0.79768
+2022-12-23 17:16:13,115 - Model - INFO - epoch 79, train loss 0.41525, acc 0.88920
+2022-12-23 17:16:19,726 - Model - INFO - epoch 79, avg test acc (16-512 points) 0.80689
+2022-12-23 17:16:19,727 - Model - INFO - Save model...
+2022-12-23 17:16:19,727 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 17:16:19,858 - Model - INFO - Saving model....
+2022-12-23 17:17:20,481 - Model - INFO - epoch 80, train loss 0.39934, acc 0.89154
+2022-12-23 17:17:27,090 - Model - INFO - epoch 80, avg test acc (16-512 points) 0.79127
+2022-12-23 17:18:27,692 - Model - INFO - epoch 81, train loss 0.39188, acc 0.89458
+2022-12-23 17:18:34,298 - Model - INFO - epoch 81, avg test acc (16-512 points) 0.80569
+2022-12-23 17:19:34,908 - Model - INFO - epoch 82, train loss 0.39299, acc 0.89692
+2022-12-23 17:19:41,520 - Model - INFO - epoch 82, avg test acc (16-512 points) 0.80689
+2022-12-23 17:20:42,103 - Model - INFO - epoch 83, train loss 0.39619, acc 0.89539
+2022-12-23 17:20:48,713 - Model - INFO - epoch 83, avg test acc (16-512 points) 0.80489
+2022-12-23 17:21:49,348 - Model - INFO - epoch 84, train loss 0.40672, acc 0.89418
+2022-12-23 17:21:55,960 - Model - INFO - epoch 84, avg test acc (16-512 points) 0.78365
+2022-12-23 17:22:56,586 - Model - INFO - epoch 85, train loss 0.39522, acc 0.89539
+2022-12-23 17:23:03,198 - Model - INFO - epoch 85, avg test acc (16-512 points) 0.78245
+2022-12-23 17:24:03,819 - Model - INFO - epoch 86, train loss 0.39101, acc 0.89712
+2022-12-23 17:24:10,438 - Model - INFO - epoch 86, avg test acc (16-512 points) 0.79728
+2022-12-23 17:25:11,075 - Model - INFO - epoch 87, train loss 0.39060, acc 0.89732
+2022-12-23 17:25:17,693 - Model - INFO - epoch 87, avg test acc (16-512 points) 0.79127
+2022-12-23 17:26:18,394 - Model - INFO - epoch 88, train loss 0.39065, acc 0.89864
+2022-12-23 17:26:25,020 - Model - INFO - epoch 88, avg test acc (16-512 points) 0.80128
+2022-12-23 17:27:25,753 - Model - INFO - epoch 89, train loss 0.38943, acc 0.89610
+2022-12-23 17:27:32,375 - Model - INFO - epoch 89, avg test acc (16-512 points) 0.77804
+2022-12-23 17:28:33,086 - Model - INFO - epoch 90, train loss 0.39389, acc 0.89671
+2022-12-23 17:28:39,708 - Model - INFO - epoch 90, avg test acc (16-512 points) 0.79407
+2022-12-23 17:29:40,437 - Model - INFO - epoch 91, train loss 0.38415, acc 0.89976
+2022-12-23 17:29:47,056 - Model - INFO - epoch 91, avg test acc (16-512 points) 0.80929
+2022-12-23 17:29:47,057 - Model - INFO - Save model...
+2022-12-23 17:29:47,057 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 17:29:47,181 - Model - INFO - Saving model....
+2022-12-23 17:30:47,910 - Model - INFO - epoch 92, train loss 0.39166, acc 0.89580
+2022-12-23 17:30:54,533 - Model - INFO - epoch 92, avg test acc (16-512 points) 0.78926
+2022-12-23 17:31:55,288 - Model - INFO - epoch 93, train loss 0.38934, acc 0.89813
+2022-12-23 17:32:01,914 - Model - INFO - epoch 93, avg test acc (16-512 points) 0.79527
+2022-12-23 17:33:02,673 - Model - INFO - epoch 94, train loss 0.38952, acc 0.89935
+2022-12-23 17:33:09,304 - Model - INFO - epoch 94, avg test acc (16-512 points) 0.78486
+2022-12-23 17:34:10,053 - Model - INFO - epoch 95, train loss 0.38829, acc 0.89935
+2022-12-23 17:34:16,676 - Model - INFO - epoch 95, avg test acc (16-512 points) 0.79447
+2022-12-23 17:35:17,407 - Model - INFO - epoch 96, train loss 0.37635, acc 0.90057
+2022-12-23 17:35:24,030 - Model - INFO - epoch 96, avg test acc (16-512 points) 0.80769
+2022-12-23 17:36:24,728 - Model - INFO - epoch 97, train loss 0.38240, acc 0.90037
+2022-12-23 17:36:31,351 - Model - INFO - epoch 97, avg test acc (16-512 points) 0.80569
+2022-12-23 17:37:32,067 - Model - INFO - epoch 98, train loss 0.38799, acc 0.89986
+2022-12-23 17:37:38,691 - Model - INFO - epoch 98, avg test acc (16-512 points) 0.80248
+2022-12-23 17:38:39,388 - Model - INFO - epoch 99, train loss 0.39338, acc 0.89905
+2022-12-23 17:38:46,007 - Model - INFO - epoch 99, avg test acc (16-512 points) 0.79367
+2022-12-23 17:39:46,712 - Model - INFO - epoch 100, train loss 0.38513, acc 0.89976
+2022-12-23 17:39:53,342 - Model - INFO - epoch 100, avg test acc (16-512 points) 0.80649
+2022-12-23 17:40:54,053 - Model - INFO - epoch 101, train loss 0.38253, acc 0.90209
+2022-12-23 17:41:00,684 - Model - INFO - epoch 101, avg test acc (16-512 points) 0.79327
+2022-12-23 17:42:01,390 - Model - INFO - epoch 102, train loss 0.37907, acc 0.90047
+2022-12-23 17:42:08,020 - Model - INFO - epoch 102, avg test acc (16-512 points) 0.79607
+2022-12-23 17:43:08,737 - Model - INFO - epoch 103, train loss 0.38783, acc 0.89986
+2022-12-23 17:43:15,362 - Model - INFO - epoch 103, avg test acc (16-512 points) 0.80208
+2022-12-23 17:44:16,073 - Model - INFO - epoch 104, train loss 0.37842, acc 0.90341
+2022-12-23 17:44:22,699 - Model - INFO - epoch 104, avg test acc (16-512 points) 0.80649
+2022-12-23 17:45:23,415 - Model - INFO - epoch 105, train loss 0.37588, acc 0.90493
+2022-12-23 17:45:30,041 - Model - INFO - epoch 105, avg test acc (16-512 points) 0.80849
+2022-12-23 17:46:30,765 - Model - INFO - epoch 106, train loss 0.37788, acc 0.90209
+2022-12-23 17:46:37,390 - Model - INFO - epoch 106, avg test acc (16-512 points) 0.80008
+2022-12-23 17:47:38,130 - Model - INFO - epoch 107, train loss 0.37114, acc 0.90412
+2022-12-23 17:47:44,755 - Model - INFO - epoch 107, avg test acc (16-512 points) 0.79046
+2022-12-23 17:48:45,471 - Model - INFO - epoch 108, train loss 0.36735, acc 0.90321
+2022-12-23 17:48:52,096 - Model - INFO - epoch 108, avg test acc (16-512 points) 0.80409
+2022-12-23 17:49:52,828 - Model - INFO - epoch 109, train loss 0.37396, acc 0.90341
+2022-12-23 17:49:59,458 - Model - INFO - epoch 109, avg test acc (16-512 points) 0.79046
+2022-12-23 17:51:00,189 - Model - INFO - epoch 110, train loss 0.37092, acc 0.90564
+2022-12-23 17:51:06,817 - Model - INFO - epoch 110, avg test acc (16-512 points) 0.78566
+2022-12-23 17:52:07,552 - Model - INFO - epoch 111, train loss 0.37545, acc 0.90381
+2022-12-23 17:52:14,175 - Model - INFO - epoch 111, avg test acc (16-512 points) 0.80889
+2022-12-23 17:53:14,892 - Model - INFO - epoch 112, train loss 0.36768, acc 0.90615
+2022-12-23 17:53:21,517 - Model - INFO - epoch 112, avg test acc (16-512 points) 0.80649
+2022-12-23 17:54:22,235 - Model - INFO - epoch 113, train loss 0.37464, acc 0.90635
+2022-12-23 17:54:28,853 - Model - INFO - epoch 113, avg test acc (16-512 points) 0.79087
+2022-12-23 17:55:29,551 - Model - INFO - epoch 114, train loss 0.36739, acc 0.90858
+2022-12-23 17:55:36,168 - Model - INFO - epoch 114, avg test acc (16-512 points) 0.79728
+2022-12-23 17:56:36,780 - Model - INFO - epoch 115, train loss 0.36784, acc 0.90655
+2022-12-23 17:56:43,400 - Model - INFO - epoch 115, avg test acc (16-512 points) 0.78886
+2022-12-23 17:57:44,006 - Model - INFO - epoch 116, train loss 0.36027, acc 0.91011
+2022-12-23 17:57:50,618 - Model - INFO - epoch 116, avg test acc (16-512 points) 0.80809
+2022-12-23 17:58:51,225 - Model - INFO - epoch 117, train loss 0.36372, acc 0.90777
+2022-12-23 17:58:57,837 - Model - INFO - epoch 117, avg test acc (16-512 points) 0.81210
+2022-12-23 17:58:57,837 - Model - INFO - Save model...
+2022-12-23 17:58:57,837 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 17:58:57,966 - Model - INFO - Saving model....
+2022-12-23 17:59:58,591 - Model - INFO - epoch 118, train loss 0.37747, acc 0.90219
+2022-12-23 18:00:05,214 - Model - INFO - epoch 118, avg test acc (16-512 points) 0.80128
+2022-12-23 18:01:05,804 - Model - INFO - epoch 119, train loss 0.36877, acc 0.90666
+2022-12-23 18:01:12,415 - Model - INFO - epoch 119, avg test acc (16-512 points) 0.79808
+2022-12-23 18:02:13,013 - Model - INFO - epoch 120, train loss 0.36580, acc 0.90544
+2022-12-23 18:02:19,626 - Model - INFO - epoch 120, avg test acc (16-512 points) 0.80409
+2022-12-23 18:03:20,257 - Model - INFO - epoch 121, train loss 0.36663, acc 0.90726
+2022-12-23 18:03:26,869 - Model - INFO - epoch 121, avg test acc (16-512 points) 0.81090
+2022-12-23 18:04:27,496 - Model - INFO - epoch 122, train loss 0.36138, acc 0.91071
+2022-12-23 18:04:34,109 - Model - INFO - epoch 122, avg test acc (16-512 points) 0.81050
+2022-12-23 18:05:34,730 - Model - INFO - epoch 123, train loss 0.36280, acc 0.91274
+2022-12-23 18:05:41,346 - Model - INFO - epoch 123, avg test acc (16-512 points) 0.80088
+2022-12-23 18:06:41,973 - Model - INFO - epoch 124, train loss 0.36532, acc 0.91112
+2022-12-23 18:06:48,586 - Model - INFO - epoch 124, avg test acc (16-512 points) 0.80489
+2022-12-23 18:07:49,208 - Model - INFO - epoch 125, train loss 0.37125, acc 0.90513
+2022-12-23 18:07:55,814 - Model - INFO - epoch 125, avg test acc (16-512 points) 0.79647
+2022-12-23 18:08:56,443 - Model - INFO - epoch 126, train loss 0.35312, acc 0.91122
+2022-12-23 18:09:03,061 - Model - INFO - epoch 126, avg test acc (16-512 points) 0.81450
+2022-12-23 18:09:03,062 - Model - INFO - Save model...
+2022-12-23 18:09:03,062 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 18:09:03,188 - Model - INFO - Saving model....
+2022-12-23 18:10:03,813 - Model - INFO - epoch 127, train loss 0.35034, acc 0.91386
+2022-12-23 18:10:10,444 - Model - INFO - epoch 127, avg test acc (16-512 points) 0.80128
+2022-12-23 18:11:11,162 - Model - INFO - epoch 128, train loss 0.35417, acc 0.91416
+2022-12-23 18:11:17,787 - Model - INFO - epoch 128, avg test acc (16-512 points) 0.81170
+2022-12-23 18:12:18,516 - Model - INFO - epoch 129, train loss 0.36121, acc 0.91224
+2022-12-23 18:12:25,141 - Model - INFO - epoch 129, avg test acc (16-512 points) 0.80970
+2022-12-23 18:13:25,875 - Model - INFO - epoch 130, train loss 0.35185, acc 0.91406
+2022-12-23 18:13:32,499 - Model - INFO - epoch 130, avg test acc (16-512 points) 0.80889
+2022-12-23 18:14:33,208 - Model - INFO - epoch 131, train loss 0.36328, acc 0.90635
+2022-12-23 18:14:39,837 - Model - INFO - epoch 131, avg test acc (16-512 points) 0.80288
+2022-12-23 18:15:40,562 - Model - INFO - epoch 132, train loss 0.35219, acc 0.91021
+2022-12-23 18:15:47,187 - Model - INFO - epoch 132, avg test acc (16-512 points) 0.80208
+2022-12-23 18:16:47,906 - Model - INFO - epoch 133, train loss 0.36090, acc 0.90960
+2022-12-23 18:16:54,528 - Model - INFO - epoch 133, avg test acc (16-512 points) 0.81611
+2022-12-23 18:16:54,528 - Model - INFO - Save model...
+2022-12-23 18:16:54,528 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 18:16:54,658 - Model - INFO - Saving model....
+2022-12-23 18:17:55,382 - Model - INFO - epoch 134, train loss 0.35644, acc 0.91224
+2022-12-23 18:18:02,001 - Model - INFO - epoch 134, avg test acc (16-512 points) 0.79808
+2022-12-23 18:19:02,711 - Model - INFO - epoch 135, train loss 0.37008, acc 0.90990
+2022-12-23 18:19:09,326 - Model - INFO - epoch 135, avg test acc (16-512 points) 0.82171
+2022-12-23 18:19:09,326 - Model - INFO - Save model...
+2022-12-23 18:19:09,326 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 18:19:09,451 - Model - INFO - Saving model....
+2022-12-23 18:20:10,167 - Model - INFO - epoch 136, train loss 0.36589, acc 0.90929
+2022-12-23 18:20:16,800 - Model - INFO - epoch 136, avg test acc (16-512 points) 0.82091
+2022-12-23 18:21:17,503 - Model - INFO - epoch 137, train loss 0.36071, acc 0.90929
+2022-12-23 18:21:24,126 - Model - INFO - epoch 137, avg test acc (16-512 points) 0.81290
+2022-12-23 18:22:24,774 - Model - INFO - epoch 138, train loss 0.35612, acc 0.91508
+2022-12-23 18:22:31,386 - Model - INFO - epoch 138, avg test acc (16-512 points) 0.82051
+2022-12-23 18:23:32,006 - Model - INFO - epoch 139, train loss 0.35651, acc 0.91213
+2022-12-23 18:23:38,624 - Model - INFO - epoch 139, avg test acc (16-512 points) 0.79808
+2022-12-23 18:24:39,224 - Model - INFO - epoch 140, train loss 0.35539, acc 0.91193
+2022-12-23 18:24:45,843 - Model - INFO - epoch 140, avg test acc (16-512 points) 0.81330
+2022-12-23 18:25:46,510 - Model - INFO - epoch 141, train loss 0.35515, acc 0.91274
+2022-12-23 18:25:53,137 - Model - INFO - epoch 141, avg test acc (16-512 points) 0.81971
+2022-12-23 18:26:53,853 - Model - INFO - epoch 142, train loss 0.35132, acc 0.91569
+2022-12-23 18:27:00,479 - Model - INFO - epoch 142, avg test acc (16-512 points) 0.81931
+2022-12-23 18:28:01,228 - Model - INFO - epoch 143, train loss 0.36540, acc 0.91051
+2022-12-23 18:28:07,860 - Model - INFO - epoch 143, avg test acc (16-512 points) 0.80128
+2022-12-23 18:29:08,604 - Model - INFO - epoch 144, train loss 0.35587, acc 0.91376
+2022-12-23 18:29:15,241 - Model - INFO - epoch 144, avg test acc (16-512 points) 0.81130
+2022-12-23 18:30:15,987 - Model - INFO - epoch 145, train loss 0.35384, acc 0.91325
+2022-12-23 18:30:22,620 - Model - INFO - epoch 145, avg test acc (16-512 points) 0.81370
+2022-12-23 18:31:23,363 - Model - INFO - epoch 146, train loss 0.36014, acc 0.91376
+2022-12-23 18:31:29,999 - Model - INFO - epoch 146, avg test acc (16-512 points) 0.80929
+2022-12-23 18:32:30,766 - Model - INFO - epoch 147, train loss 0.36256, acc 0.91295
+2022-12-23 18:32:37,399 - Model - INFO - epoch 147, avg test acc (16-512 points) 0.81490
+2022-12-23 18:33:38,144 - Model - INFO - epoch 148, train loss 0.34586, acc 0.91284
+2022-12-23 18:33:44,775 - Model - INFO - epoch 148, avg test acc (16-512 points) 0.81851
+2022-12-23 18:34:45,528 - Model - INFO - epoch 149, train loss 0.35398, acc 0.91203
+2022-12-23 18:34:52,169 - Model - INFO - epoch 149, avg test acc (16-512 points) 0.81571
+2022-12-23 18:35:52,927 - Model - INFO - epoch 150, train loss 0.35203, acc 0.91254
+2022-12-23 18:35:59,560 - Model - INFO - epoch 150, avg test acc (16-512 points) 0.81891
+2022-12-23 18:37:00,315 - Model - INFO - epoch 151, train loss 0.34893, acc 0.91325
+2022-12-23 18:37:06,946 - Model - INFO - epoch 151, avg test acc (16-512 points) 0.81010
+2022-12-23 18:38:07,695 - Model - INFO - epoch 152, train loss 0.35129, acc 0.91508
+2022-12-23 18:38:14,326 - Model - INFO - epoch 152, avg test acc (16-512 points) 0.81771
+2022-12-23 18:39:15,059 - Model - INFO - epoch 153, train loss 0.35371, acc 0.91183
+2022-12-23 18:39:21,697 - Model - INFO - epoch 153, avg test acc (16-512 points) 0.81611
+2022-12-23 18:40:22,447 - Model - INFO - epoch 154, train loss 0.34643, acc 0.92025
+2022-12-23 18:40:29,080 - Model - INFO - epoch 154, avg test acc (16-512 points) 0.80449
+2022-12-23 18:41:29,835 - Model - INFO - epoch 155, train loss 0.36179, acc 0.91031
+2022-12-23 18:41:36,455 - Model - INFO - epoch 155, avg test acc (16-512 points) 0.80929
+2022-12-23 18:42:37,187 - Model - INFO - epoch 156, train loss 0.35020, acc 0.91122
+2022-12-23 18:42:43,826 - Model - INFO - epoch 156, avg test acc (16-512 points) 0.82051
+2022-12-23 18:43:44,574 - Model - INFO - epoch 157, train loss 0.34860, acc 0.91599
+2022-12-23 18:43:51,206 - Model - INFO - epoch 157, avg test acc (16-512 points) 0.81971
+2022-12-23 18:44:51,949 - Model - INFO - epoch 158, train loss 0.34702, acc 0.91589
+2022-12-23 18:44:58,584 - Model - INFO - epoch 158, avg test acc (16-512 points) 0.81571
+2022-12-23 18:45:59,307 - Model - INFO - epoch 159, train loss 0.34618, acc 0.91660
+2022-12-23 18:46:05,936 - Model - INFO - epoch 159, avg test acc (16-512 points) 0.82532
+2022-12-23 18:46:05,936 - Model - INFO - Save model...
+2022-12-23 18:46:05,936 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 18:46:06,048 - Model - INFO - Saving model....
+2022-12-23 18:47:06,770 - Model - INFO - epoch 160, train loss 0.34827, acc 0.91741
+2022-12-23 18:47:13,399 - Model - INFO - epoch 160, avg test acc (16-512 points) 0.81891
+2022-12-23 18:48:14,110 - Model - INFO - epoch 161, train loss 0.34569, acc 0.91538
+2022-12-23 18:48:20,731 - Model - INFO - epoch 161, avg test acc (16-512 points) 0.81330
+2022-12-23 18:49:21,431 - Model - INFO - epoch 162, train loss 0.35688, acc 0.91335
+2022-12-23 18:49:28,061 - Model - INFO - epoch 162, avg test acc (16-512 points) 0.81811
+2022-12-23 18:50:28,768 - Model - INFO - epoch 163, train loss 0.33674, acc 0.91954
+2022-12-23 18:50:35,400 - Model - INFO - epoch 163, avg test acc (16-512 points) 0.81731
+2022-12-23 18:51:36,103 - Model - INFO - epoch 164, train loss 0.33858, acc 0.91853
+2022-12-23 18:51:42,731 - Model - INFO - epoch 164, avg test acc (16-512 points) 0.80849
+2022-12-23 18:52:43,447 - Model - INFO - epoch 165, train loss 0.33931, acc 0.91934
+2022-12-23 18:52:50,077 - Model - INFO - epoch 165, avg test acc (16-512 points) 0.81811
+2022-12-23 18:53:50,798 - Model - INFO - epoch 166, train loss 0.34691, acc 0.91528
+2022-12-23 18:53:57,425 - Model - INFO - epoch 166, avg test acc (16-512 points) 0.81370
+2022-12-23 18:54:58,181 - Model - INFO - epoch 167, train loss 0.35326, acc 0.91447
+2022-12-23 18:55:04,818 - Model - INFO - epoch 167, avg test acc (16-512 points) 0.81651
+2022-12-23 18:56:05,556 - Model - INFO - epoch 168, train loss 0.34708, acc 0.91518
+2022-12-23 18:56:12,180 - Model - INFO - epoch 168, avg test acc (16-512 points) 0.82131
+2022-12-23 18:57:12,896 - Model - INFO - epoch 169, train loss 0.33439, acc 0.92076
+2022-12-23 18:57:19,513 - Model - INFO - epoch 169, avg test acc (16-512 points) 0.81731
+2022-12-23 18:58:20,235 - Model - INFO - epoch 170, train loss 0.34898, acc 0.91832
+2022-12-23 18:58:26,864 - Model - INFO - epoch 170, avg test acc (16-512 points) 0.81410
+2022-12-23 18:59:27,602 - Model - INFO - epoch 171, train loss 0.33396, acc 0.91741
+2022-12-23 18:59:34,238 - Model - INFO - epoch 171, avg test acc (16-512 points) 0.81410
+2022-12-23 19:00:34,976 - Model - INFO - epoch 172, train loss 0.34672, acc 0.91772
+2022-12-23 19:00:41,595 - Model - INFO - epoch 172, avg test acc (16-512 points) 0.81611
+2022-12-23 19:01:42,333 - Model - INFO - epoch 173, train loss 0.34283, acc 0.91477
+2022-12-23 19:01:48,969 - Model - INFO - epoch 173, avg test acc (16-512 points) 0.81611
+2022-12-23 19:02:49,710 - Model - INFO - epoch 174, train loss 0.34653, acc 0.91406
+2022-12-23 19:02:56,336 - Model - INFO - epoch 174, avg test acc (16-512 points) 0.82492
+2022-12-23 19:03:57,047 - Model - INFO - epoch 175, train loss 0.34758, acc 0.91772
+2022-12-23 19:04:03,674 - Model - INFO - epoch 175, avg test acc (16-512 points) 0.82292
+2022-12-23 19:05:04,357 - Model - INFO - epoch 176, train loss 0.34142, acc 0.92035
+2022-12-23 19:05:10,984 - Model - INFO - epoch 176, avg test acc (16-512 points) 0.80529
+2022-12-23 19:06:11,673 - Model - INFO - epoch 177, train loss 0.34222, acc 0.91944
+2022-12-23 19:06:18,295 - Model - INFO - epoch 177, avg test acc (16-512 points) 0.81050
+2022-12-23 19:07:19,004 - Model - INFO - epoch 178, train loss 0.34577, acc 0.92147
+2022-12-23 19:07:25,627 - Model - INFO - epoch 178, avg test acc (16-512 points) 0.81450
+2022-12-23 19:08:26,344 - Model - INFO - epoch 179, train loss 0.34212, acc 0.91873
+2022-12-23 19:08:32,967 - Model - INFO - epoch 179, avg test acc (16-512 points) 0.81851
+2022-12-23 19:09:33,689 - Model - INFO - epoch 180, train loss 0.33976, acc 0.91883
+2022-12-23 19:09:40,313 - Model - INFO - epoch 180, avg test acc (16-512 points) 0.81370
+2022-12-23 19:10:41,023 - Model - INFO - epoch 181, train loss 0.34100, acc 0.91974
+2022-12-23 19:10:47,639 - Model - INFO - epoch 181, avg test acc (16-512 points) 0.81851
+2022-12-23 19:11:48,346 - Model - INFO - epoch 182, train loss 0.34224, acc 0.91995
+2022-12-23 19:11:54,973 - Model - INFO - epoch 182, avg test acc (16-512 points) 0.81811
+2022-12-23 19:12:55,690 - Model - INFO - epoch 183, train loss 0.34138, acc 0.91822
+2022-12-23 19:13:02,329 - Model - INFO - epoch 183, avg test acc (16-512 points) 0.81490
+2022-12-23 19:14:03,026 - Model - INFO - epoch 184, train loss 0.34180, acc 0.91761
+2022-12-23 19:14:09,654 - Model - INFO - epoch 184, avg test acc (16-512 points) 0.81651
+2022-12-23 19:15:10,367 - Model - INFO - epoch 185, train loss 0.34519, acc 0.91822
+2022-12-23 19:15:16,994 - Model - INFO - epoch 185, avg test acc (16-512 points) 0.81571
+2022-12-23 19:16:17,688 - Model - INFO - epoch 186, train loss 0.34890, acc 0.91863
+2022-12-23 19:16:24,308 - Model - INFO - epoch 186, avg test acc (16-512 points) 0.82091
+2022-12-23 19:17:24,963 - Model - INFO - epoch 187, train loss 0.34157, acc 0.91964
+2022-12-23 19:17:31,573 - Model - INFO - epoch 187, avg test acc (16-512 points) 0.81530
+2022-12-23 19:18:32,174 - Model - INFO - epoch 188, train loss 0.33739, acc 0.91964
+2022-12-23 19:18:38,780 - Model - INFO - epoch 188, avg test acc (16-512 points) 0.81530
+2022-12-23 19:19:39,365 - Model - INFO - epoch 189, train loss 0.33849, acc 0.92167
+2022-12-23 19:19:45,973 - Model - INFO - epoch 189, avg test acc (16-512 points) 0.81050
+2022-12-23 19:20:46,578 - Model - INFO - epoch 190, train loss 0.33345, acc 0.92116
+2022-12-23 19:20:53,191 - Model - INFO - epoch 190, avg test acc (16-512 points) 0.81611
+2022-12-23 19:21:53,795 - Model - INFO - epoch 191, train loss 0.34318, acc 0.91680
+2022-12-23 19:22:00,412 - Model - INFO - epoch 191, avg test acc (16-512 points) 0.82692
+2022-12-23 19:22:00,412 - Model - INFO - Save model...
+2022-12-23 19:22:00,412 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 19:22:00,525 - Model - INFO - Saving model....
+2022-12-23 19:23:01,172 - Model - INFO - epoch 192, train loss 0.33706, acc 0.92492
+2022-12-23 19:23:07,804 - Model - INFO - epoch 192, avg test acc (16-512 points) 0.81210
+2022-12-23 19:24:08,536 - Model - INFO - epoch 193, train loss 0.34882, acc 0.91731
+2022-12-23 19:24:15,168 - Model - INFO - epoch 193, avg test acc (16-512 points) 0.81651
+2022-12-23 19:25:15,902 - Model - INFO - epoch 194, train loss 0.33444, acc 0.92056
+2022-12-23 19:25:22,533 - Model - INFO - epoch 194, avg test acc (16-512 points) 0.81891
+2022-12-23 19:26:23,268 - Model - INFO - epoch 195, train loss 0.34574, acc 0.91711
+2022-12-23 19:26:29,896 - Model - INFO - epoch 195, avg test acc (16-512 points) 0.82292
+2022-12-23 19:27:30,634 - Model - INFO - epoch 196, train loss 0.33018, acc 0.92319
+2022-12-23 19:27:37,277 - Model - INFO - epoch 196, avg test acc (16-512 points) 0.81691
+2022-12-23 19:28:38,020 - Model - INFO - epoch 197, train loss 0.33700, acc 0.92198
+2022-12-23 19:28:44,645 - Model - INFO - epoch 197, avg test acc (16-512 points) 0.82212
+2022-12-23 19:29:45,386 - Model - INFO - epoch 198, train loss 0.34366, acc 0.91873
+2022-12-23 19:29:52,021 - Model - INFO - epoch 198, avg test acc (16-512 points) 0.81811
+2022-12-23 19:30:52,771 - Model - INFO - epoch 199, train loss 0.34486, acc 0.91619
+2022-12-23 19:30:59,400 - Model - INFO - epoch 199, avg test acc (16-512 points) 0.82452
+2022-12-23 19:32:00,167 - Model - INFO - epoch 200, train loss 0.34422, acc 0.91619
+2022-12-23 19:32:06,798 - Model - INFO - epoch 200, avg test acc (16-512 points) 0.82252
+2022-12-23 19:33:07,547 - Model - INFO - epoch 201, train loss 0.33246, acc 0.92208
+2022-12-23 19:33:14,183 - Model - INFO - epoch 201, avg test acc (16-512 points) 0.81450
+2022-12-23 19:34:14,922 - Model - INFO - epoch 202, train loss 0.33801, acc 0.92147
+2022-12-23 19:34:21,557 - Model - INFO - epoch 202, avg test acc (16-512 points) 0.81731
+2022-12-23 19:35:22,312 - Model - INFO - epoch 203, train loss 0.33073, acc 0.92380
+2022-12-23 19:35:28,942 - Model - INFO - epoch 203, avg test acc (16-512 points) 0.81811
+2022-12-23 19:36:29,626 - Model - INFO - epoch 204, train loss 0.33569, acc 0.92319
+2022-12-23 19:36:36,236 - Model - INFO - epoch 204, avg test acc (16-512 points) 0.82612
+2022-12-23 19:37:36,849 - Model - INFO - epoch 205, train loss 0.33976, acc 0.92005
+2022-12-23 19:37:43,465 - Model - INFO - epoch 205, avg test acc (16-512 points) 0.82051
+2022-12-23 19:38:44,085 - Model - INFO - epoch 206, train loss 0.33665, acc 0.91995
+2022-12-23 19:38:50,700 - Model - INFO - epoch 206, avg test acc (16-512 points) 0.81130
+2022-12-23 19:39:51,316 - Model - INFO - epoch 207, train loss 0.34167, acc 0.91873
+2022-12-23 19:39:57,936 - Model - INFO - epoch 207, avg test acc (16-512 points) 0.81731
+2022-12-23 19:40:58,560 - Model - INFO - epoch 208, train loss 0.32779, acc 0.92208
+2022-12-23 19:41:05,176 - Model - INFO - epoch 208, avg test acc (16-512 points) 0.81731
+2022-12-23 19:42:05,788 - Model - INFO - epoch 209, train loss 0.33558, acc 0.91995
+2022-12-23 19:42:12,402 - Model - INFO - epoch 209, avg test acc (16-512 points) 0.83013
+2022-12-23 19:42:12,403 - Model - INFO - Save model...
+2022-12-23 19:42:12,403 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 19:42:12,531 - Model - INFO - Saving model....
+2022-12-23 19:43:13,157 - Model - INFO - epoch 210, train loss 0.33648, acc 0.92015
+2022-12-23 19:43:19,775 - Model - INFO - epoch 210, avg test acc (16-512 points) 0.81851
+2022-12-23 19:44:20,393 - Model - INFO - epoch 211, train loss 0.33620, acc 0.91863
+2022-12-23 19:44:27,008 - Model - INFO - epoch 211, avg test acc (16-512 points) 0.81971
+2022-12-23 19:45:27,670 - Model - INFO - epoch 212, train loss 0.33391, acc 0.92218
+2022-12-23 19:45:34,299 - Model - INFO - epoch 212, avg test acc (16-512 points) 0.82332
+2022-12-23 19:46:35,040 - Model - INFO - epoch 213, train loss 0.34135, acc 0.92167
+2022-12-23 19:46:41,671 - Model - INFO - epoch 213, avg test acc (16-512 points) 0.82171
+2022-12-23 19:47:42,402 - Model - INFO - epoch 214, train loss 0.34252, acc 0.91903
+2022-12-23 19:47:49,026 - Model - INFO - epoch 214, avg test acc (16-512 points) 0.82091
+2022-12-23 19:48:49,778 - Model - INFO - epoch 215, train loss 0.32545, acc 0.92319
+2022-12-23 19:48:56,398 - Model - INFO - epoch 215, avg test acc (16-512 points) 0.81250
+2022-12-23 19:49:57,163 - Model - INFO - epoch 216, train loss 0.33580, acc 0.92066
+2022-12-23 19:50:03,798 - Model - INFO - epoch 216, avg test acc (16-512 points) 0.81931
+2022-12-23 19:51:04,566 - Model - INFO - epoch 217, train loss 0.32777, acc 0.92715
+2022-12-23 19:51:11,205 - Model - INFO - epoch 217, avg test acc (16-512 points) 0.81290
+2022-12-23 19:52:11,981 - Model - INFO - epoch 218, train loss 0.33224, acc 0.92411
+2022-12-23 19:52:18,614 - Model - INFO - epoch 218, avg test acc (16-512 points) 0.82412
+2022-12-23 19:53:19,396 - Model - INFO - epoch 219, train loss 0.33037, acc 0.92583
+2022-12-23 19:53:26,029 - Model - INFO - epoch 219, avg test acc (16-512 points) 0.82332
+2022-12-23 19:54:26,798 - Model - INFO - epoch 220, train loss 0.33524, acc 0.92056
+2022-12-23 19:54:33,435 - Model - INFO - epoch 220, avg test acc (16-512 points) 0.81651
+2022-12-23 19:55:34,186 - Model - INFO - epoch 221, train loss 0.33834, acc 0.92127
+2022-12-23 19:55:40,814 - Model - INFO - epoch 221, avg test acc (16-512 points) 0.81731
+2022-12-23 19:56:41,578 - Model - INFO - epoch 222, train loss 0.33422, acc 0.92350
+2022-12-23 19:56:48,215 - Model - INFO - epoch 222, avg test acc (16-512 points) 0.82212
+2022-12-23 19:57:48,984 - Model - INFO - epoch 223, train loss 0.32939, acc 0.92593
+2022-12-23 19:57:55,614 - Model - INFO - epoch 223, avg test acc (16-512 points) 0.81771
+2022-12-23 19:58:56,382 - Model - INFO - epoch 224, train loss 0.32880, acc 0.92218
+2022-12-23 19:59:03,018 - Model - INFO - epoch 224, avg test acc (16-512 points) 0.82011
+2022-12-23 20:00:03,787 - Model - INFO - epoch 225, train loss 0.33868, acc 0.92248
+2022-12-23 20:00:10,409 - Model - INFO - epoch 225, avg test acc (16-512 points) 0.81771
+2022-12-23 20:01:11,147 - Model - INFO - epoch 226, train loss 0.33152, acc 0.92208
+2022-12-23 20:01:17,775 - Model - INFO - epoch 226, avg test acc (16-512 points) 0.82051
+2022-12-23 20:02:18,518 - Model - INFO - epoch 227, train loss 0.33270, acc 0.92461
+2022-12-23 20:02:25,152 - Model - INFO - epoch 227, avg test acc (16-512 points) 0.81611
+2022-12-23 20:03:25,906 - Model - INFO - epoch 228, train loss 0.33480, acc 0.92380
+2022-12-23 20:03:32,532 - Model - INFO - epoch 228, avg test acc (16-512 points) 0.81611
+2022-12-23 20:04:33,265 - Model - INFO - epoch 229, train loss 0.32849, acc 0.92208
+2022-12-23 20:04:39,900 - Model - INFO - epoch 229, avg test acc (16-512 points) 0.82171
+2022-12-23 20:05:40,676 - Model - INFO - epoch 230, train loss 0.33889, acc 0.92015
+2022-12-23 20:05:47,311 - Model - INFO - epoch 230, avg test acc (16-512 points) 0.81410
+2022-12-23 20:06:48,081 - Model - INFO - epoch 231, train loss 0.33101, acc 0.92269
+2022-12-23 20:06:54,712 - Model - INFO - epoch 231, avg test acc (16-512 points) 0.82252
+2022-12-23 20:07:55,473 - Model - INFO - epoch 232, train loss 0.32911, acc 0.92390
+2022-12-23 20:08:02,089 - Model - INFO - epoch 232, avg test acc (16-512 points) 0.82772
+2022-12-23 20:09:02,733 - Model - INFO - epoch 233, train loss 0.33676, acc 0.92269
+2022-12-23 20:09:09,348 - Model - INFO - epoch 233, avg test acc (16-512 points) 0.81971
+2022-12-23 20:10:09,992 - Model - INFO - epoch 234, train loss 0.33579, acc 0.92380
+2022-12-23 20:10:16,607 - Model - INFO - epoch 234, avg test acc (16-512 points) 0.82051
+2022-12-23 20:11:17,260 - Model - INFO - epoch 235, train loss 0.34183, acc 0.92198
+2022-12-23 20:11:23,879 - Model - INFO - epoch 235, avg test acc (16-512 points) 0.81971
+2022-12-23 20:12:24,539 - Model - INFO - epoch 236, train loss 0.33153, acc 0.92289
+2022-12-23 20:12:31,152 - Model - INFO - epoch 236, avg test acc (16-512 points) 0.82131
+2022-12-23 20:13:31,795 - Model - INFO - epoch 237, train loss 0.33568, acc 0.92461
+2022-12-23 20:13:38,419 - Model - INFO - epoch 237, avg test acc (16-512 points) 0.82131
+2022-12-23 20:14:39,054 - Model - INFO - epoch 238, train loss 0.33844, acc 0.92157
+2022-12-23 20:14:45,668 - Model - INFO - epoch 238, avg test acc (16-512 points) 0.82492
+2022-12-23 20:15:46,311 - Model - INFO - epoch 239, train loss 0.34009, acc 0.92035
+2022-12-23 20:15:52,928 - Model - INFO - epoch 239, avg test acc (16-512 points) 0.82372
+2022-12-23 20:16:53,581 - Model - INFO - epoch 240, train loss 0.33341, acc 0.92614
+2022-12-23 20:17:00,203 - Model - INFO - epoch 240, avg test acc (16-512 points) 0.81851
+2022-12-23 20:18:00,846 - Model - INFO - epoch 241, train loss 0.33558, acc 0.92076
+2022-12-23 20:18:07,463 - Model - INFO - epoch 241, avg test acc (16-512 points) 0.82893
+2022-12-23 20:19:08,118 - Model - INFO - epoch 242, train loss 0.33496, acc 0.92167
+2022-12-23 20:19:14,739 - Model - INFO - epoch 242, avg test acc (16-512 points) 0.82732
+2022-12-23 20:20:15,387 - Model - INFO - epoch 243, train loss 0.33667, acc 0.92198
+2022-12-23 20:20:22,000 - Model - INFO - epoch 243, avg test acc (16-512 points) 0.81450
+2022-12-23 20:21:22,657 - Model - INFO - epoch 244, train loss 0.32518, acc 0.92218
+2022-12-23 20:21:29,275 - Model - INFO - epoch 244, avg test acc (16-512 points) 0.82452
+2022-12-23 20:22:29,928 - Model - INFO - epoch 245, train loss 0.32559, acc 0.92634
+2022-12-23 20:22:36,553 - Model - INFO - epoch 245, avg test acc (16-512 points) 0.82532
+2022-12-23 20:23:37,197 - Model - INFO - epoch 246, train loss 0.32165, acc 0.92817
+2022-12-23 20:23:43,810 - Model - INFO - epoch 246, avg test acc (16-512 points) 0.82131
+2022-12-23 20:24:44,457 - Model - INFO - epoch 247, train loss 0.33284, acc 0.92248
+2022-12-23 20:24:51,069 - Model - INFO - epoch 247, avg test acc (16-512 points) 0.82452
+2022-12-23 20:25:51,730 - Model - INFO - epoch 248, train loss 0.33229, acc 0.92664
+2022-12-23 20:25:58,352 - Model - INFO - epoch 248, avg test acc (16-512 points) 0.82612
+2022-12-23 20:26:59,031 - Model - INFO - epoch 249, train loss 0.33784, acc 0.92431
+2022-12-23 20:27:05,669 - Model - INFO - epoch 249, avg test acc (16-512 points) 0.81450
+2022-12-23 20:28:06,336 - Model - INFO - epoch 250, train loss 0.33126, acc 0.92583
+2022-12-23 20:28:12,946 - Model - INFO - epoch 250, avg test acc (16-512 points) 0.81851
+2022-12-23 20:29:13,606 - Model - INFO - epoch 251, train loss 0.33623, acc 0.92299
+2022-12-23 20:29:20,211 - Model - INFO - epoch 251, avg test acc (16-512 points) 0.82452
+2022-12-23 20:30:20,881 - Model - INFO - epoch 252, train loss 0.33179, acc 0.92431
+2022-12-23 20:30:27,505 - Model - INFO - epoch 252, avg test acc (16-512 points) 0.81250
+2022-12-23 20:31:28,168 - Model - INFO - epoch 253, train loss 0.33026, acc 0.92593
+2022-12-23 20:31:34,782 - Model - INFO - epoch 253, avg test acc (16-512 points) 0.82492
+2022-12-23 20:32:35,431 - Model - INFO - epoch 254, train loss 0.33376, acc 0.92401
+2022-12-23 20:32:42,043 - Model - INFO - epoch 254, avg test acc (16-512 points) 0.81771
+2022-12-23 20:33:42,678 - Model - INFO - epoch 255, train loss 0.32751, acc 0.92705
+2022-12-23 20:33:49,290 - Model - INFO - epoch 255, avg test acc (16-512 points) 0.81931
+2022-12-23 20:34:50,778 - Model - INFO - epoch 256, train loss 0.32485, acc 0.92766
+2022-12-23 20:34:57,611 - Model - INFO - epoch 256, avg test acc (16-512 points) 0.81851
+2022-12-23 20:36:02,893 - Model - INFO - epoch 257, train loss 0.32553, acc 0.92573
+2022-12-23 20:36:10,248 - Model - INFO - epoch 257, avg test acc (16-512 points) 0.82171
+2022-12-23 20:37:13,999 - Model - INFO - epoch 258, train loss 0.32922, acc 0.92441
+2022-12-23 20:37:20,971 - Model - INFO - epoch 258, avg test acc (16-512 points) 0.80128
+2022-12-23 20:38:25,328 - Model - INFO - epoch 259, train loss 0.33228, acc 0.92106
+2022-12-23 20:38:32,355 - Model - INFO - epoch 259, avg test acc (16-512 points) 0.83053
+2022-12-23 20:38:32,355 - Model - INFO - Save model...
+2022-12-23 20:38:32,355 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/best_model.pth
+2022-12-23 20:38:32,490 - Model - INFO - Saving model....
+2022-12-23 20:39:35,658 - Model - INFO - epoch 260, train loss 0.33126, acc 0.92238
+2022-12-23 20:39:42,708 - Model - INFO - epoch 260, avg test acc (16-512 points) 0.81370
+2022-12-23 20:40:45,852 - Model - INFO - epoch 261, train loss 0.33139, acc 0.92309
+2022-12-23 20:40:52,695 - Model - INFO - epoch 261, avg test acc (16-512 points) 0.81651
+2022-12-23 20:41:55,001 - Model - INFO - epoch 262, train loss 0.32703, acc 0.92319
+2022-12-23 20:42:01,855 - Model - INFO - epoch 262, avg test acc (16-512 points) 0.83013
+2022-12-23 20:43:05,073 - Model - INFO - epoch 263, train loss 0.33071, acc 0.92319
+2022-12-23 20:43:12,117 - Model - INFO - epoch 263, avg test acc (16-512 points) 0.82652
+2022-12-23 20:44:15,384 - Model - INFO - epoch 264, train loss 0.33159, acc 0.92644
+2022-12-23 20:44:22,450 - Model - INFO - epoch 264, avg test acc (16-512 points) 0.82853
+2022-12-23 20:45:25,236 - Model - INFO - epoch 265, train loss 0.33135, acc 0.92147
+2022-12-23 20:45:32,054 - Model - INFO - epoch 265, avg test acc (16-512 points) 0.82091
+2022-12-23 20:46:34,220 - Model - INFO - epoch 266, train loss 0.32750, acc 0.92543
+2022-12-23 20:46:41,132 - Model - INFO - epoch 266, avg test acc (16-512 points) 0.81370
+2022-12-23 20:47:44,461 - Model - INFO - epoch 267, train loss 0.33082, acc 0.92644
+2022-12-23 20:47:51,405 - Model - INFO - epoch 267, avg test acc (16-512 points) 0.82452
+2022-12-23 20:48:54,598 - Model - INFO - epoch 268, train loss 0.32595, acc 0.92877
+2022-12-23 20:49:01,473 - Model - INFO - epoch 268, avg test acc (16-512 points) 0.81210
+2022-12-23 20:50:03,998 - Model - INFO - epoch 269, train loss 0.33435, acc 0.92177
+2022-12-23 20:50:10,839 - Model - INFO - epoch 269, avg test acc (16-512 points) 0.82732
+2022-12-23 20:51:13,393 - Model - INFO - epoch 270, train loss 0.32612, acc 0.92532
+2022-12-23 20:51:20,337 - Model - INFO - epoch 270, avg test acc (16-512 points) 0.82732
+2022-12-23 20:52:23,508 - Model - INFO - epoch 271, train loss 0.33185, acc 0.92553
+2022-12-23 20:52:30,448 - Model - INFO - epoch 271, avg test acc (16-512 points) 0.82532
+2022-12-23 20:53:33,336 - Model - INFO - epoch 272, train loss 0.32540, acc 0.92634
+2022-12-23 20:53:40,337 - Model - INFO - epoch 272, avg test acc (16-512 points) 0.82812
+2022-12-23 20:54:42,947 - Model - INFO - epoch 273, train loss 0.33172, acc 0.92705
+2022-12-23 20:54:49,881 - Model - INFO - epoch 273, avg test acc (16-512 points) 0.81651
+2022-12-23 20:55:53,585 - Model - INFO - epoch 274, train loss 0.32562, acc 0.92603
+2022-12-23 20:56:00,717 - Model - INFO - epoch 274, avg test acc (16-512 points) 0.81571
+2022-12-23 20:57:02,719 - Model - INFO - epoch 275, train loss 0.33088, acc 0.92319
+2022-12-23 20:57:09,513 - Model - INFO - epoch 275, avg test acc (16-512 points) 0.82492
+2022-12-23 20:58:11,611 - Model - INFO - epoch 276, train loss 0.33353, acc 0.92735
+2022-12-23 20:58:18,436 - Model - INFO - epoch 276, avg test acc (16-512 points) 0.82051
+2022-12-23 20:59:20,403 - Model - INFO - epoch 277, train loss 0.32654, acc 0.92573
+2022-12-23 20:59:27,201 - Model - INFO - epoch 277, avg test acc (16-512 points) 0.81771
+2022-12-23 21:00:30,498 - Model - INFO - epoch 278, train loss 0.33034, acc 0.92472
+2022-12-23 21:00:37,603 - Model - INFO - epoch 278, avg test acc (16-512 points) 0.81771
+2022-12-23 21:01:41,288 - Model - INFO - epoch 279, train loss 0.33173, acc 0.92543
+2022-12-23 21:01:48,131 - Model - INFO - epoch 279, avg test acc (16-512 points) 0.82171
+2022-12-23 21:02:51,914 - Model - INFO - epoch 280, train loss 0.33506, acc 0.92309
+2022-12-23 21:02:58,868 - Model - INFO - epoch 280, avg test acc (16-512 points) 0.81530
+2022-12-23 21:04:01,204 - Model - INFO - epoch 281, train loss 0.33236, acc 0.92563
+2022-12-23 21:04:08,389 - Model - INFO - epoch 281, avg test acc (16-512 points) 0.82091
+2022-12-23 21:05:10,346 - Model - INFO - epoch 282, train loss 0.32486, acc 0.92685
+2022-12-23 21:05:17,151 - Model - INFO - epoch 282, avg test acc (16-512 points) 0.81971
+2022-12-23 21:06:19,481 - Model - INFO - epoch 283, train loss 0.32966, acc 0.92289
+2022-12-23 21:06:26,591 - Model - INFO - epoch 283, avg test acc (16-512 points) 0.82452
+2022-12-23 21:07:30,515 - Model - INFO - epoch 284, train loss 0.32381, acc 0.92837
+2022-12-23 21:07:37,622 - Model - INFO - epoch 284, avg test acc (16-512 points) 0.81170
+2022-12-23 21:08:41,445 - Model - INFO - epoch 285, train loss 0.32919, acc 0.92289
+2022-12-23 21:08:48,387 - Model - INFO - epoch 285, avg test acc (16-512 points) 0.81891
+2022-12-23 21:09:51,767 - Model - INFO - epoch 286, train loss 0.32881, acc 0.92319
+2022-12-23 21:09:58,830 - Model - INFO - epoch 286, avg test acc (16-512 points) 0.82131
+2022-12-23 21:11:01,285 - Model - INFO - epoch 287, train loss 0.33514, acc 0.92725
+2022-12-23 21:11:08,131 - Model - INFO - epoch 287, avg test acc (16-512 points) 0.82212
+2022-12-23 21:12:10,220 - Model - INFO - epoch 288, train loss 0.31999, acc 0.92999
+2022-12-23 21:12:17,012 - Model - INFO - epoch 288, avg test acc (16-512 points) 0.81931
+2022-12-23 21:13:18,974 - Model - INFO - epoch 289, train loss 0.32714, acc 0.92451
+2022-12-23 21:13:25,803 - Model - INFO - epoch 289, avg test acc (16-512 points) 0.81811
+2022-12-23 21:14:29,507 - Model - INFO - epoch 290, train loss 0.32389, acc 0.92553
+2022-12-23 21:14:36,839 - Model - INFO - epoch 290, avg test acc (16-512 points) 0.81971
+2022-12-23 21:15:42,560 - Model - INFO - epoch 291, train loss 0.32777, acc 0.92654
+2022-12-23 21:15:49,768 - Model - INFO - epoch 291, avg test acc (16-512 points) 0.81891
+2022-12-23 21:16:56,037 - Model - INFO - epoch 292, train loss 0.33361, acc 0.92147
+2022-12-23 21:17:03,847 - Model - INFO - epoch 292, avg test acc (16-512 points) 0.81851
+2022-12-23 21:18:08,913 - Model - INFO - epoch 293, train loss 0.31455, acc 0.92705
+2022-12-23 21:18:17,034 - Model - INFO - epoch 293, avg test acc (16-512 points) 0.82011
+2022-12-23 21:19:19,717 - Model - INFO - epoch 294, train loss 0.33318, acc 0.92330
+2022-12-23 21:19:26,812 - Model - INFO - epoch 294, avg test acc (16-512 points) 0.82492
+2022-12-23 21:20:30,909 - Model - INFO - epoch 295, train loss 0.33392, acc 0.92177
+2022-12-23 21:20:37,746 - Model - INFO - epoch 295, avg test acc (16-512 points) 0.82692
+2022-12-23 21:21:39,996 - Model - INFO - epoch 296, train loss 0.32867, acc 0.92593
+2022-12-23 21:21:46,873 - Model - INFO - epoch 296, avg test acc (16-512 points) 0.82091
+2022-12-23 21:22:51,135 - Model - INFO - epoch 297, train loss 0.33781, acc 0.91934
+2022-12-23 21:22:58,174 - Model - INFO - epoch 297, avg test acc (16-512 points) 0.82252
+2022-12-23 21:24:00,412 - Model - INFO - epoch 298, train loss 0.32559, acc 0.92532
+2022-12-23 21:24:07,260 - Model - INFO - epoch 298, avg test acc (16-512 points) 0.81851
+2022-12-23 21:25:09,797 - Model - INFO - epoch 299, train loss 0.32220, acc 0.92857
+2022-12-23 21:25:16,600 - Model - INFO - epoch 299, avg test acc (16-512 points) 0.81050
+2022-12-23 21:25:16,600 - Model - INFO - Save model...
+2022-12-23 21:25:16,600 - Model - INFO - Saving at log/AUPD_dgcnn/sampler_cls_16_512_ol=0.01/checkpoints/last_model.pth
+2022-12-23 21:25:16,626 - Model - INFO - Saving model....
+2022-12-23 21:28:31,568 - Model - INFO - PARAMETER ...
+2022-12-23 21:28:31,568 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=False, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-23 21:28:40,904 - Model - INFO - test acc (32 points) 0.84095, cd 0.02999, hd 0.31375
+2022-12-24 09:45:00,371 - Model - INFO - PARAMETER ...
+2022-12-24 09:45:00,372 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=False, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 09:45:10,057 - Model - INFO - test acc (64 points) 0.85216, cd 0.01570, hd 0.22786
+2022-12-24 09:45:38,516 - Model - INFO - PARAMETER ...
+2022-12-24 09:45:38,516 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=False, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 09:45:50,474 - Model - INFO - test acc (256 points) 0.87059, cd 0.00465, hd 0.12198
+2022-12-24 20:55:16,797 - Model - INFO - PARAMETER ...
+2022-12-24 20:55:16,797 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=800, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=True, visu_correction_only=False)
+2022-12-24 20:56:46,113 - Model - INFO - PARAMETER ...
+2022-12-24 20:56:46,114 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 20:57:17,610 - Model - INFO - test acc (32 points) 0.65545, cd 0.02466, hd 0.30461
+2022-12-24 20:57:40,060 - Model - INFO - PARAMETER ...
+2022-12-24 20:57:40,060 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 20:58:04,425 - Model - INFO - test acc (32 points) 0.83494, cd 0.02932, hd 0.31055
+2022-12-24 20:58:23,567 - Model - INFO - PARAMETER ...
+2022-12-24 20:58:23,567 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 20:58:47,664 - Model - INFO - test acc (32 points) 0.64383, cd 0.02934, hd 0.31070
+2022-12-24 20:59:05,379 - Model - INFO - PARAMETER ...
+2022-12-24 20:59:05,379 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=32, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla_2', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 20:59:29,219 - Model - INFO - test acc (32 points) 0.53646, cd 0.02932, hd 0.31050
+2022-12-24 21:01:31,653 - Model - INFO - PARAMETER ...
+2022-12-24 21:01:31,653 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla_2', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:02:03,040 - Model - INFO - test acc (64 points) 0.73518, cd 0.01525, hd 0.22455
+2022-12-24 21:02:17,505 - Model - INFO - PARAMETER ...
+2022-12-24 21:02:17,506 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:02:47,944 - Model - INFO - test acc (64 points) 0.78526, cd 0.01528, hd 0.22470
+2022-12-24 21:03:04,254 - Model - INFO - PARAMETER ...
+2022-12-24 21:03:04,254 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:03:35,478 - Model - INFO - test acc (64 points) 0.84936, cd 0.01527, hd 0.22445
+2022-12-24 21:14:11,427 - Model - INFO - PARAMETER ...
+2022-12-24 21:14:11,427 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla_2', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:15:07,262 - Model - INFO - test acc (256 points) 0.82011, cd 0.00327, hd 0.08782
+2022-12-24 21:15:49,071 - Model - INFO - PARAMETER ...
+2022-12-24 21:15:49,071 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:16:43,634 - Model - INFO - test acc (256 points) 0.82732, cd 0.00327, hd 0.08782
+2022-12-24 21:17:11,150 - Model - INFO - PARAMETER ...
+2022-12-24 21:17:11,150 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:18:06,605 - Model - INFO - test acc (256 points) 0.81490, cd 0.00327, hd 0.08782
+2022-12-24 21:18:27,553 - Model - INFO - PARAMETER ...
+2022-12-24 21:18:27,554 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:19:36,666 - Model - INFO - test acc (256 points) 0.87340, cd 0.00445, hd 0.11922
+2022-12-24 21:20:24,717 - Model - INFO - PARAMETER ...
+2022-12-24 21:20:24,717 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:21:34,393 - Model - INFO - test acc (256 points) 0.86579, cd 0.00445, hd 0.11930
+2022-12-24 21:21:56,134 - Model - INFO - PARAMETER ...
+2022-12-24 21:21:56,134 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=256, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug_2', task_model='pointnet_cls_vanilla_2', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:23:05,076 - Model - INFO - test acc (256 points) 0.86258, cd 0.00445, hd 0.11916
+2022-12-24 21:24:54,203 - Model - INFO - PARAMETER ...
+2022-12-24 21:24:54,203 - Model - INFO - Namespace(actual_n_sample=32, batch_size=32, cascade_way=False, check_repeat=True, class_choice=None, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', dense_eval=False, gpu='0', log_dir='sampler_cls_16_512_ol=0.01', n_point=1024, n_sample=64, pre_sample='fps', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', skip_projection=True, task_log_dir='baseline_aug', task_model='pointnet_cls_vanilla', use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, visu_correction_only=False)
+2022-12-24 21:25:25,085 - Model - INFO - test acc (64 points) 0.85056, cd 0.01526, hd 0.22421

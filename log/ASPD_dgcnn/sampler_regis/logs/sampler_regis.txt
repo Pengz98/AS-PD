@@ -1,0 +1,443 @@
+2023-01-01 23:49:39,865 - Model - INFO - PARAMETER ...
+2023-01-01 23:49:39,865 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=True, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2023-01-01 23:49:43,389 - Model - INFO - test rot err (16 points) 8.40758, repeat sample rate nan
+2023-01-01 23:49:44,037 - Model - INFO - test rot err (17 points) 6.95324, repeat sample rate nan
+2023-01-01 23:49:44,676 - Model - INFO - test rot err (18 points) 7.83485, repeat sample rate nan
+2023-01-01 23:49:45,332 - Model - INFO - test rot err (20 points) 7.48338, repeat sample rate nan
+2023-01-01 23:49:45,977 - Model - INFO - test rot err (22 points) 6.37555, repeat sample rate nan
+2023-01-01 23:49:46,632 - Model - INFO - test rot err (24 points) 6.23533, repeat sample rate nan
+2023-01-01 23:49:47,280 - Model - INFO - test rot err (26 points) 6.02243, repeat sample rate nan
+2023-01-01 23:49:47,926 - Model - INFO - test rot err (28 points) 6.28316, repeat sample rate nan
+2023-01-01 23:49:48,580 - Model - INFO - test rot err (31 points) 6.10601, repeat sample rate nan
+2023-01-01 23:49:49,243 - Model - INFO - test rot err (34 points) 5.33282, repeat sample rate nan
+2023-01-01 23:49:49,901 - Model - INFO - test rot err (37 points) 5.12837, repeat sample rate nan
+2023-01-01 23:49:50,561 - Model - INFO - test rot err (40 points) 4.80359, repeat sample rate nan
+2023-01-01 23:49:51,229 - Model - INFO - test rot err (44 points) 5.05702, repeat sample rate nan
+2023-01-01 23:49:51,896 - Model - INFO - test rot err (48 points) 4.52009, repeat sample rate nan
+2023-01-01 23:49:52,571 - Model - INFO - test rot err (52 points) 4.98938, repeat sample rate nan
+2023-01-01 23:49:53,256 - Model - INFO - test rot err (57 points) 4.56033, repeat sample rate nan
+2023-01-01 23:49:53,938 - Model - INFO - test rot err (62 points) 5.03812, repeat sample rate nan
+2023-01-01 23:49:54,627 - Model - INFO - test rot err (67 points) 4.43552, repeat sample rate nan
+2023-01-01 23:49:55,338 - Model - INFO - test rot err (73 points) 4.16750, repeat sample rate nan
+2023-01-01 23:49:56,059 - Model - INFO - test rot err (80 points) 4.31401, repeat sample rate nan
+2023-01-01 23:49:56,770 - Model - INFO - test rot err (87 points) 4.36522, repeat sample rate nan
+2023-01-01 23:49:57,489 - Model - INFO - test rot err (95 points) 3.90876, repeat sample rate nan
+2023-01-01 23:49:58,213 - Model - INFO - test rot err (103 points) 3.97275, repeat sample rate nan
+2023-01-01 23:49:59,037 - Model - INFO - test rot err (112 points) 4.21148, repeat sample rate nan
+2023-01-01 23:49:59,817 - Model - INFO - test rot err (122 points) 4.05294, repeat sample rate nan
+2023-01-01 23:50:00,686 - Model - INFO - test rot err (133 points) 3.79466, repeat sample rate nan
+2023-01-01 23:50:01,476 - Model - INFO - test rot err (145 points) 3.95073, repeat sample rate nan
+2023-01-01 23:50:02,355 - Model - INFO - test rot err (158 points) 3.51137, repeat sample rate nan
+2023-01-01 23:50:03,217 - Model - INFO - test rot err (172 points) 3.44862, repeat sample rate nan
+2023-01-01 23:50:04,033 - Model - INFO - test rot err (187 points) 3.50512, repeat sample rate nan
+2023-01-01 23:50:04,866 - Model - INFO - test rot err (204 points) 3.57085, repeat sample rate nan
+2023-01-01 23:50:05,760 - Model - INFO - test rot err (222 points) 3.53831, repeat sample rate nan
+2023-01-01 23:50:06,725 - Model - INFO - test rot err (241 points) 3.35843, repeat sample rate nan
+2023-01-01 23:50:07,652 - Model - INFO - test rot err (263 points) 3.38118, repeat sample rate nan
+2023-01-01 23:50:08,751 - Model - INFO - test rot err (286 points) 3.16345, repeat sample rate nan
+2023-01-01 23:50:09,772 - Model - INFO - test rot err (312 points) 3.43784, repeat sample rate nan
+2023-01-01 23:50:10,775 - Model - INFO - test rot err (339 points) 3.28230, repeat sample rate nan
+2023-01-01 23:50:11,816 - Model - INFO - test rot err (369 points) 3.21940, repeat sample rate nan
+2023-01-01 23:50:12,874 - Model - INFO - test rot err (402 points) 3.11176, repeat sample rate nan
+2023-01-01 23:50:13,979 - Model - INFO - test rot err (438 points) 3.24744, repeat sample rate nan
+2023-01-01 23:50:15,114 - Model - INFO - test rot err (477 points) 3.16799, repeat sample rate nan
+2023-01-01 23:50:16,322 - Model - INFO - test rot err (519 points) 3.15904, repeat sample rate nan
+2023-01-01 23:50:17,591 - Model - INFO - test rot err (565 points) 3.12725, repeat sample rate nan
+2023-01-01 23:50:18,917 - Model - INFO - test rot err (615 points) 3.23178, repeat sample rate nan
+2023-01-01 23:50:20,310 - Model - INFO - test rot err (669 points) 3.19696, repeat sample rate nan
+2023-01-01 23:50:21,742 - Model - INFO - test rot err (729 points) 3.25015, repeat sample rate nan
+2023-01-01 23:50:23,246 - Model - INFO - test rot err (793 points) 3.21563, repeat sample rate nan
+2023-01-01 23:50:25,185 - Model - INFO - test rot err (864 points) 3.25145, repeat sample rate nan
+2023-01-01 23:50:26,886 - Model - INFO - test rot err (940 points) 3.21031, repeat sample rate nan
+2023-01-01 23:50:28,673 - Model - INFO - test rot err (1024 points) 3.21281, repeat sample rate nan
+2023-01-03 17:06:44,419 - Model - INFO - PARAMETER ...
+2023-01-03 17:06:44,419 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=True, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2023-01-03 17:06:50,283 - Model - INFO - test rot err (16 points) 9.97036, repeat sample rate 0.00073
+2023-01-03 17:06:51,853 - Model - INFO - test rot err (17 points) 9.80806, repeat sample rate 0.00253
+2023-01-03 17:06:53,457 - Model - INFO - test rot err (18 points) 9.51296, repeat sample rate 0.00022
+2023-01-03 17:06:55,061 - Model - INFO - test rot err (20 points) 9.14877, repeat sample rate 0.00273
+2023-01-03 17:06:56,652 - Model - INFO - test rot err (22 points) 9.18677, repeat sample rate 0.00160
+2023-01-03 17:06:58,265 - Model - INFO - test rot err (24 points) 8.78418, repeat sample rate 0.00195
+2023-01-03 17:06:59,875 - Model - INFO - test rot err (26 points) 8.28056, repeat sample rate 0.00240
+2023-01-03 17:07:01,483 - Model - INFO - test rot err (28 points) 6.88082, repeat sample rate 0.00251
+2023-01-03 17:07:03,096 - Model - INFO - test rot err (31 points) 7.67775, repeat sample rate 0.00353
+2023-01-03 17:07:04,712 - Model - INFO - test rot err (34 points) 6.95648, repeat sample rate 0.00299
+2023-01-03 17:07:06,477 - Model - INFO - test rot err (37 points) 7.21230, repeat sample rate 0.00179
+2023-01-03 17:07:08,266 - Model - INFO - test rot err (40 points) 7.37832, repeat sample rate 0.00293
+2023-01-03 17:07:09,445 - Model - INFO - test rot err (44 points) 7.27570, repeat sample rate 0.00249
+2023-01-03 17:07:11,472 - Model - INFO - test rot err (48 points) 6.13993, repeat sample rate 0.00195
+2023-01-03 17:07:13,562 - Model - INFO - test rot err (52 points) 6.68643, repeat sample rate 0.00098
+2023-01-03 17:07:15,622 - Model - INFO - test rot err (57 points) 6.55453, repeat sample rate 0.00130
+2023-01-03 17:07:17,678 - Model - INFO - test rot err (62 points) 6.24929, repeat sample rate 0.00088
+2023-01-03 17:07:19,863 - Model - INFO - test rot err (67 points) 6.33703, repeat sample rate 0.00087
+2023-01-03 17:07:21,983 - Model - INFO - test rot err (73 points) 6.80061, repeat sample rate 0.00064
+2023-01-03 17:07:24,403 - Model - INFO - test rot err (80 points) 5.84445, repeat sample rate 0.00073
+2023-01-03 17:07:26,925 - Model - INFO - test rot err (87 points) 5.57575, repeat sample rate 0.00103
+2023-01-03 17:07:29,558 - Model - INFO - test rot err (95 points) 5.45750, repeat sample rate 0.00078
+2023-01-03 17:07:32,330 - Model - INFO - test rot err (103 points) 5.85701, repeat sample rate 0.00080
+2023-01-03 17:07:35,142 - Model - INFO - test rot err (112 points) 4.96436, repeat sample rate 0.00063
+2023-01-03 17:07:37,206 - Model - INFO - test rot err (122 points) 4.97813, repeat sample rate 0.00058
+2023-01-03 17:07:40,461 - Model - INFO - test rot err (133 points) 5.13175, repeat sample rate 0.00091
+2023-01-03 17:07:43,790 - Model - INFO - test rot err (145 points) 4.77991, repeat sample rate 0.00119
+2023-01-03 17:07:47,468 - Model - INFO - test rot err (158 points) 4.39001, repeat sample rate 0.00104
+2023-01-03 17:07:51,219 - Model - INFO - test rot err (172 points) 4.44847, repeat sample rate 0.00161
+2023-01-03 17:07:55,295 - Model - INFO - test rot err (187 points) 4.17507, repeat sample rate 0.00146
+2023-01-03 17:07:59,450 - Model - INFO - test rot err (204 points) 4.67577, repeat sample rate 0.00165
+2023-01-03 17:08:03,216 - Model - INFO - test rot err (222 points) 4.35352, repeat sample rate 0.00225
+2023-01-03 17:08:07,350 - Model - INFO - test rot err (241 points) 4.18789, repeat sample rate 0.00251
+2023-01-03 17:08:12,630 - Model - INFO - test rot err (263 points) 4.01135, repeat sample rate 0.00303
+2023-01-03 17:08:18,185 - Model - INFO - test rot err (286 points) 3.98077, repeat sample rate 0.00397
+2023-01-03 17:08:23,901 - Model - INFO - test rot err (312 points) 3.95257, repeat sample rate 0.00482
+2023-01-03 17:08:28,613 - Model - INFO - test rot err (339 points) 3.64015, repeat sample rate 0.00614
+2023-01-03 17:08:35,332 - Model - INFO - test rot err (369 points) 3.97133, repeat sample rate 0.00788
+2023-01-03 17:08:44,744 - Model - INFO - PARAMETER ...
+2023-01-03 17:08:44,744 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2023-01-03 17:08:49,498 - Model - INFO - test rot err (16 points) 17.44064, repeat sample rate nan
+2023-01-03 17:08:49,913 - Model - INFO - test rot err (17 points) 17.26639, repeat sample rate nan
+2023-01-03 17:08:50,366 - Model - INFO - test rot err (18 points) 19.60709, repeat sample rate nan
+2023-01-03 17:08:50,800 - Model - INFO - test rot err (20 points) 17.83228, repeat sample rate nan
+2023-01-03 17:08:50,993 - Model - INFO - test rot err (22 points) 15.60905, repeat sample rate nan
+2023-01-03 17:08:51,194 - Model - INFO - test rot err (24 points) 15.59282, repeat sample rate nan
+2023-01-03 17:08:51,396 - Model - INFO - test rot err (26 points) 13.32470, repeat sample rate nan
+2023-01-03 17:08:51,932 - Model - INFO - test rot err (28 points) 12.79274, repeat sample rate nan
+2023-01-03 17:08:52,596 - Model - INFO - test rot err (31 points) 10.08620, repeat sample rate nan
+2023-01-03 17:08:53,213 - Model - INFO - test rot err (34 points) 11.57452, repeat sample rate nan
+2023-01-03 17:08:53,800 - Model - INFO - test rot err (37 points) 10.26848, repeat sample rate nan
+2023-01-03 17:08:54,510 - Model - INFO - test rot err (40 points) 8.07452, repeat sample rate nan
+2023-01-03 17:08:55,258 - Model - INFO - test rot err (44 points) 9.63031, repeat sample rate nan
+2023-01-03 17:08:56,005 - Model - INFO - test rot err (48 points) 8.47714, repeat sample rate nan
+2023-01-03 17:08:56,848 - Model - INFO - test rot err (52 points) 7.62176, repeat sample rate nan
+2023-01-03 17:08:57,795 - Model - INFO - test rot err (57 points) 6.87429, repeat sample rate nan
+2023-01-03 17:08:58,860 - Model - INFO - test rot err (62 points) 6.64637, repeat sample rate nan
+2023-01-03 17:08:59,887 - Model - INFO - test rot err (67 points) 6.96975, repeat sample rate nan
+2023-01-03 17:09:01,022 - Model - INFO - test rot err (73 points) 6.09435, repeat sample rate nan
+2023-01-03 17:09:02,237 - Model - INFO - test rot err (80 points) 6.53733, repeat sample rate nan
+2023-01-03 17:09:03,604 - Model - INFO - test rot err (87 points) 6.06734, repeat sample rate nan
+2023-01-03 17:09:05,137 - Model - INFO - test rot err (95 points) 5.60774, repeat sample rate nan
+2023-01-03 17:09:06,733 - Model - INFO - test rot err (103 points) 4.94276, repeat sample rate nan
+2023-01-03 17:09:08,500 - Model - INFO - test rot err (112 points) 5.18072, repeat sample rate nan
+2023-01-03 17:09:10,312 - Model - INFO - test rot err (122 points) 4.68744, repeat sample rate nan
+2023-01-03 17:09:12,348 - Model - INFO - test rot err (133 points) 4.81715, repeat sample rate nan
+2023-01-03 17:09:13,943 - Model - INFO - test rot err (145 points) 4.91272, repeat sample rate nan
+2023-01-03 17:09:14,755 - Model - INFO - test rot err (158 points) 4.77565, repeat sample rate nan
+2023-01-03 17:09:17,369 - Model - INFO - test rot err (172 points) 4.23679, repeat sample rate nan
+2023-01-03 17:09:20,026 - Model - INFO - test rot err (187 points) 4.15576, repeat sample rate nan
+2023-01-03 17:09:22,922 - Model - INFO - test rot err (204 points) 4.27611, repeat sample rate nan
+2023-01-03 17:09:26,019 - Model - INFO - test rot err (222 points) 4.20818, repeat sample rate nan
+2023-01-03 17:10:19,508 - Model - INFO - PARAMETER ...
+2023-01-03 17:10:19,508 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2023-01-03 17:10:24,379 - Model - INFO - test rot err (16 points) 19.79701, repeat sample rate nan
+2023-01-03 17:10:24,810 - Model - INFO - test rot err (17 points) 16.88625, repeat sample rate nan
+2023-01-03 17:10:25,252 - Model - INFO - test rot err (18 points) 18.98708, repeat sample rate nan
+2023-01-03 17:10:25,714 - Model - INFO - test rot err (20 points) 16.04085, repeat sample rate nan
+2023-01-03 17:10:26,151 - Model - INFO - test rot err (22 points) 14.18634, repeat sample rate nan
+2023-01-03 17:10:26,600 - Model - INFO - test rot err (24 points) 14.65096, repeat sample rate nan
+2023-01-03 17:10:27,063 - Model - INFO - test rot err (26 points) 14.80440, repeat sample rate nan
+2023-01-03 17:10:27,613 - Model - INFO - test rot err (28 points) 12.67277, repeat sample rate nan
+2023-01-03 17:10:28,195 - Model - INFO - test rot err (31 points) 11.99829, repeat sample rate nan
+2023-01-03 17:10:28,814 - Model - INFO - test rot err (34 points) 10.29764, repeat sample rate nan
+2023-01-03 17:10:29,390 - Model - INFO - test rot err (37 points) 10.82566, repeat sample rate nan
+2023-01-03 17:10:29,983 - Model - INFO - test rot err (40 points) 9.70605, repeat sample rate nan
+2023-01-03 17:10:30,688 - Model - INFO - test rot err (44 points) 8.51150, repeat sample rate nan
+2023-01-03 17:10:31,469 - Model - INFO - test rot err (48 points) 8.86173, repeat sample rate nan
+2023-01-03 18:45:24,391 - Model - INFO - PARAMETER ...
+2023-01-03 18:45:24,391 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2023-01-03 18:45:29,200 - Model - INFO - test rot err (16 points) 20.03144, repeat sample rate nan
+2023-01-03 18:45:29,639 - Model - INFO - test rot err (17 points) 17.91669, repeat sample rate nan
+2023-01-03 18:45:30,013 - Model - INFO - test rot err (18 points) 20.03158, repeat sample rate nan
+2023-01-03 18:45:30,505 - Model - INFO - test rot err (20 points) 16.65429, repeat sample rate nan
+2023-01-03 18:45:30,855 - Model - INFO - test rot err (22 points) 15.22350, repeat sample rate nan
+2023-01-03 18:45:31,404 - Model - INFO - test rot err (24 points) 14.85882, repeat sample rate nan
+2023-01-03 18:45:31,882 - Model - INFO - test rot err (26 points) 13.80986, repeat sample rate nan
+2023-01-03 18:45:32,489 - Model - INFO - test rot err (28 points) 12.99222, repeat sample rate nan
+2023-01-03 18:45:33,099 - Model - INFO - test rot err (31 points) 11.26699, repeat sample rate nan
+2023-01-03 18:45:33,686 - Model - INFO - test rot err (34 points) 10.47716, repeat sample rate nan
+2023-01-03 18:45:34,418 - Model - INFO - test rot err (37 points) 9.84460, repeat sample rate nan
+2023-01-03 18:45:34,994 - Model - INFO - test rot err (40 points) 8.49450, repeat sample rate nan
+2023-01-03 18:45:58,251 - Model - INFO - PARAMETER ...
+2023-01-03 18:45:58,251 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=True, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2023-01-03 18:46:04,038 - Model - INFO - test rot err (16 points) 10.89344, repeat sample rate 0.00049
+2023-01-03 18:46:05,638 - Model - INFO - test rot err (17 points) 10.07372, repeat sample rate 0.00069
+2023-01-03 18:46:07,230 - Model - INFO - test rot err (18 points) 9.35124, repeat sample rate 0.00260
+2023-01-03 18:46:08,815 - Model - INFO - test rot err (20 points) 10.35699, repeat sample rate 0.00039
+2023-01-03 18:46:10,298 - Model - INFO - test rot err (22 points) 8.18367, repeat sample rate 0.00355
+2023-01-03 18:46:11,525 - Model - INFO - test rot err (24 points) 7.99309, repeat sample rate 0.00065
+2023-01-03 18:46:13,122 - Model - INFO - test rot err (26 points) 8.74384, repeat sample rate 0.00391
+2023-01-03 18:46:14,749 - Model - INFO - test rot err (28 points) 8.01930, repeat sample rate 0.00446
+2023-01-03 18:46:16,358 - Model - INFO - test rot err (31 points) 7.01398, repeat sample rate 0.00567
+2023-01-03 18:46:18,093 - Model - INFO - test rot err (34 points) 7.21092, repeat sample rate 0.00218
+2023-01-03 18:46:19,793 - Model - INFO - test rot err (37 points) 7.02281, repeat sample rate 0.00137
+2023-01-03 18:46:21,625 - Model - INFO - test rot err (40 points) 7.43022, repeat sample rate 0.00186
+2023-01-03 18:46:23,629 - Model - INFO - test rot err (44 points) 7.13573, repeat sample rate 0.00364
+2023-01-03 18:46:25,598 - Model - INFO - test rot err (48 points) 6.68283, repeat sample rate 0.00171
+2023-01-03 18:46:27,664 - Model - INFO - test rot err (52 points) 6.12324, repeat sample rate 0.00180
+2023-01-03 18:46:29,738 - Model - INFO - test rot err (57 points) 6.17114, repeat sample rate 0.00151
+2023-01-03 18:46:31,937 - Model - INFO - test rot err (62 points) 6.87247, repeat sample rate 0.00088
+2023-01-03 18:46:34,132 - Model - INFO - test rot err (67 points) 6.20672, repeat sample rate 0.00216
+2023-01-03 18:46:36,368 - Model - INFO - test rot err (73 points) 6.82361, repeat sample rate 0.00091
+2023-01-03 18:46:38,803 - Model - INFO - test rot err (80 points) 5.18476, repeat sample rate 0.00073
+2023-01-03 18:46:40,430 - Model - INFO - test rot err (87 points) 5.92019, repeat sample rate 0.00040
+2023-01-03 18:46:43,120 - Model - INFO - test rot err (95 points) 5.15056, repeat sample rate 0.00049
+2023-01-03 18:46:45,874 - Model - INFO - test rot err (103 points) 5.72173, repeat sample rate 0.00046
+2023-01-03 18:46:48,903 - Model - INFO - test rot err (112 points) 5.47029, repeat sample rate 0.00042
+2023-01-03 18:46:52,134 - Model - INFO - test rot err (122 points) 5.13184, repeat sample rate 0.00067
+2023-01-03 18:46:55,466 - Model - INFO - test rot err (133 points) 4.62030, repeat sample rate 0.00079
+2023-01-03 19:01:00,216 - Model - INFO - PARAMETER ...
+2023-01-03 19:01:00,216 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2023-01-03 19:01:03,769 - Model - INFO - test rot err (16 points) 8.13771, repeat sample rate nan
+2023-01-03 19:01:04,439 - Model - INFO - test rot err (17 points) 7.85074, repeat sample rate nan
+2023-01-03 19:01:05,118 - Model - INFO - test rot err (18 points) 7.65944, repeat sample rate nan
+2023-01-03 19:01:05,800 - Model - INFO - test rot err (20 points) 7.42336, repeat sample rate nan
+2023-01-03 19:01:06,477 - Model - INFO - test rot err (22 points) 7.10853, repeat sample rate nan
+2023-01-03 19:01:07,169 - Model - INFO - test rot err (24 points) 6.49043, repeat sample rate nan
+2023-01-03 19:01:07,857 - Model - INFO - test rot err (26 points) 6.40549, repeat sample rate nan
+2023-01-03 19:01:08,540 - Model - INFO - test rot err (28 points) 6.06518, repeat sample rate nan
+2023-01-03 19:01:09,233 - Model - INFO - test rot err (31 points) 5.15313, repeat sample rate nan
+2023-01-03 19:01:09,929 - Model - INFO - test rot err (34 points) 5.71490, repeat sample rate nan
+2023-01-03 19:01:10,630 - Model - INFO - test rot err (37 points) 5.03362, repeat sample rate nan
+2023-01-03 19:01:11,334 - Model - INFO - test rot err (40 points) 5.43304, repeat sample rate nan
+2023-01-03 19:01:12,034 - Model - INFO - test rot err (44 points) 4.64934, repeat sample rate nan
+2023-01-03 19:01:12,741 - Model - INFO - test rot err (48 points) 5.35329, repeat sample rate nan
+2023-01-03 19:01:13,447 - Model - INFO - test rot err (52 points) 5.33195, repeat sample rate nan
+2023-01-03 19:01:14,168 - Model - INFO - test rot err (57 points) 4.60262, repeat sample rate nan
+2023-01-03 19:01:14,894 - Model - INFO - test rot err (62 points) 4.35895, repeat sample rate nan
+2023-01-03 19:01:15,636 - Model - INFO - test rot err (67 points) 4.45579, repeat sample rate nan
+2023-01-03 19:01:16,362 - Model - INFO - test rot err (73 points) 3.94764, repeat sample rate nan
+2023-01-03 19:01:17,112 - Model - INFO - test rot err (80 points) 3.98990, repeat sample rate nan
+2023-01-03 19:01:17,866 - Model - INFO - test rot err (87 points) 4.19758, repeat sample rate nan
+2023-01-03 19:01:18,624 - Model - INFO - test rot err (95 points) 4.42141, repeat sample rate nan
+2023-01-03 19:01:19,406 - Model - INFO - test rot err (103 points) 3.86529, repeat sample rate nan
+2023-01-03 19:01:20,205 - Model - INFO - test rot err (112 points) 3.88434, repeat sample rate nan
+2023-01-03 19:01:20,996 - Model - INFO - test rot err (122 points) 3.82728, repeat sample rate nan
+2023-01-03 19:01:21,799 - Model - INFO - test rot err (133 points) 3.75644, repeat sample rate nan
+2023-01-03 19:01:22,629 - Model - INFO - test rot err (145 points) 3.79565, repeat sample rate nan
+2023-01-03 19:01:23,452 - Model - INFO - test rot err (158 points) 3.59670, repeat sample rate nan
+2023-01-03 19:01:24,298 - Model - INFO - test rot err (172 points) 3.55488, repeat sample rate nan
+2023-01-03 19:01:25,157 - Model - INFO - test rot err (187 points) 3.60312, repeat sample rate nan
+2023-01-03 19:01:26,044 - Model - INFO - test rot err (204 points) 3.50461, repeat sample rate nan
+2023-01-03 19:01:26,956 - Model - INFO - test rot err (222 points) 3.50267, repeat sample rate nan
+2023-01-03 19:01:27,880 - Model - INFO - test rot err (241 points) 3.55394, repeat sample rate nan
+2023-01-03 19:01:28,829 - Model - INFO - test rot err (263 points) 3.39625, repeat sample rate nan
+2023-01-03 19:01:29,815 - Model - INFO - test rot err (286 points) 3.35349, repeat sample rate nan
+2023-01-03 19:01:30,842 - Model - INFO - test rot err (312 points) 3.22568, repeat sample rate nan
+2023-01-03 19:01:31,881 - Model - INFO - test rot err (339 points) 3.29191, repeat sample rate nan
+2023-01-03 19:01:32,958 - Model - INFO - test rot err (369 points) 3.28329, repeat sample rate nan
+2023-01-03 19:01:34,079 - Model - INFO - test rot err (402 points) 3.24952, repeat sample rate nan
+2023-01-03 19:01:35,236 - Model - INFO - test rot err (438 points) 3.19703, repeat sample rate nan
+2023-01-03 19:01:36,454 - Model - INFO - test rot err (477 points) 3.30551, repeat sample rate nan
+2023-01-03 19:01:37,739 - Model - INFO - test rot err (519 points) 3.37547, repeat sample rate nan
+2023-01-03 19:01:39,048 - Model - INFO - test rot err (565 points) 3.25905, repeat sample rate nan
+2023-01-03 19:01:40,416 - Model - INFO - test rot err (615 points) 3.16439, repeat sample rate nan
+2023-01-03 19:01:41,880 - Model - INFO - test rot err (669 points) 3.27786, repeat sample rate nan
+2023-01-03 19:01:43,393 - Model - INFO - test rot err (729 points) 3.21341, repeat sample rate nan
+2023-01-03 19:01:44,991 - Model - INFO - test rot err (793 points) 3.18911, repeat sample rate nan
+2023-01-03 19:01:47,002 - Model - INFO - test rot err (864 points) 3.24240, repeat sample rate nan
+2023-01-03 19:01:48,788 - Model - INFO - test rot err (940 points) 3.24714, repeat sample rate nan
+2023-01-03 19:01:50,672 - Model - INFO - test rot err (1024 points) 3.22789, repeat sample rate nan
+2023-01-03 19:02:39,727 - Model - INFO - PARAMETER ...
+2023-01-03 19:02:39,727 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, w_sigma=0.1, workers=4)
+2023-01-03 19:02:42,814 - Model - INFO - test rot err (16 points) 37.36749, repeat sample rate nan
+2023-01-03 19:02:43,005 - Model - INFO - test rot err (17 points) 33.34296, repeat sample rate nan
+2023-01-03 19:02:43,197 - Model - INFO - test rot err (18 points) 36.69860, repeat sample rate nan
+2023-01-03 19:02:43,388 - Model - INFO - test rot err (20 points) 29.73629, repeat sample rate nan
+2023-01-03 19:02:43,579 - Model - INFO - test rot err (22 points) 33.18518, repeat sample rate nan
+2023-01-03 19:02:43,775 - Model - INFO - test rot err (24 points) 27.63160, repeat sample rate nan
+2023-01-03 19:02:43,965 - Model - INFO - test rot err (26 points) 25.13202, repeat sample rate nan
+2023-01-03 19:02:44,156 - Model - INFO - test rot err (28 points) 25.43541, repeat sample rate nan
+2023-01-03 19:02:44,349 - Model - INFO - test rot err (31 points) 22.71861, repeat sample rate nan
+2023-01-03 19:02:44,565 - Model - INFO - test rot err (34 points) 21.64848, repeat sample rate nan
+2023-01-03 19:02:44,762 - Model - INFO - test rot err (37 points) 23.20642, repeat sample rate nan
+2023-01-03 19:02:44,966 - Model - INFO - test rot err (40 points) 20.22477, repeat sample rate nan
+2023-01-03 19:02:45,157 - Model - INFO - test rot err (44 points) 17.96348, repeat sample rate nan
+2023-01-03 19:02:45,354 - Model - INFO - test rot err (48 points) 18.08385, repeat sample rate nan
+2023-01-03 19:02:45,553 - Model - INFO - test rot err (52 points) 17.74999, repeat sample rate nan
+2023-01-03 19:02:45,771 - Model - INFO - test rot err (57 points) 17.61909, repeat sample rate nan
+2023-01-03 19:02:46,061 - Model - INFO - test rot err (62 points) 15.86861, repeat sample rate nan
+2023-01-03 19:02:46,279 - Model - INFO - test rot err (67 points) 14.62529, repeat sample rate nan
+2023-01-03 19:02:46,474 - Model - INFO - test rot err (73 points) 11.51917, repeat sample rate nan
+2023-01-03 19:02:46,673 - Model - INFO - test rot err (80 points) 13.23366, repeat sample rate nan
+2023-01-03 19:02:46,865 - Model - INFO - test rot err (87 points) 13.63357, repeat sample rate nan
+2023-01-03 19:02:47,068 - Model - INFO - test rot err (95 points) 12.22260, repeat sample rate nan
+2023-01-03 19:02:47,263 - Model - INFO - test rot err (103 points) 12.42918, repeat sample rate nan
+2023-01-03 19:02:47,474 - Model - INFO - test rot err (112 points) 9.45575, repeat sample rate nan
+2023-01-03 19:02:47,673 - Model - INFO - test rot err (122 points) 9.56371, repeat sample rate nan
+2023-01-03 19:02:47,877 - Model - INFO - test rot err (133 points) 10.43297, repeat sample rate nan
+2023-01-03 19:02:48,096 - Model - INFO - test rot err (145 points) 9.33979, repeat sample rate nan
+2023-01-03 19:02:48,296 - Model - INFO - test rot err (158 points) 9.73967, repeat sample rate nan
+2023-01-03 19:02:48,513 - Model - INFO - test rot err (172 points) 7.63517, repeat sample rate nan
+2023-01-03 19:02:48,706 - Model - INFO - test rot err (187 points) 6.34356, repeat sample rate nan
+2023-01-03 19:02:48,923 - Model - INFO - test rot err (204 points) 6.95010, repeat sample rate nan
+2023-01-03 19:02:49,125 - Model - INFO - test rot err (222 points) 6.26271, repeat sample rate nan
+2023-01-03 19:02:49,330 - Model - INFO - test rot err (241 points) 6.36542, repeat sample rate nan
+2023-01-03 19:02:49,541 - Model - INFO - test rot err (263 points) 5.88959, repeat sample rate nan
+2023-01-03 19:02:49,750 - Model - INFO - test rot err (286 points) 5.28920, repeat sample rate nan
+2023-01-03 19:02:49,958 - Model - INFO - test rot err (312 points) 5.45922, repeat sample rate nan
+2023-01-03 19:02:50,177 - Model - INFO - test rot err (339 points) 5.56858, repeat sample rate nan
+2023-01-03 19:02:50,384 - Model - INFO - test rot err (369 points) 5.25213, repeat sample rate nan
+2023-01-03 19:02:50,591 - Model - INFO - test rot err (402 points) 4.77222, repeat sample rate nan
+2023-01-03 19:02:50,807 - Model - INFO - test rot err (438 points) 4.49714, repeat sample rate nan
+2023-01-03 19:02:51,026 - Model - INFO - test rot err (477 points) 4.14417, repeat sample rate nan
+2023-01-03 19:02:51,249 - Model - INFO - test rot err (519 points) 3.86206, repeat sample rate nan
+2023-01-03 19:02:51,470 - Model - INFO - test rot err (565 points) 3.90928, repeat sample rate nan
+2023-01-03 19:02:51,693 - Model - INFO - test rot err (615 points) 3.94932, repeat sample rate nan
+2023-01-03 19:02:51,922 - Model - INFO - test rot err (669 points) 3.84509, repeat sample rate nan
+2023-01-03 19:02:52,157 - Model - INFO - test rot err (729 points) 3.89834, repeat sample rate nan
+2023-01-03 19:02:52,392 - Model - INFO - test rot err (793 points) 3.64004, repeat sample rate nan
+2023-01-03 19:02:52,641 - Model - INFO - test rot err (864 points) 3.63620, repeat sample rate nan
+2023-01-03 19:02:52,883 - Model - INFO - test rot err (940 points) 3.62218, repeat sample rate nan
+2023-01-03 19:02:53,131 - Model - INFO - test rot err (1024 points) 3.53770, repeat sample rate nan
+2023-01-04 12:54:27,884 - Model - INFO - PARAMETER ...
+2023-01-04 12:54:27,884 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 12:54:59,564 - Model - INFO - PARAMETER ...
+2023-01-04 12:54:59,564 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 12:55:36,218 - Model - INFO - PARAMETER ...
+2023-01-04 12:55:36,218 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 12:56:14,123 - Model - INFO - PARAMETER ...
+2023-01-04 12:56:14,123 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:04:48,428 - Model - INFO - PARAMETER ...
+2023-01-04 13:04:48,428 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:05:19,747 - Model - INFO - PARAMETER ...
+2023-01-04 13:05:19,747 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:09:59,874 - Model - INFO - PARAMETER ...
+2023-01-04 13:09:59,874 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=False, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:11:56,357 - Model - INFO - PARAMETER ...
+2023-01-04 13:11:56,357 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:12:36,314 - Model - INFO - PARAMETER ...
+2023-01-04 13:12:36,314 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:13:34,123 - Model - INFO - PARAMETER ...
+2023-01-04 13:13:34,123 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:13:57,827 - Model - INFO - PARAMETER ...
+2023-01-04 13:13:57,828 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:14:29,309 - Model - INFO - PARAMETER ...
+2023-01-04 13:14:29,309 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:16:40,102 - Model - INFO - PARAMETER ...
+2023-01-04 13:16:40,103 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:17:15,204 - Model - INFO - PARAMETER ...
+2023-01-04 13:17:15,204 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:17:59,457 - Model - INFO - PARAMETER ...
+2023-01-04 13:17:59,457 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:18:47,686 - Model - INFO - PARAMETER ...
+2023-01-04 13:18:47,686 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=32, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:32:57,718 - Model - INFO - PARAMETER ...
+2023-01-04 13:32:57,718 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:33:30,692 - Model - INFO - PARAMETER ...
+2023-01-04 13:33:30,692 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:33:55,402 - Model - INFO - PARAMETER ...
+2023-01-04 13:33:55,402 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=8, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:43:38,839 - Model - INFO - PARAMETER ...
+2023-01-04 13:43:38,839 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=1, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:44:35,068 - Model - INFO - PARAMETER ...
+2023-01-04 13:44:35,068 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=1, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:44:38,430 - Model - INFO - test rot err (16 points) 36.95456, repeat sample rate nan
+2023-01-04 13:45:24,830 - Model - INFO - PARAMETER ...
+2023-01-04 13:45:24,830 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=1, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:45:29,636 - Model - INFO - test rot err (16 points) 8.59309, repeat sample rate nan
+2023-01-04 13:46:10,971 - Model - INFO - PARAMETER ...
+2023-01-04 13:46:10,971 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:46:14,033 - Model - INFO - test rot err (16 points) 32.66753, repeat sample rate nan
+2023-01-04 13:46:59,727 - Model - INFO - PARAMETER ...
+2023-01-04 13:46:59,727 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=32, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=True, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=False, w_sigma=0.1, workers=4)
+2023-01-04 13:47:02,830 - Model - INFO - test rot err (16 points) 32.48368, repeat sample rate nan
+2023-01-04 13:47:03,009 - Model - INFO - test rot err (17 points) 39.03207, repeat sample rate nan
+2023-01-04 13:47:03,198 - Model - INFO - test rot err (18 points) 38.24120, repeat sample rate nan
+2023-01-04 13:47:03,418 - Model - INFO - test rot err (20 points) 31.02747, repeat sample rate nan
+2023-01-04 13:47:03,657 - Model - INFO - test rot err (22 points) 32.47747, repeat sample rate nan
+2023-01-04 13:47:03,869 - Model - INFO - test rot err (24 points) 28.57628, repeat sample rate nan
+2023-01-04 13:47:04,063 - Model - INFO - test rot err (26 points) 29.29515, repeat sample rate nan
+2023-01-04 13:47:04,267 - Model - INFO - test rot err (28 points) 28.39701, repeat sample rate nan
+2023-01-04 13:47:04,477 - Model - INFO - test rot err (31 points) 23.39246, repeat sample rate nan
+2023-01-04 13:47:04,663 - Model - INFO - test rot err (34 points) 25.06903, repeat sample rate nan
+2023-01-04 13:47:04,864 - Model - INFO - test rot err (37 points) 23.91664, repeat sample rate nan
+2023-01-04 13:47:05,064 - Model - INFO - test rot err (40 points) 20.21585, repeat sample rate nan
+2023-01-04 13:47:05,290 - Model - INFO - test rot err (44 points) 20.25515, repeat sample rate nan
+2023-01-04 13:47:05,486 - Model - INFO - test rot err (48 points) 16.84950, repeat sample rate nan
+2023-01-04 13:47:05,722 - Model - INFO - test rot err (52 points) 15.71969, repeat sample rate nan
+2023-01-04 13:47:05,913 - Model - INFO - test rot err (57 points) 17.92184, repeat sample rate nan
+2023-01-04 13:47:06,119 - Model - INFO - test rot err (62 points) 15.50693, repeat sample rate nan
+2023-01-04 13:47:06,321 - Model - INFO - test rot err (67 points) 15.05785, repeat sample rate nan
+2023-01-04 13:47:06,525 - Model - INFO - test rot err (73 points) 13.20992, repeat sample rate nan
+2023-01-04 13:47:06,730 - Model - INFO - test rot err (80 points) 12.17384, repeat sample rate nan
+2023-01-04 13:47:06,929 - Model - INFO - test rot err (87 points) 11.72689, repeat sample rate nan
+2023-01-04 13:47:07,113 - Model - INFO - test rot err (95 points) 12.04080, repeat sample rate nan
+2023-01-04 13:47:07,300 - Model - INFO - test rot err (103 points) 10.01757, repeat sample rate nan
+2023-01-04 13:47:07,506 - Model - INFO - test rot err (112 points) 10.20343, repeat sample rate nan
+2023-01-04 13:47:07,686 - Model - INFO - test rot err (122 points) 9.68153, repeat sample rate nan
+2023-01-04 13:47:07,880 - Model - INFO - test rot err (133 points) 10.20439, repeat sample rate nan
+2023-01-04 13:47:08,072 - Model - INFO - test rot err (145 points) 9.05054, repeat sample rate nan
+2023-01-04 13:47:08,261 - Model - INFO - test rot err (158 points) 9.33889, repeat sample rate nan
+2023-01-04 13:47:08,455 - Model - INFO - test rot err (172 points) 7.62668, repeat sample rate nan
+2023-01-04 13:47:08,660 - Model - INFO - test rot err (187 points) 7.01060, repeat sample rate nan
+2023-01-04 13:47:08,913 - Model - INFO - test rot err (204 points) 7.04224, repeat sample rate nan
+2023-01-04 13:47:09,103 - Model - INFO - test rot err (222 points) 6.38590, repeat sample rate nan
+2023-01-04 13:47:09,311 - Model - INFO - test rot err (241 points) 6.29472, repeat sample rate nan
+2023-01-04 13:47:09,507 - Model - INFO - test rot err (263 points) 5.65831, repeat sample rate nan
+2023-01-04 13:47:09,702 - Model - INFO - test rot err (286 points) 5.24308, repeat sample rate nan
+2023-01-04 13:47:09,898 - Model - INFO - test rot err (312 points) 5.51507, repeat sample rate nan
+2023-01-04 13:47:10,102 - Model - INFO - test rot err (339 points) 4.99280, repeat sample rate nan
+2023-01-04 13:47:10,306 - Model - INFO - test rot err (369 points) 4.94076, repeat sample rate nan
+2023-01-04 13:47:10,517 - Model - INFO - test rot err (402 points) 4.47689, repeat sample rate nan
+2023-01-04 13:47:10,728 - Model - INFO - test rot err (438 points) 4.17289, repeat sample rate nan
+2023-01-04 13:47:10,942 - Model - INFO - test rot err (477 points) 4.29999, repeat sample rate nan
+2023-01-04 13:47:11,179 - Model - INFO - test rot err (519 points) 3.89185, repeat sample rate nan
+2023-01-04 13:47:11,395 - Model - INFO - test rot err (565 points) 4.20650, repeat sample rate nan
+2023-01-04 13:47:11,613 - Model - INFO - test rot err (615 points) 3.95993, repeat sample rate nan
+2023-01-04 13:47:11,832 - Model - INFO - test rot err (669 points) 4.03391, repeat sample rate nan
+2023-01-04 13:47:12,071 - Model - INFO - test rot err (729 points) 3.77786, repeat sample rate nan
+2023-01-04 13:47:12,319 - Model - INFO - test rot err (793 points) 3.72752, repeat sample rate nan
+2023-01-04 13:47:12,554 - Model - INFO - test rot err (864 points) 3.48088, repeat sample rate nan
+2023-01-04 13:47:12,790 - Model - INFO - test rot err (940 points) 3.58745, repeat sample rate nan
+2023-01-04 13:47:13,037 - Model - INFO - test rot err (1024 points) 3.53770, repeat sample rate nan
+2023-01-04 13:52:15,429 - Model - INFO - PARAMETER ...
+2023-01-04 13:52:15,429 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:52:19,609 - Model - INFO - test rot err (16 points) 8.22591, repeat sample rate nan
+2023-01-04 13:58:24,902 - Model - INFO - PARAMETER ...
+2023-01-04 13:58:24,902 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:58:29,089 - Model - INFO - test rot err (16 points) 8.81039, repeat sample rate nan
+2023-01-04 13:59:51,267 - Model - INFO - PARAMETER ...
+2023-01-04 13:59:51,267 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 13:59:55,386 - Model - INFO - test rot err (16 points) 8.89094, repeat sample rate nan
+2023-01-04 14:00:08,851 - Model - INFO - PARAMETER ...
+2023-01-04 14:00:08,851 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 14:00:12,965 - Model - INFO - test rot err (16 points) 8.68448, repeat sample rate nan
+2023-01-04 14:02:12,705 - Model - INFO - PARAMETER ...
+2023-01-04 14:02:12,705 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 14:02:16,829 - Model - INFO - test rot err (16 points) 7.95408, repeat sample rate nan
+2023-01-04 14:02:28,847 - Model - INFO - PARAMETER ...
+2023-01-04 14:02:28,847 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 14:02:32,983 - Model - INFO - test rot err (16 points) 8.00986, repeat sample rate nan
+2023-01-04 14:02:37,069 - Model - INFO - PARAMETER ...
+2023-01-04 14:02:37,069 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 14:02:41,214 - Model - INFO - test rot err (16 points) 7.87914, repeat sample rate nan
+2023-01-04 14:03:29,241 - Model - INFO - PARAMETER ...
+2023-01-04 14:03:29,241 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=False, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 14:03:33,327 - Model - INFO - test rot err (16 points) 7.21066, repeat sample rate nan
+2023-01-04 14:04:25,863 - Model - INFO - PARAMETER ...
+2023-01-04 14:04:25,863 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='fps', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 14:04:29,278 - Model - INFO - test rot err (16 points) 19.18990, repeat sample rate nan
+2023-01-04 14:05:41,452 - Model - INFO - PARAMETER ...
+2023-01-04 14:05:41,452 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=False, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 14:05:44,694 - Model - INFO - test rot err (16 points) 38.04377, repeat sample rate nan
+2023-01-04 15:12:15,651 - Model - INFO - PARAMETER ...
+2023-01-04 15:12:15,651 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 15:12:18,860 - Model - INFO - test rot err (16 points) 41.22861, repeat sample rate nan
+2023-01-04 15:22:59,131 - Model - INFO - PARAMETER ...
+2023-01-04 15:22:59,131 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 15:23:02,373 - Model - INFO - test rot err (16 points) 41.08821, repeat sample rate nan
+2023-01-04 15:23:07,105 - Model - INFO - PARAMETER ...
+2023-01-04 15:23:07,105 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 15:23:10,367 - Model - INFO - test rot err (16 points) 42.47823, repeat sample rate nan
+2023-01-04 15:23:14,323 - Model - INFO - PARAMETER ...
+2023-01-04 15:23:14,323 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 15:23:17,547 - Model - INFO - test rot err (16 points) 40.22102, repeat sample rate nan
+2023-01-04 15:23:21,203 - Model - INFO - PARAMETER ...
+2023-01-04 15:23:21,203 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 15:23:24,469 - Model - INFO - test rot err (16 points) 42.72630, repeat sample rate nan
+2023-01-04 15:23:29,732 - Model - INFO - PARAMETER ...
+2023-01-04 15:23:29,732 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 15:23:32,954 - Model - INFO - test rot err (16 points) 41.32380, repeat sample rate nan
+2023-01-04 15:23:37,135 - Model - INFO - PARAMETER ...
+2023-01-04 15:23:37,135 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 15:23:40,356 - Model - INFO - test rot err (16 points) 41.38150, repeat sample rate nan
+2023-01-04 15:23:51,656 - Model - INFO - PARAMETER ...
+2023-01-04 15:23:51,656 - Model - INFO - Namespace(S_beta=0, S_delta=0, S_gamma=1, alpha=10, batch_size=2, beta=1, check_repeat=True, coarse_log_dir=None, data_dir='modelnet40_ply_hdf5_2048', datafolder='car_hdf5_2048', dataset_path='ModelNet40', dataset_type='modelnet', dense_eval=False, device='cuda:0', emb_dims=1024, eval=False, exp_name='log/pcr_net/car_ipcrnet', gpu='0', initial_temp=0.1, lmbda=100, log_dir='sampler_regis', min_sigma=0.0001, n_point=1024, n_sample=16, num_points=1024, partial_train=False, pre_sample='rs', pretrained='log/pcr_net/car_ipcrnet/checkpoints/best_model.t7', process_data=True, progressive_version=True, random_seed=0, restore_last=False, sample_model='AUPD_dgcnn', seed=4321, skip_projection=True, specific_mode=False, start_epoch=None, symfn='max', task_log_dir='pcrnet', task_model='pcrnet', uni_train=False, use_atten=True, use_fps=True, use_large_dataset=False, use_match=True, use_uniform_sample=False, visu=True, w_sigma=0.1, workers=4)
+2023-01-04 15:23:54,890 - Model - INFO - test rot err (16 points) 45.21858, repeat sample rate nan
